@@ -1,0 +1,106 @@
+/*
+Theme Name: SMG
+Theme URL: 
+Description: 日体大SMG横浜専用のテーマ
+Author: Shintaro Terano
+Version: 1.0.0.0
+Tags: 日体大SMG横浜専用
+License: 日体大SMG横浜専用
+License URI: 
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.noto-sans{
+    font-family:  Noto Sans JP;
+}
+
+.josefin-sans{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-48{
+    font-size: 48px;
+}
+
+.parallelogram-left, .parallelogram-right {
+    width: 460px;
+    height: 704px;
+    position: absolute;
+    display:inline-block;
+    overflow: hidden;
+}
+
+.parallelogram-left {
+    background: #E1007E;
+    transform: skewX(-11deg);
+    left: -5%;
+}
+.parallelogram-right{
+    background: #004EA1;
+    transform: skewX(-11deg);
+    right: -5%;
+}
+
+
+.right-arrow{
+    height: 1px;
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 22px;
+}
+
+/* .right-arrow:hover{
+    border-bottom: 1px solid #000;
+} */
+
+.right-arrow:after{
+    border-top: 1px solid;
+    content: "";
+    display: inline-block;
+    height: 14px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 10px;
+    top: -5px;
+    right: -6px;
+
+}
+
+.team-right-arrow {
+    height: 1px;
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 12px;
+    right: -35px;
+    width: 22px;
+}
+
+.team-right-arrow:after {
+    border-top: 1px solid;
+    content: "";
+    display: inline-block;
+    height: 14px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 10px;
+    top: -5px;
+    right: -5px;
+}
