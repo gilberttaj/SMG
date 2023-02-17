@@ -54,6 +54,26 @@ body{
 }
 
 
+.parallelogram-left-news, .parallelogram-right-news {
+    width: 385px;
+    height: 704px;
+    position: absolute;
+    display:inline-block;
+    overflow: hidden;
+}
+
+.parallelogram-left-news {
+    background: #E1007E;
+    transform: skewX(-10deg);
+    left: -5%;
+}
+.parallelogram-right-news{
+    background: #004EA1;
+    transform: skewX(-10deg);
+    right: -5%;
+}
+
+
 .right-arrow{
     height: 1px;
     border-bottom: 1px solid;
@@ -77,8 +97,8 @@ body{
     position: absolute;
     transform: rotate(45deg);
     width: 10px;
-    top: -5px;
-    right: -6px;
+    top: -6px;
+    right: -5px;
 
 }
 
@@ -104,3 +124,375 @@ body{
     top: -5px;
     right: -5px;
 }
+
+.team-sp-right-arrow {
+    height: 1px;
+    border-bottom: 1px solid;
+    position: absolute;
+    top: 25px;
+    right: -50px;
+    width: 30px;
+}
+
+.team-sp-right-arrow:after {
+    border-top: 1px solid;
+    content: "";
+    display: inline-block;
+    height: 14px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 10px;
+    top: -5px;
+    right: -5px;
+}
+
+
+
+
+.box-news {
+    /* width: 640px; */
+    height: 450px;
+    background: #004EA1;
+  }
+
+  .left-skew {
+    position: relative;
+  }
+  .left-skew:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -40px;
+    display: block;
+    width: 96px;
+    background: #004EA1;
+    /* change background color to same as box   */
+    -webkit-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    transform: skew(-10deg);
+  }
+
+  .skew-pink{
+    background-color: #E1007E;
+  }
+
+
+  .skew-pink:before{
+    background-color: #E1007E;
+  }
+  
+
+
+.team_02_slider.slick-initialized, .team_04_header.slick-initialized{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team_02_slider .slick-initialized .slick-slide, .team_04_header .slick-initialized .slick-slide{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team_02_slider .slick-next, .slick-prev, .team_04_header .slick-next .slick-prev{
+    z-index: 5;
+}
+.team_02_slider .slick-next, .team_04_header .slick-next{
+    position: absolute;
+    right: -15px;
+    height: 64px;
+}
+.team_02_slider .slick-prev, .team_04_header .slick-prev{
+    position: absolute;
+    left: -25px;
+    height: 64px;
+}
+
+.team_02_slider .slick-slide, .team_04_header .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+}
+
+.team_02_slider .slick-prev:before, .team_04_header .slick-prev:before {
+    background-image: url('../images/Group 9305@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+.team_02_slider  .slick-next:before, .team_04_header .slick-next:before{
+    background-image: url('../images/Group 9306@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.team_02_slider .slick-slide {
+    margin-right: 20px;
+}
+.team_02_slider .slick-list {
+    margin-right: -20px;
+}
+
+/* ---------------------------- */
+.team_02_slider-full.slick-initialized{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+.team_02_slider-full .slick-initialized .slick-slide{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team_02_slider-full .slick-next, .slick-prev{
+    z-index: 5;
+}
+.team_02_slider-full .slick-next{
+    position: absolute;
+    right: 12px;
+    height: 64px;
+}
+.team_02_slider-full .slick-prev{
+    position: absolute;
+    left: 0;
+    height: 64px;
+}
+
+.team_02_slider-full .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+}
+
+.team_02_slider-full .slick-prev:before{
+    background-image: url('../images/Group 9305@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+.team_02_slider-full  .slick-next:before{
+    background-image: url('../images/Group 9306@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.team_02_slider-full .slick-slide {
+    margin-right: 20px;
+}
+.team_02_slider-full .slick-list {
+    margin-right: -20px;
+}
+
+/* ----------------- */
+.one-slider.slick-initialized{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+.one-slider .slick-initialized .slick-slide{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one-slider .slick-next, .slick-prev{
+    z-index: 5;
+}
+.one-slider .slick-next{
+    position: absolute;
+    right: 12px;
+    height: 64px;
+}
+.one-slider .slick-prev{
+    position: absolute;
+    left: 0;
+    height: 64px;
+}
+
+.one-slider .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+}
+
+.one-slider .slick-prev:before{
+    background-image: url('../images/Group 9305@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+.one-slider  .slick-next:before{
+    background-image: url('../images/Group 9306@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.one-slider .slick-slide {
+    margin-right: 20px;
+}
+.one-slider .slick-list {
+    margin-right: -20px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-left: 13px solid #004EA1;
+    border-bottom: 18px solid transparent;
+}
+
+@media not all and (min-width: 750px) {
+    .triangle-right {
+        border-top: 24px solid transparent;
+        border-left: 17px solid #004EA1;
+        border-bottom: 24px solid transparent;
+    }
+}
+@media not all and (min-width: 500px) {
+    .team_02_slider .slick-next, .team_04_header .slick-next{
+        position: absolute;
+        right: -0px;
+        height: 64px;
+    }
+    .team_02_slider .slick-prev, .team_04_header .slick-prev{
+        position: absolute;
+        left: -10px;
+        height: 64px;
+    }
+}
+
+
+
+/* ----------------- */
+.top-news.slick-initialized{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+.top-news .slick-initialized .slick-slide{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-news .slick-next, .slick-prev{
+    z-index: 5;
+}
+.top-news .slick-next{
+    position: absolute;
+    right: 12px;
+    height: 64px;
+}
+.top-news .slick-prev{
+    position: absolute;
+    left: 0;
+    height: 64px;
+}
+
+.top-news .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+}
+
+.top-news .slick-prev:before{
+    background-image: url('../images/Group 9305@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.top-news  .slick-next:before{
+    background-image: url('../images/Group 9306@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.top-news .slick-slide {
+    margin-right: 20px;
+}
+.top-news .slick-list {
+    margin-right: -20px;
+}
+
+
+.top-vertical-slider .slick-slide {
+    margin-bottom: 10px;
+}
+.top-vertical-slider .slick-list {
+    margin-bottom: -20px;
+}
+
+.top-vertical-slider .slick-list.draggable {
+    margin: 20px 15px;
+    padding: 0 !important;
+}
+
+.top-vertical-slider .slick-prev {
+    position: absolute;
+    left: 48%;
+    height: 64px;
+    top: -23px;
+    transform: rotate(90deg);
+}
+.top-vertical-slider .slick-next {
+    position: absolute;
+    left: 48%;
+    height: 64px;
+    top: 95%;
+    transform: rotate(90deg);
+}
+
+.top-vertical-slider .slick-prev:before{
+    background-image: url('../images/Group 9305@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.top-vertical-slider .slick-next:before{
+    background-image: url('../images/Group 9306@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+

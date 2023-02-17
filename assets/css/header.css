@@ -9,7 +9,7 @@
 .nav-title{
     font-family: 'Inter';
     font-size: 15px;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 22px;
     letter-spacing: 0em;
 }
@@ -55,6 +55,7 @@
     display: block;
     color: #fff;
     transition: 0.3s;
+    font-weight: bold;
 }
 .navbar-backdrop{
     z-index: 1;
@@ -64,6 +65,10 @@
     display: block;
 }
 
+.addScroll{
+    overflow-y: scroll;
+    padding: 20px 0;
+}
 
 @-webkit-keyframes slide-left {
     100% { opacity: 1; -webkit-transform: translateX(0%); }   

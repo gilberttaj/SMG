@@ -1,8 +1,4 @@
-.top-vh{
-    height: -o-calc(100vh - 98px); /* opera */
-    height: -webkit-calc(100vh - 98px); /* google, safari */
-    height: -moz-calc(100vh - 98px); /* firefox */
-}
+
 
 .result-content-vh{
         height: -o-calc(100vh - 220px); /* opera */

@@ -169,12 +169,65 @@
       </div>
     </nav>
   </div>
-</header><script>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+
+    $(document).ready(function(){
+        let headerHeight = $('#header').height();
+        console.log(headerHeight)
+        
+        let topHeight = $(window).height() - headerHeight
+
+        let windowWidth = $(window).width();
+
+        console.log('topHeight', topHeight)
+
+        if(windowWidth > 750){
+            $(".top-vh").css("height", topHeight);
+
+            $(".tp-margin").css("margin-top", headerHeight);
+
+            $("#result-pc-content").css("height", topHeight-80);
+        }
+
+     
+    });
+
+
+    $(window).resize(function(){
+        let headerHeight = $('#header').height();
+        console.log(headerHeight)
+        
+        let topHeight = $(window).height() - headerHeight
+
+        console.log('topHeight', topHeight)
+        let windowWidth = $(window).width();
+
+        if(windowWidth > 750){
+            $(".top-vh").css("height", topHeight);
+
+            $(".tp-margin").css("margin-top", headerHeight);
+
+            $("#result-pc-content").css("height", topHeight-80);
+        }
+    });
     $('.nav-burger').on("click", function(){
         $('.sidebar').addClass("active");
         $('.navbar-backdrop').addClass("active");
         $('.sidebar').removeClass("sidebar-hidden");
         $('.nav-burger > div > span').removeClass("text-white");
+        $('body').addClass("overflow-hidden");
+        
+        let sideBar = $('#sidebar-menu').css('margin-top');
+        let bottomNav = $('.bottom-nav').outerHeight(true) 
+        let logo = $('.logo img').outerHeight(true);
+        let sidebarHeight = $(window).height() - bottomNav;      
+
+        $('#sidebar-menu').css('height', sidebarHeight - parseInt(sideBar));
+        $('#sidebar-menu').addClass('addScroll')
+
         if($('.sidebar').hasClass('active')){
             $('.nav-burger').removeClass("bg-white");
             $('.nav-burger > div > span').addClass("text-white");
@@ -183,20 +236,23 @@
 
     $('.navbar-backdrop').on("click", function(){
         $('.sidebar').removeClass("active");
-         $('.navbar-backdrop').removeClass("active");
+        $('.navbar-backdrop').removeClass("active");
         $('.nav-burger > div > span').removeClass("text-white");
         $('.sidebar').addClass("sidebar-hidden");
+        $('body').removeClass("overflow-hidden");
         if($('.sidebar').hasClass('active')){
             $('.nav-burger').removeClass("bg-white");
             $('.nav-burger > div > span').addClass("text-white");
         }
     });
-  
+    
     $(window).resize(function() {
         if ($(window).width() < 960) {
             $('.sidebar').removeClass("active");
             $('.nav-burger').removeClass("bg-white");
             $('.nav-burger > div > span').removeClass("text-white");
+            $('.navbar-backdrop').removeClass("active");
+            $('body').removeClass("overflow-hidden");
         }
     });
 
@@ -216,27 +272,35 @@
                     breakpoint: 1280,
                     settings: {
                         slidesToShow: 4,
-                        slidesToScroll: 4,
                     }
                 },
                 {
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 3,
-                        slidesToScroll: 3,
+                        centerMode: true,
                     }
                 },
                 {
-                    breakpoint: 750,
+                    breakpoint: 751,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 501,
+                    settings: {
+                        slidesToShow: 1,
+                        centerMode: true,
                     }
                 },
             ]
         });
     })
+
+
 </script>
+
 
     </body>
 </html>

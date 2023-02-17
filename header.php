@@ -81,8 +81,8 @@
 
 </head>
 <body>
-    <header class="fixed w-full top-0 bg-white z-[1]">
-        <nav class="w-full flex flex-row smin-750:shadow-xl">
+<header id='header' class="fixed w-full top-0 bg-white z-[1]">
+        <nav class="w-full flex flex-row smin-750:shadow-md">
             <div class="flex flex-row max-lg:h-20 max-smin-750:hidden w-[48%] max-xl:w-[50%]">
                 <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center"> 
                     <h3 class="nav-title">ニュース</h3>
@@ -99,8 +99,7 @@
             </div>
             <div class="max-smin-750:w-[50%] max-smin-750:block hidden"></div>
             <div class="logo w-[176px] max-smin-750:w-[214px] z-10">
-              
-                <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/Component 36 – 1.png">
+                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 36 – 1.png">
             </div>
             <div class="max-smin-750:w-[40%] max-smin-750:block hidden"></div>
             <div class="flex flex-row max-lg:h-20 max-smin-750:hidden w-[43%]">
@@ -127,10 +126,10 @@
                 </div>
             </div>
             
-            <div style="overflow: hidden;">
+            <div>
                 <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
                 <div class="sidebar sidebar-hidden">
-                    <ul class="menu mt-[35%] max-sm:mt-[45%]">
+                    <ul class="menu mt-[35%] max-sm:mt-[45%]" id="sidebar-menu">
                         <li><a href="#" >トップページ</a></li>
                         <li><a href="#" >ニュース   </a></li>
                         <li><a href="#" >日体大SMG横浜とは</a></li>
@@ -149,4 +148,4 @@
         </nav>
     </header>
 
-    <div class="relative min-[751px]:mt-[76px] max-[750px]:mt-[64px]">
+    <div class="tp-margin">

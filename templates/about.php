@@ -1,28 +1,29 @@
 <?php /* Template Name: About Template */ ?>
 <?php get_header(); ?>
+
 <!-- HEADER ABOUT -->
 <div class="min-[751px]:mt-[76px] max-[750px]:mt-[64px] relative flex justify-center items-center">
     <div class="w-full">
-        <img class="w-full lg:h-[350px] h-[320px]" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/Rectangle 120@x2.png" >
+        <img class="w-full lg:h-[350px] h-[320px]" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Rectangle 120@x2.png" >
     </div>
     <div class="absolute top-0 h-full w-full flex justify-center items-center" data-aos="fade-up">
         <div class="text-center">
             <h1 class="text-[48px] font-bold josefin-sans text-white leading-[58.09px]">ABOUT US</h1>
             <p class="text-[20px] font-bold noto-sans text-white leading-[24.2px] tracking-[4px] ">日体大SMG横浜とは</p>
-        </div>  
+        </div>
     </div>
 </div>
 <!-- BREADCRUMBS -->
-<div class="min-[751px]:w-[50%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
+<div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
     <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]">ホーム  >日体大SMG横浜とは</p>
 </div>
 <!-- First Body -->
 <div class="w-full lg:mt-20 min-[751px]:mt-10 max-[750px]:mt-5 smin-750:flex relative overflow-hidden">
     <div class="smin-750:w-[65%]">
-        <img class="w-full" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/2S3A8073.png">
+        <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/2S3A8073.png">
     </div>
     <div class="smin-750:w-[35%]">
-        <img class="z-[-1] absolute min-[751px]:hidden" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/Path 8100.png">
+        <img class="z-[-1] absolute min-[751px]:hidden" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 8100.png">
         <div class="smin-750:ml-[-40%] 2xl:mt-[27%] lg:mt-[28%] smin-750:mt-[20%] max-[750px]:py-10 max-[750px]:px-5">
             <!-- ------------------------DESKTOP----------------------- -->
             <div class="max-[750px]:hidden font-bold 2xl:text-[36px] 2xl:text-[30px] smin-750:text-[20px] noto-sans 2xl:leading-[72px] xl:leading-[55px] smin-750:leading-[30px] leading-[40px] tracking-[4px]">
@@ -66,20 +67,20 @@
 </div>
 <!-- OUTLINE -->
 <div class="w-full mt-[100px] max-[750px]:mt-[90px] relative min-[751px]:flex">
-    <div class="smin-750:w-[50%] min-[751px]:10">
+    <div class="smin-750:w-[50%] min-[751px]:10 min-[751px]:mr-[40px]">
         <div class="relative max-[750px]:overflow-hidden">
             <div class="min-[751px]:hidden flex flex-col justify-center items-center mb-10">
                 <p class="text-[48px] font-bold josefin-sans leading-[54px]">Outline</p>
                 <p class="text-[20px] font-bold leading-[16px] tracking-[3px] noto-sans">概要</p>
             </div>
-            <img class="w-full" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/NTD27032022 (1221).png">
+            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/NTD27032022 (1221).png">
             <div class="w-[39%] max-[750px]:w-[50%] min-[751px]:absolute max-[750px]:mt-[-15%] min-[751px]:right-0 top-[77%]">
-                <img class="w-full" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/16289-1.png">
+                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/16289-1.png">
             </div>
             <div class="parallelogram-right z-[-1] top-0 h-full min-[751px]:hidden max-[320px]:right-[-120%] max-[375px]:right-[-100%] max-[425px]:right-[-90%] max-[525px]:right-[-70%] max-[600px]:right-[-60%] max-[750px]:right-[-40%]"></div>
         </div>
     </div>
-    <div class="smin-750:w-[50%] min-[751px]:ml-5 relative">
+    <div class="smin-750:w-[50%] min-[751px]:ml-5 relative min-[751px]:ml-[40px]">
         <div>
             <div class="max-[750px]:hidden">
                 <p class="lg:text-[48px] min-[751px]:text-[40px] font-bold josefin-sans leading-[48px]">Outline</p>
@@ -138,22 +139,22 @@
                     </ul>
                 </div>
                 
-                <img class="min-[751px]:hidden z-[-1] absolute bottom-[30%] right-0 max-[500px]:right-[-10%] max-[400px]:right-[-20%]" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/slide 52.png">
+                <img class="min-[751px]:hidden z-[-1] absolute bottom-[30%] right-0 max-[500px]:right-[-10%] max-[400px]:right-[-20%]" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide 52.png">
             </div>
         </div>
         <div class="smin-750:w-[50%] min-[751px]:ml-5">
             <div class="relative">
                 <div class="font-bold min-[751px]:hidden py-[5%] text-center relative">
-                    <img class="absolute top-[-3%] z-[-1]" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/Path 8101.png">
+                    <img class="absolute top-[-3%] z-[-1]" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 8101.png">
                     <p class="text-[48px] leading-[54px] josefin-sans">Mission</p>
                     <p class="text-[16px] leading-[16px] noto-sans">私たちの使命</p>
                  
                     <!-- <div class="parallelogram-left mt-10 z-[-1] min-[751px]:left-[-35%] lg:left-[-25%] top-[-28%] min-[650px]:left-[-65%] min-[550px]:left-[-75%] min-[450px]:left-[-85%] min-[350px]:left-[-95%] min-[320px]:left-[-123%]"></div> -->
                 </div>
                 <div class="relative min-[751px]:pl-[8%] max-[750px]:overflow-hidden">
-                    <img class="w-full" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/AdobeStock_247720489_Preview.png">
+                    <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/AdobeStock_247720489_Preview.png">
                     <div class="w-[39%] max-[750px]:w-[50%] max-[750px]:mt-[-15%] min-[751px]:mt-[-15%] min-[751px]:ml-[-8.6%]">
-                        <img class="w-full" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/IMG_6525.png">
+                        <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/IMG_6525.png">
                     </div>
                 </div>
                 <div class="max-[750px]:hidden min-[751px]:mt-[39%] xl:mt-[15%] lg:mt-[30%] 2xl:w-[50%] xl:w-[60%] lg:w-[70%] min-[751px]:w-[85%] max-[750px]:px-5 lg:mx-0 mx-auto">
@@ -166,7 +167,7 @@
             </div>
         </div>
     </div>
-    <img class="max-[750px]:hidden absolute bottom-0 z-[-1] 2xl:left-[-5%] lg:left-[-25%] min-[950px]:left-[-38%] min-[900px]:left-[-45%] min-[800px]:left-[-51%] min-[751px]:left-[-56%]" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/Path 11994.png">
+    <img class="max-[750px]:hidden absolute bottom-0 z-[-1] 2xl:left-[-5%] lg:left-[-25%] min-[950px]:left-[-38%] min-[900px]:left-[-45%] min-[800px]:left-[-51%] min-[751px]:left-[-56%]" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11994.png">
     <div class="
         xl:mt-[100px] lg:mt-[70px] min-[751px]:mt-[50px] max-[750px]:mt-[170px] max-[500px]:mt-[120px] 
         min-[751px]:w-[40%] lg:w-[35%] xl:w-[30%]
@@ -178,42 +179,43 @@
         </a>
     </div>
     
-    <img class="min-[751px]:max-lg:h-[450px] max-[750px]:hidden absolute z-[-1] top-0 2xl:right-0 xl:right-[-15%] lg:right-[-25%] min-[751px]:right-[-20%]" src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/Path 8065.png">
+    <img class="min-[751px]:max-lg:h-[450px] max-[750px]:hidden absolute z-[-1] top-0 2xl:right-0 xl:right-[-15%] lg:right-[-25%] min-[751px]:right-[-20%]" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 8065.png">
 </div>
 <!-- Image Gallert -->
 <div class="mt-[140px] max-[750px]:mt-[120px]">
     <div class="image-slider w-full">
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/LINE_ALBUM_奈良小学校サッカー教室_220704.png" class="w-full h-auto border"alt ="slide1">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/LINE_ALBUM_奈良小学校サッカー教室_220704.png" class="w-full h-auto border"alt ="slide1">
         </div>
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/IMG_6619.png" class="w-full h-auto border" alt ="slide2">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/IMG_6619.png" class="w-full h-auto border" alt ="slide2">
         </div>
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/DSCF2822.png" class="w-full h-auto border" alt ="slide3">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/DSCF2822.png" class="w-full h-auto border" alt ="slide3">
         </div>
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/IMG_7413.png" class="w-full h-auto border"alt ="slide4">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/IMG_7413.png" class="w-full h-auto border"alt ="slide4">
         </div>
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/IMG_7465.png" class="w-full h-auto border"alt ="slide4">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/IMG_7465.png" class="w-full h-auto border"alt ="slide4">
         </div>
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/LINE_ALBUM_奈良小学校サッカー教室_-1.png" class="w-full h-auto border"alt ="slide4">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/LINE_ALBUM_奈良小学校サッカー教室_-1.png" class="w-full h-auto border"alt ="slide4">
         </div>
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/IMG_-1.png" class="w-full h-auto border"alt ="slide4">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/IMG_-1.png" class="w-full h-auto border"alt ="slide4">
         </div>
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/DSCF-1.png" class="w-full h-auto border"alt ="slide4">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/DSCF-1.png" class="w-full h-auto border"alt ="slide4">
         </div>
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/IMG_-2.png" class="w-full h-auto border"alt ="slide4">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/IMG_-2.png" class="w-full h-auto border"alt ="slide4">
         </div>
         <div class="w-[384px] h-[360px]">
-            <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/IMG_-3.png" class="w-full h-auto border"alt ="slide4">
+            <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/IMG_-3.png" class="w-full h-auto border"alt ="slide4">
         </div>
     </div>
 </div>
+
 
 <?php get_footer(); ?>
