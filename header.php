@@ -81,7 +81,7 @@
 
 </head>
 <body>
-<header id='header' class="fixed w-full top-0 bg-white z-[1]">
+<header id='header' class="fixed w-full top-[32px] bg-white z-[1]">
         <nav class="w-full flex flex-row smin-750:shadow-md">
             <div class="flex flex-row max-lg:h-20 max-smin-750:hidden w-[48%] max-xl:w-[50%]">
                 <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center"> 

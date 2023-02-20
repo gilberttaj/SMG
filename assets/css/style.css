@@ -247,6 +247,12 @@ body{
     margin-right: -20px;
 }
 
+/* .team_02_slider .slick-active:nth-child(2){
+    background-color: red !important;
+} */
+.nyawa{
+    background-color: red !important;
+}
 /* ---------------------------- */
 .team_02_slider-full.slick-initialized{
     display: flex;
