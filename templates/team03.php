@@ -18,7 +18,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]">ホーム  >選手・チーム紹介  >陸上競技（混成競技）大玉華鈴選手</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介  >陸上競技（混成競技）大玉華鈴選手</p>
 </div>
 
 <!-- First Content -->
@@ -50,193 +50,88 @@
     </div>
     <div class="team_02_slider mt-[30px] row">
         <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
-            <div class="font-bold text-center">
+            <div class="font-bold text-center px-[12px]">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
-                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
-            </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
-                <div class="flex flex-col items-center">
-                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>日体大SMG</span>
-                    <span class='text-white noto-sans text-[12px] font-bold 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>横浜</span>
-                </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
-                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
-                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
-                </div>
-                <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>名古屋</span>
-                </div>
+                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">競技結果</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[24px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">第89回日本インカレ女子七種競技決勝優勝</p>
+                <p class="text-white mt-[5px] noto-sans text-[18px] max-[750px]:text-[37px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">大玉 華鈴</p>
+                <p class="text-white mt-[5px] noto-sans text-[16px] max-[750px]:text-[32px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">5634</p>
             </div>
             <div class="border-t-2 border-white text-center mt-[10px]">
                <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
                max-[750px]:text-[25px] max-[750px]:leading-[38px]
-               '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+               '>会場：デンカビッグスワンスタジアム</span>
             </div>
         </div>
         <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
-            <div class="font-bold text-center">
+            <div class="font-bold text-center px-[12px]">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
-                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
-            </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
-                <div class="flex flex-col items-center">
-                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>日体大SMG</span>
-                    <span class='text-white noto-sans text-[12px] font-bold 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>横浜</span>
-                </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
-                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
-                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
-                </div>
-                <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>名古屋</span>
-                </div>
+                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">競技結果</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[24px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">第89回日本インカレ女子七種競技決勝優勝</p>
+                <p class="text-white mt-[5px] noto-sans text-[18px] max-[750px]:text-[37px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">大玉 華鈴</p>
+                <p class="text-white mt-[5px] noto-sans text-[16px] max-[750px]:text-[32px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">5634</p>
             </div>
             <div class="border-t-2 border-white text-center mt-[10px]">
                <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
                max-[750px]:text-[25px] max-[750px]:leading-[38px]
-               '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+               '>会場：デンカビッグスワンスタジアム</span>
             </div>
         </div>
         <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
-            <div class="font-bold text-center">
+            <div class="font-bold text-center px-[12px]">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
-                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
-            </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
-                <div class="flex flex-col items-center">
-                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>日体大SMG</span>
-                    <span class='text-white noto-sans text-[12px] font-bold 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>横浜</span>
-                </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
-                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
-                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
-                </div>
-                <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>名古屋</span>
-                </div>
+                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">競技結果</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[24px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">第89回日本インカレ女子七種競技決勝優勝</p>
+                <p class="text-white mt-[5px] noto-sans text-[18px] max-[750px]:text-[37px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">大玉 華鈴</p>
+                <p class="text-white mt-[5px] noto-sans text-[16px] max-[750px]:text-[32px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">5634</p>
             </div>
             <div class="border-t-2 border-white text-center mt-[10px]">
                <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
                max-[750px]:text-[25px] max-[750px]:leading-[38px]
-               '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+               '>会場：デンカビッグスワンスタジアム</span>
             </div>
         </div>
         <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
-            <div class="font-bold text-center">
+            <div class="font-bold text-center px-[12px]">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
-                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
-            </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
-                <div class="flex flex-col items-center">
-                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>日体大SMG</span>
-                    <span class='text-white noto-sans text-[12px] font-bold 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>横浜</span>
-                </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
-                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
-                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
-                </div>
-                <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>名古屋</span>
-                </div>
+                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">競技結果</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[24px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">第89回日本インカレ女子七種競技決勝優勝</p>
+                <p class="text-white mt-[5px] noto-sans text-[18px] max-[750px]:text-[37px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">大玉 華鈴</p>
+                <p class="text-white mt-[5px] noto-sans text-[16px] max-[750px]:text-[32px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">5634</p>
             </div>
             <div class="border-t-2 border-white text-center mt-[10px]">
                <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
                max-[750px]:text-[25px] max-[750px]:leading-[38px]
-               '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+               '>会場：デンカビッグスワンスタジアム</span>
             </div>
         </div>
         <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
-            <div class="font-bold text-center">
+            <div class="font-bold text-center px-[12px]">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
-                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
-            </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
-                <div class="flex flex-col items-center">
-                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>日体大SMG</span>
-                    <span class='text-white noto-sans text-[12px] font-bold 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>横浜</span>
-                </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
-                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
-                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
-                </div>
-                <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>名古屋</span>
-                </div>
+                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">競技結果</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[24px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">第89回日本インカレ女子七種競技決勝優勝</p>
+                <p class="text-white mt-[5px] noto-sans text-[18px] max-[750px]:text-[37px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">大玉 華鈴</p>
+                <p class="text-white mt-[5px] noto-sans text-[16px] max-[750px]:text-[32px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">5634</p>
             </div>
             <div class="border-t-2 border-white text-center mt-[10px]">
                <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
                max-[750px]:text-[25px] max-[750px]:leading-[38px]
-               '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+               '>会場：デンカビッグスワンスタジアム</span>
             </div>
         </div>
     </div>
@@ -597,7 +492,7 @@
         </div>
     </div>
     <div class="
-        xl:mt-[100px] lg:mt-[70px] min-[751px]:mt-[50px] max-[750px]:mt-[170px] max-[500px]:mt-[120px] 
+        xl:mt-[100px] lg:mt-[70px] min-[751px]:mt-[50px] max-[750px]:mt-[122px] max-[500px]:mt-[120px] 
         min-[751px]:w-[40%] lg:w-[35%] xl:w-[30%]
         max-[750px]:w-[60%] max-[550px]:w-[70%] max-[450px]:w-[80%] max-[320px]:w-[90%] mx-auto
     ">
@@ -608,14 +503,17 @@
     </div>
     <img class="absolute top-[75%] z-[-1] 
         2xl:left-[-5%] xl:left-[-15%] lg:left-[-25%] min-[850px]:left-[-35%] left-[-40%]
-        max-[700px]:left-[-45%] max-[550px]:left-[-65%] max-[450px]:left-[-80%] max-[750px]:hidden
+        max-[700px]:left-[-45%] max-[550px]:left-[-65%] max-[450px]:left-[-80%] max-[750px]:top-[105%]
     " src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/left1.png">
 </div>
 
 <!-- Third Content -->
-<div class="min-[751px]:mt-[100px] max-[750px]:mt-[22px]">
+<div class="min-[751px]:mt-[100px] max-[750px]:mt-[125px]">
     <div class="relative w-full flex overflow-hidden max-[750px]:flex-col">
         <div class="min-[751px]:w-[48.5%] min-[751px]:mr-[40px]">
+            <div class="text-[32px] font-bold leading-[48px] tracking-[4px] min-[751px]:hidden p-5">
+                <p>2023シーズンユニフォーム</p>
+            </div>    
             <div class="min-[751px]:float-right 2xl:w-[50%] xl:w-[70%] min-[751px]:w-[90%] max-[750px]:w-full max-[750px]:px-5 max-[750px]:mt-[60px]">
                 <div class="w-full one-slider max-[750px]:px-5">
                     <div>
@@ -633,12 +531,12 @@
                     <p>2023シーズン</p>
                     <p>ユニフォーム</p>
                 </div>    
-                <div class="text-[14px] font-medium leading-[48px] tracking-[2px] mt-[25px]
+                <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[25px]
                 max-[750px]:text-[24px]
                 ">
                     <p>日体大ＳＭＧ横浜の「ブルー」と、女性らしく華やかに輝くイメージの「ピンク」を基調に、大玉華鈴選手自身がデザインを担当しました。</p>
                 </div>
-                <div class="max-[750px]:mt-[56px]">
+                <div class="max-[750px]:mt-[104px] mt-[77px]">
                     <div class="py-[11px] max-[750px]:pb-[22px] text-[18px] max-[750px]:text-[28px] leading-[18px] tracking-[4px] font-bold border-b-2 border-black">
                         <p>ユニフォームパートナー</p>
                     </div>
@@ -675,19 +573,21 @@
 </div>
 
 <!-- Fourth Content -->
-<div class="min-[1800px]:w-[50%] xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] min-[751px]:mt-[70px] mx-auto relative">
+<!-- <div class="min-[1800px]:w-[50%] xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] min-[751px]:mt-[70px] mx-auto relative">
     <div class="w-full min-[751px]:mt-[100px] max-[750px]:mt-[22px] max-[750px]:pt-[90px] relative min-[751px]:flex overflow-hidden">
         <div class="min-[751px]:w-[50%] min-[751px]:mr-[115px]">
             <div class="noto-sans max-[750px]:w-full max-[750px]:px-5 max-[750px]:mt-[50px]">
-              
                 <div class="text-[32px] font-bold leading-[48px] tracking-[4px] max-[750px]:hidden">
-                    <p>2023シーズン</p>
-                    <p>ユニフォーム</p>
+                    <p>私の決意「翔」</p>
                 </div>    
+                <div class="text-[18px] font-bold leading-[36px] tracking-[4px] max-[750px]:hidden mt-[24px]">
+                    <p>陸上混成種目 七種競技</p>
+                    <p>大玉華鈴選手</p>
+                </div>  
                 <div class="text-[14px] font-medium leading-[48px] tracking-[2px] mt-[25px]
                 max-[750px]:text-[24px]
                 ">
-                    <p>日本体育大学と横浜をイメージする青色を基調に、パートナー企業（ユニフォームスポンサー）のロゴマークが際立つよう、シンプルな柄・デザインを採用しています。</p>
+                    <p>2022シーズンより、日体大ＳＭＧ横浜に加入させていただきました大玉華鈴です。日本体育大学在学中に大きく競技成績を伸ばすことができたこともあって、卒業後も練習環境を変えることなく競技を続けたいと考えておりました。クラブトップパートナーである新富士病院グループからのサポートを受けて、社会人アスリートとして全力で活動できることを大変嬉しく思います。熱いご期待に結果で応えられるよう、「日本一」、「世界大会出場」を目標としてパフォーマンスに磨きをかけて参ります。また、地域のスポーツクラブである日体大ＳＭＧ横浜の一員として、育成・普及活動や地域活動にも積極的に参加して参ります。</p>
                 </div>
                 <div class="max-[750px]:mt-[56px]">
                     <div class="py-[11px] max-[750px]:pb-[22px] text-[18px] max-[750px]:text-[28px] leading-[18px] tracking-[4px] font-bold border-b-2 border-black">
@@ -730,6 +630,49 @@
         </div>
         <div class="min-[751px]:w-[50%] relative min-[751px]:ml-[40px]">
             <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_03/image11.png">
+        </div>
+    </div>
+</div> -->
+<div class="relative">   
+    <div class="w-full mt-[100px] max-[750px]:mt-[153px] relative min-[751px]:flex min-[751px]:flex-row-reverse overflow-hidden">
+        <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 8061.png" class="absolute
+            min-[751px]:max-lg:right-[-35%] lg:max-xl:right-[-25%] xl:max-2xl:right-[-15%] max-2xl:right-[-15%] right-[-10%]
+            max-[750px]:right-[-46%] max-[600px]:right-[-50%] min-[751px]:hidden max-[750px]:top-[-4%]
+        ">
+        <div class="smin-750:w-[50%] min-[751px]:10 min-[751px]:ml-[40px]">
+            <div class="mb-[42px] text-[32px] font-bold leading-[48px] tracking-[4px] min-[751px]:hidden p-5">
+                <div class="text-[32px] font-bold leading-[48px] tracking-[4px] max-[750px]:text-[40px] max-[750px]:leading-[60px]">
+                    <p>私の決意「翔」</p>
+                </div>    
+                <div class="text-[18px] font-bold leading-[36px] tracking-[4px] mt-[24px] max-[750px]:text-[24px] max-[750px]:leading-[36px]">
+                    <p>陸上混成種目 七種競技</p>
+                    <p>大玉華鈴選手</p>
+                </div>  
+            </div>    
+            <div class="relative max-[750px]:overflow-hidden min-[1800px]:w-[50%] xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%]">
+                <img class="max-[750px]:hidden" src="<?= site_url('/wp-content/themes/smg') ?>/assets/images/team_03/image11.png">
+                <img class="min-[751px]:hidden max-[750px]:mx-auto" src="<?= site_url('/wp-content/themes/smg') ?>/assets/images/team_03/image11@sp.png">
+            </div>
+        </div>
+        <div class="smin-750:w-[50%] min-[751px]:ml-5 relative min-[751px]:mr-[40px]">
+            <div>
+                <div class="min-[751px]:float-right 2xl:w-[50%] xl:w-[70%] min-[751px]:w-[90%] max-[750px]:w-full max-[750px]:px-5 max-[750px]:mt-[60px]">
+                    <div class="noto-sans max-[750px]:w-full max-[750px]:px-5 max-[750px]:mt-[50px]">
+                        <div class="text-[32px] font-bold leading-[48px] tracking-[4px] max-[750px]:hidden">
+                            <p>私の決意「翔」</p>
+                        </div>    
+                        <div class="text-[18px] font-bold leading-[36px] tracking-[4px] max-[750px]:hidden mt-[24px]">
+                            <p>陸上混成種目 七種競技</p>
+                            <p>大玉華鈴選手</p>
+                        </div>  
+                        <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[25px]
+                        max-[750px]:text-[24px]
+                        ">
+                            <p>2022シーズンより、日体大ＳＭＧ横浜に加入させていただきました大玉華鈴です。日本体育大学在学中に大きく競技成績を伸ばすことができたこともあって、卒業後も練習環境を変えることなく競技を続けたいと考えておりました。クラブトップパートナーである新富士病院グループからのサポートを受けて、社会人アスリートとして全力で活動できることを大変嬉しく思います。熱いご期待に結果で応えられるよう、「日本一」、「世界大会出場」を目標としてパフォーマンスに磨きをかけて参ります。また、地域のスポーツクラブである日体大ＳＭＧ横浜の一員として、育成・普及活動や地域活動にも積極的に参加して参ります。</p>
+                        </div>
+                    </div>      
+                </div>
+            </div>
         </div>
     </div>
 </div>

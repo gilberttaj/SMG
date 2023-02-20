@@ -15,7 +15,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]">ホーム  >地域活動・プロジェクト</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >地域活動・プロジェクト</p>
 </div>
 
 <!-- First Content -->
@@ -110,7 +110,7 @@
                         <li>地域の皆さんで企画・運営する。（自主運営）</li>
                     </ol>
                 </div>    
-                <div class="max-[750px]:mt-[56px] font-medium tracking-[2px] leading-[28px] mt-[33px]">
+                <div class="max-[750px]:mt-[56px] font-medium tracking-[2px] leading-[28px] mt-[33px] text-[14px]">
                     <p>スポーツをはじめ、環境活動や地域行事への協力など、様々な資源（人材・活動場所・プログラムなど）を持ち寄った多彩なクラブ活動は、今や“街づくり”や“地域活性化”の担い手としても注目されています。</p>
                     <p>総合型地域スポーツクラブは、年齢や性別、スポーツの得意・不得意に関係なく、誰もが継続的にスポーツを楽しむことが出来る環境を目指した新しい地域スポーツクラブの形態です。</p>
                     <p>横浜市を中心とした地域住民に対し、青少年のサッカーを軸とした各種スポーツ教室や幅広い市民スポーツへの参加機会を提供し、子どもたちの健全な心身の育成、高齢者の健康維持増進、競技者及び指導者の育成強化及び国際交流を図る等、必要な事業を行うことにより、総合型地域スポーツクラブとして、地域住民の心身の健全な発達及び横浜における市民のスポーツ文化振興、地域社会への貢献に寄与することを目的といたします。</p>
@@ -410,7 +410,7 @@
     <div class="flex justify-center flex-col mb-[52px] max-[750px]:mb-[41px] text-center font-bold">
         <div>
             <p class="josefin-sans text-[48px] max-[750px]:text-[44px]">Welness</p>
-            <p class="noto-sans tracking-[4px] text-[20px] leading-[16px] max-[750px]:tracking-[8px]">地域の人々健康を考える</p>
+            <p class="noto-sans tracking-[4px] text-[20px] leading-[16px] max-[750px]:tracking-[8px]">地域の人々の健康を考える.</p>
         </div>
 
         <div class="max-[750px]:hidden mt-[53px] text-[32px] leading-[48px] tracking-[4px] noto-sans">
