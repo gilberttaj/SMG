@@ -15,7 +15,7 @@
 </div>
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]">ホーム  >日体大SMG横浜とは</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >日体大SMG横浜とは</p>
 </div>
 <!-- First Body -->
 <div class="w-full lg:mt-20 min-[751px]:mt-10 max-[750px]:mt-5 smin-750:flex relative overflow-hidden">

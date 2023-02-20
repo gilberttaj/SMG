@@ -17,7 +17,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]">ホーム  >選手・チーム紹介  >育成・普及　サテライト／U-18／U-15</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介  >育成・普及　サテライト／U-18／U-15</p>
 </div>
 
 <!-- First Content -->
@@ -94,7 +94,84 @@
                '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
             </div>
         </div>
+        <div class="flex flex-col bg-[#333333] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
+            <div class="font-bold text-center">
+                <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
+                    04.20 
+                    <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
+                </p>
+                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U15リーグ第0節</p>
+            </div>
+            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
+                <div class="flex flex-col items-center">
+                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
+                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                    '>名古屋</span>
+                </div>
+                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
+                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
+                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>AWAY</span>
+                </div>
+                <div class="flex flex-col items-center">
+                   
+                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
+                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                    '>日体大SMG</span>
+                    <span class='text-white noto-sans text-[12px] font-bold 
+                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                    '>横浜</span>
+                </div>
+            </div>
+            <div class="border-t-2 border-white text-center mt-[10px]">
+               <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
+               max-[750px]:text-[25px] max-[750px]:leading-[38px]
+               '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+            </div>
+        </div>
         <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
+            <div class="font-bold text-center">
+                <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
+                    04.20 
+                    <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
+                </p>
+                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U18リーグ第0節</p>
+            </div>
+            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
+                <div class="flex flex-col items-center">
+                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
+                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                    '>日体大SMG</span>
+                    <span class='text-white noto-sans text-[12px] font-bold 
+                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                    '>横浜U18</span>
+                </div>
+                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
+                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
+                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
+                </div>
+                <div class="flex flex-col items-center">
+                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
+                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                    '>名古屋</span>
+                </div>
+            </div>
+            <div class="border-t-2 border-white text-center mt-[10px]">
+               <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
+               max-[750px]:text-[25px] max-[750px]:leading-[38px]
+               '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+            </div>
+        </div>
+        <div class="flex flex-col bg-[#333333] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
             <div class="font-bold text-center">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
@@ -139,10 +216,22 @@
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
                 <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U15リーグ第0節</p>
             </div>
             <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
                 <div class="flex flex-col items-center">
+                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
+                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                    '>名古屋</span>
+                </div>
+                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
+                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
+                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>AWAY</span>
+                </div>
+                <div class="flex flex-col items-center">
+                   
                     <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
                     font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
                     <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
@@ -151,93 +240,6 @@
                     <span class='text-white noto-sans text-[12px] font-bold 
                     max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
                     '>横浜</span>
-                </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
-                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
-                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
-                </div>
-                <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>名古屋</span>
-                </div>
-            </div>
-            <div class="border-t-2 border-white text-center mt-[10px]">
-               <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
-               max-[750px]:text-[25px] max-[750px]:leading-[38px]
-               '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
-            </div>
-        </div>
-        <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
-            <div class="font-bold text-center">
-                <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
-                    04.20 
-                    <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
-                </p>
-                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
-            </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
-                <div class="flex flex-col items-center">
-                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>日体大SMG</span>
-                    <span class='text-white noto-sans text-[12px] font-bold 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>横浜</span>
-                </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
-                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
-                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
-                </div>
-                <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>名古屋</span>
-                </div>
-            </div>
-            <div class="border-t-2 border-white text-center mt-[10px]">
-               <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
-               max-[750px]:text-[25px] max-[750px]:leading-[38px]
-               '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
-            </div>
-        </div>
-        <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
-            <div class="font-bold text-center">
-                <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
-                    04.20 
-                    <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
-                </p>
-                <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
-            </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
-                <div class="flex flex-col items-center">
-                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>日体大SMG</span>
-                    <span class='text-white noto-sans text-[12px] font-bold 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>横浜</span>
-                </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
-                    <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
-                    <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
-                </div>
-                <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
-                    <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
-                    '>名古屋</span>
                 </div>
             </div>
             <div class="border-t-2 border-white text-center mt-[10px]">
@@ -660,14 +662,14 @@
                             <p class="px-[51px] text-[#004EA1] text-[18px] leading-[36px] tracking-[4px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">自覚のある選手</p>
                         </div>
                         <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[20px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">
-                            <p>常に日体大SMG横浜であることを意識し、地域から応援してもらえる存在、自ら考え行動できる人間の育成を目指します。</p>
+                            <p>チームに貢献できる確かな技術、観客を沸かせる華麗なプレー、ピッチ以外でも人々を惹きつける行動ができる人間の育成を目指します。</p>
                         </div>
                         <div class="text-center border-2 border-[#004EA1] w-[260px] max-[750px]:w-[336px] mt-[42px] relative">
                             <div class="triangle-right absolute"></div>
                             <p class="px-[51px] text-[#004EA1] text-[18px] leading-[36px] tracking-[4px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">自覚のある選手</p>
                         </div>
                         <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[20px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">
-                            <p>常に日体大SMG横浜であることを意識し、地域から応援してもらえる存在、自ら考え行動できる人間の育成を目指します。</p>
+                            <p>パワフルにスピーディーにタフに闘える､またどんな逆境にも負けず、最後まであきらめずに闘うことのできる人間の育成を目指します。</p>
                         </div>
                     </div>
                 </div>
@@ -715,7 +717,7 @@
                     <p>ユニフォーム</p>
                     <p class="text-[18px]">サテライト／U-18／U-15</p>
                 </div>    
-                <div class="text-[14px] font-medium leading-[48px] tracking-[2px] mt-[25px]
+                <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[25px]
                 max-[750px]:text-[24px]
                 ">
                     <p>日本体育大学と横浜をイメージする青色を基調に、パートナー企業（ユニフォームスポンサー）のロゴマークが際立つよう、シンプルな柄・デザインを採用しています。</p>
