@@ -125,6 +125,10 @@ body{
     right: -5px;
 }
 
+.team.right-arrow:hover{
+    border: #D19F00 1px solid;
+}
+
 .team-sp-right-arrow {
     height: 1px;
     border-bottom: 1px solid;

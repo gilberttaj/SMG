@@ -4,27 +4,30 @@
 <div id="top" class=''>
     <div id="top-1" class='flex flex-col smin-750:flex-row top-vh'>
         <div id="banner-image" class='w-[100%] smin-750:w-[80%] max-[750px]:overflow-visible overflow-hidden max-[750px]:h-screen'>
-            <div class="overlay_image_slide fade relative w-full h-full max-[750px]:overflow-visible">
-                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide1@2x.png" class="overlay_image_wrapper zoom w-full h-full" >
+            <div class="overlay_image_slide fade relative w-full max-[750px]:overflow-visible bg-img-1">
+                <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide1@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block" >
+                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9512@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
                 <div class='w-[33.33%] absolute bottom-[12%] left-[10%]'>
                     <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11993.png'/>
                 </div>
             </div>
-            <div class="overlay_image_slide fade w-full h-full">
-
-                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide2@2x.png" class="overlay_image_wrapper zoom w-full h-full">
+            <div class="overlay_image_slide fade w-full bg-img-2">
+                <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide2@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block">
+                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/LINE_ALBUM_211021_839_02.psd@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
                     <div class='w-[33.33%] absolute bottom-[3%] right-[21%]'>
                         <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11992.png'/>
                     </div>
             </div>
-            <div class="overlay_image_slide fade w-full h-full">
-                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide3@2x.png" class="overlay_image_wrapper zoom w-full h-full" >
+            <div class="overlay_image_slide fade w-full bg-img-3">
+                <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide3@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block" >
+                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Mask Group 12@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
                     <div class='w-[33.33%] absolute bottom-[20%] left-[24%]'>
                         <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11991.png'/>
                     </div>
             </div>
-            <div class="overlay_image_slide fade w-full h-full">
-                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide4@2x.png" class="overlay_image_wrapper zoom w-full h-full">
+            <div class="overlay_image_slide fade w-full  bg-img-4">
+                <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide4@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block">
+                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Slide4_sp12@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
                     <div class='w-[33.33%] absolute bottom-[12%] left-[10%]'>
                         <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990.png'/>
                     </div>
@@ -1510,14 +1513,25 @@ $(document).ready(function() {
         <div class='text-center josefin-sans text-[48px] font-bold'>TEAM</div>
         <div class='text-center noto-sans text-[16px] leading-[20px] font-bold tracking-[4px]'>選手・チーム紹介</div>
 
-    <div class='mt-[50px] flex justify-between'>
-        <div class='w-[50%] max-[1440px]:w-[100%] relative'>
+    <div class='mt-[50px] flex justify-between max-[1280px]:flex-col'>
+        <div class='w-[50%] max-[1440px]:w-[100%] relative max-[1280px]:w-[70%] max-[992px]:w-[75%] max-[911px]:w-[80%] max-[854px]:w-[85%]
+        max-[804px]:w-[90%]
+        max-[759px]:w-[94%]'>
             <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9513@2x.png'/>
             <div class='absolute w-[42.5%] h-[78.5%] top-[10%] max-[1853px]:top-[7%] right-[-1px] pr-[105px] max-[1900px]:pr-[95px] max-[1853px]:pr-[83px] max-[1796px]:pr-[72px] max-[1744px]:pr-[50px]
-            max-[1695px]:pr-[83px] max-[1600px]:pr-[85px] max-[1531px]:pr-[90px] max-[1487px]:pr-[70px] max-[1440px]:pr-[42px]'>
-                <div class='noto-sans text-[18px] text-white font-bold tracking-[-3px] mt-[40px] ml-[15px] max-[1695px]:text-[14px]'>なでしこリーグ</div>
-                            <div class='noto-sans text-[28px] text-white font-bold leading-[46px] ml-[15px] tracking-[10px] max-[1695px]:leading-[30px] max-[1695px]:text-[25px] max-[1600px]:text-[20px] max-[1531px]:text-[18px] max-[1531px]:leading-[25px]'>日体大SMG横浜</div>
-                            <div class='noto-sans text-[14px] text-white font-medium mt-[25px] leading-[28px] ml-[15px] max-[1695px]:leading-[20px] max-[1531px]:text-[12px] max-[1487px]:mt-[10px]'>
+            max-[1695px]:pr-[83px] max-[1600px]:pr-[85px] max-[1531px]:pr-[90px] max-[1487px]:pr-[70px] max-[1440px]:pr-[42px]
+            max-[1280px]:pr-[80px]
+            max-[1175px]:pr-[60px]
+            max-[1108px]:pr-[50px]'>
+                <div class='noto-sans text-[18px] text-white font-bold tracking-[-3px] mt-[40px] ml-[15px] max-[1695px]:text-[14px] max-[1280px]:text-[18px] max-[1280px]:mt-[40px]
+                max-[1074px]:text-[16px]'>なでしこリーグ</div>
+                            <div class='noto-sans text-[28px] text-white font-bold leading-[46px] ml-[15px] tracking-[10px] max-[1695px]:leading-[30px] max-[1695px]:text-[25px] max-[1600px]:text-[20px] max-[1531px]:text-[18px] max-[1531px]:leading-[25px]
+                            max-[1280px]:text-[24px] max-[1280px]:leading-[46px]
+                            max-[1074px]:text-[20px] max-[1074px]:leading-[40px]
+                            max-[1024px]:leading-[20px]'>日体大SMG横浜</div>
+                            <div class='noto-sans text-[14px] text-white font-medium mt-[25px] leading-[28px] ml-[15px] max-[1695px]:leading-[20px] max-[1531px]:text-[12px] max-[1487px]:mt-[10px]
+                            max-[1280px]:text-[14px] max-[1280px]-leading-[28px] max-[1280px]:mt-[25px]
+                            max-[1074px]:text-[12px] max-[1074px]:leading-[20px] max-[1074px]:mt-[20px]'>
                             日本体育大学 横浜･健志台キャンパスを活動
                             拠点とし、なでしこリーグ1部に所属する女
                             子サッカークラブ。「強く・逞しく・美し
@@ -1526,7 +1540,7 @@ $(document).ready(function() {
                             ています。
                             </div>
                             <div class='mt-[30px] ml-[15px]'>
-                                <button class='relative flex justify-center text-white'>
+                                <button class='relative flex justify-center text-white view-hover hover:text-[#D19F00]'>
                                 <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
 
@@ -1535,82 +1549,40 @@ $(document).ready(function() {
                 </div>
             </div>
         </div>
-        <div class='w-[50%] mt-[60px] max-[1440px]:w-[100%]'>
+        <div class='relative w-[50%] mt-[60px] max-[1440px]:w-[100%] max-[1280px]:self-end max-[1280px]:w-[70%] max-[992px]:w-[75%] max-[911px]:w-[80%] max-[854px]:w-[85%]
+        max-[804px]:w-[90%]
+        max-[759px]:w-[94%]'>
+            <div class='absolute w-[42.5%] h-[89%] top-[11%] right-[50.5%] pr-[90px]
+            max-[1829px]:pr-[90px]
+            max-[1745px]:pr-[70px]
+            max-[1331px]:pr-[50px]'>
+                <div class='noto-sans text-[18px] text-white font-bold tracking-[-3px] mt-[40px] ml-[15px] max-[1695px]:text-[14px] max-[1280px]:text-[18px] max-[1280px]:mt-[40px]
+                max-[1074px]:text-[16px]
+                max-[1745px]:mt-[30px]'>陸上競技（混成競技）</div>
+                            <div class='noto-sans text-[28px] text-white font-bold leading-[46px] ml-[15px] tracking-[10px] max-[1695px]:leading-[30px] max-[1695px]:text-[25px] max-[1600px]:text-[20px] max-[1531px]:text-[18px] max-[1531px]:leading-[25px]
+                            max-[1280px]:text-[24px] max-[1280px]:leading-[46px]
+                            max-[1074px]:text-[20px] max-[1074px]:leading-[40px]
+                            max-[1024px]:leading-[20px]'>大玉 華鈴選手</div>
+                            <div class='noto-sans text-[14px] text-white font-medium mt-[25px] leading-[28px] ml-[15px] max-[1695px]:leading-[20px] max-[1531px]:text-[12px] max-[1487px]:mt-[10px]
+                            max-[1280px]:text-[14px] max-[1280px]-leading-[28px] max-[1280px]:mt-[25px]
+                            max-[1074px]:text-[12px] max-[1074px]:leading-[20px] max-[1074px]:mt-[20px]'>
+       女子混成競技の一つ、七種競技で、日本歴代トップクラスの成績を残し、2022年に日本体育大学を卒業後、日体大SMG横浜に所属。大学時代には陸上部主将を務め、日本インカレ3年連続優勝と、女子陸上界の期待の星として注目を集めています。
+                            </div>
+                            <div class='mt-[30px] ml-[15px]
+                            max-[1800px]:mt-[20px]
+                            max-[1331px]:mt-[15px]'>
+                                <button class='relative flex justify-center text-white hover:text-[#D19F00]'>
+                                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
+                                <div class='team-right-arrow'>
+
+                                </div>
+                                </button>
+                </div>
+            </div>
             <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9514@2x.png'/>
         </div>
 
     </div>
-
-<!--     
-        <div class='mt-[50px] flex justify-between'>
-            <div class='w-[50%] mr-[18px]'>
-                <div class='relative'>
-                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Mask Group 5.png' class=''/>
-                    <div class='absolute top-[46px] right-[6%]'>
-                    <div class="parallelogram-right-news min-[751px]:w-[385px] min-[751px]:h-[380px] 
-                    static max-[750px]:mx-auto w-[80%]
-                    max-[750px]:skew-y-0 max-[750px]:mt-[-54px] h-full flex
-                    ">
-                    </div>
-                <div class='absolute bottom-[-1px] w-[24px] h-[48px] left-[-49px]'>
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 58@2x.png'/>
-                </div>
-                <div class='absolute w-[81%] h-[100%] top-[0] ml-[37px]'>
-                        <div class='noto-sans text-[18px] text-white font-bold tracking-[-3px] mt-[40px] ml-[15px]'>なでしこリーグ</div>
-                        <div class='noto-sans text-[28px] text-white font-bold leading-[46px] ml-[15px] tracking-[10px]'>日体大SMG横浜</div>
-                        <div class='noto-sans text-[14px] text-white font-medium mt-[25px] leading-[28px] ml-[15px]'>
-                        日本体育大学 横浜･健志台キャンパスを活動
-                        拠点とし、なでしこリーグ1部に所属する女
-                        子サッカークラブ。「強く・逞しく・美し
-                        く」をスローガンとし、地域の皆さまに必要
-                        とされるクラブを目指して、活動の幅を広げ
-                        ています。
-                        </div>
-                        <div class='mt-[30px] ml-[15px]'>
-                            <button class='relative flex justify-center text-white'>
-                            <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
-                            <div class='team-right-arrow'>
-
-                            </div>
-                            </button>
-                        </div>
-                </div>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <div class='w-[50%] ml-[18px] mt-[60px]'>
-            <div class='relative flex w-full justify-end'>
-                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Mask Group 4.png' class=''/>    
-                    <div class='absolute top-[54px] right-[54%]'>
-                        <div class="parallelogram-left-news min-[751px]:w-[385px] min-[751px]:h-[380px] 
-                        static max-[750px]:mx-auto w-[80%]
-                        max-[750px]:skew-y-0 max-[750px]:mt-[-54px] h-full flex
-                        ">
-                        </div>
-                        <div class='absolute bottom-[8px] w-[37px] h-[48px] right-[-3px]'>
-                            <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 57@2x.png'/>
-                        </div>
-                        <div class='absolute w-[81%] h-[100%] top-[0] ml-[37px]'>
-                            <div class='noto-sans text-[18px] text-white font-bold tracking-[-3px] mt-[40px] ml-[15px]'>陸上競技（混成競技）</div>
-                            <div class='noto-sans text-[28px] text-white font-bold leading-[46px] ml-[15px] tracking-[10px]'>大玉 華鈴選手</div>
-                            <div class='noto-sans text-[14px] text-white font-medium mt-[25px] leading-[28px] ml-[15px]'>
-                            女子混成競技の一つ、七種競技で、日本歴代トップクラスの成績を残し、2022年に日本体育大学を卒業後、日体大SMG横浜に所属。大学時代には陸上部主将を務め、日本インカレ3年連続優勝と、女子陸上界の期待の星として注目を集めています。
-                            </div>
-                            <div class='mt-[30px] ml-[15px]'>
-                                <button class='relative flex justify-center text-white'>
-                                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
-                                <div class='team-right-arrow'>
-
-                                </div>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
         <div class='w-[62.5%] max-[1440px]:w-[80%] m-auto mt-[300px] flex flex-wrap relative'>
             <div class='absolute top-[74.6%] left-[28.5%] bg-[#004EA1] w-[43.33%] max-[1024px]:w-[60%] max-[1024px]:left-[20.5%]'>
@@ -1619,7 +1591,7 @@ $(document).ready(function() {
                     アマチュアトップリーグで活躍する選手たちを間近で感じながら、未来への飛躍に向けて活動するチーム。サッカー経験や身体能力等による篩い分けを行わず、初心者でも参加できることを大切にしています。
                 </div>
                 <div class='mt-[30px] mx-[35px] mb-[40px]'>
-                    <button class='relative flex justify-center text-white'>
+                    <button class='relative flex justify-center text-white hover:text-[#D19F00]'>
                         <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
                             <div class='team-right-arrow'>
                             </div>
@@ -1796,7 +1768,7 @@ $(document).ready(function() {
                         総合型地域スポーツクラブを⽬指して
                     </div>
                     <div class='mt-[20px] mx-[20px] pb-[15px]'>
-                        <button class='relative flex justify-center text-white'>
+                        <button class='relative flex justify-center text-white hover:text-[#000]'>
                             <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
@@ -1819,7 +1791,7 @@ $(document).ready(function() {
                         地域活動レポート
                     </div>
                     <div class='mt-[30px] mx-[20px] pb-[15px]'>
-                        <button class='relative flex justify-center text-white'>
+                        <button class='relative flex justify-center text-white hover:text-[#000]'>
                             <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
@@ -1842,7 +1814,7 @@ $(document).ready(function() {
                         地域の健康をつくる
                     </div>
                     <div class='mt-[30px] mx-[20px] pb-[15px]'>
-                        <button class='relative flex justify-center text-white'>
+                        <button class='relative flex justify-center text-white hover:text-[#000]'>
                             <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
@@ -1919,9 +1891,10 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " slider-active";
   pcDot[slideIndex-1].className += " slider-active";
-  setTimeout(showSlides, 10000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 </script>
 
 <?php get_footer(); ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
