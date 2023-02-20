@@ -36,15 +36,16 @@
 
 .bg-img-2{
     background-image: url('../images/slide2@2x.png') ;
-    animation: zoomin 10s ease-in;
-    transition: all .5s ease-in;
+    animation-name: zoom-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 .bg-img-3{
     background-image: url('../images/slide3@2x.png') ;
-    animation: zoomout 10s ease-out;
-    transition: all .5s ease-out;
-    overflow: hidden;
+    animation-name: zoom-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 .bg-img-4{
@@ -58,45 +59,24 @@
     background-size: cover;
 }
 
-.zoomInHeader{
-    -webkit-animation: zoomin 10s ease-in infinite;
-    animation: zoomin 10s ease-in infinite;
-    transition: all .5s ease-in-out;
-    overflow: hidden;
-}
-
-.zoomOutHeader{
-    -webkit-animation: zoomout 10s ease-in infinite;
-    animation: zoomout 10s ease-in infinite;
-    transition: all .5s ease-in-out;
-    overflow: hidden;
-}
-
-
-/* Zoom in Keyframes */
-@-webkit-keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    /* 100% {transform: scale(1);} */
+@keyframes zoom-in {
+    from {
+      background-size: 100%;
+    }
+    to {
+      background-size: 110%;
+    }
   }
-  @keyframes zoomin {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.5);}
-    /* 100% {transform: scale(1);} */
-  } /*End of Zoom in Keyframes */
-  
 
-  /* Zoom out Keyframes */
-@-webkit-keyframes zoomout {
-    0% {transform: scale(1);}
-    50% {transform: scale(0.67);}
-    100% {transform: scale(1);}
+  @keyframes zoom-out {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
   }
-  @keyframes zoomout {
-      0% {transform: scale(1);}
-    50% {transform: scale(0.67);}
-    100% {transform: scale(1);}
-  }/*End of Zoom out Keyframes */
+
 
 
 @media only screen and (max-width: 750px){
