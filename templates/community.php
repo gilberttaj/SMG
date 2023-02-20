@@ -62,7 +62,7 @@
 
 
 <!-- Second Content -->
-<div class=" max-[750px]:mt-[22px] relative overflow-hidden pb-[200px]">
+<div class=" max-[750px]:mt-[22px] relative overflow-hidden pb-[200px]" id='vision'>
     <div class="flex justify-center flex-col mb-[52px] max-[750px]:mb-[41px] text-center font-bold">
         <div>
             <p class="josefin-sans text-[48px] max-[750px]:text-[44px]">Vision</p>
@@ -131,7 +131,7 @@
 </div>
 
 <!-- Fourth Content -->
-<div class="min-[751px]:pt-[150px] max-[750px]:mt-[22px] relative overflow-hidden">
+<div class="min-[751px]:pt-[150px] max-[750px]:mt-[22px] relative overflow-hidden" id='activity'>
     <img class="absolute top-[-10%] z-[-1] 
         2xl:left-[-5%] xl:left-[-15%] lg:left-[-25%] min-[850px]:left-[-35%] left-[-40%]
         max-[700px]:left-[-45%] max-[550px]:left-[-65%] max-[450px]:left-[-80%] max-[751px]:hidden
@@ -401,7 +401,7 @@
 </div>
 
 <!-- Fifth Content -->
-<div class="min-[751px]:pt-[100px] max-[750px]:mt-[22px] relative overflow-hidden">
+<div class="min-[751px]:pt-[100px] max-[750px]:mt-[22px] relative overflow-hidden" id='wellness'>
     <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/right1.png" class="
     max-[750px]:hidden absolute 2xl:right-0 lg:right-[-10%] right-[-20%] max-[800px]:right-[-25%] top-[-5%]
     max-2xl:top-[-20%] max-xl:top-[-30%]

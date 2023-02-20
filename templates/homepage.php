@@ -3,7 +3,7 @@
 
 <div id="top" class=''>
     <div id="top-1" class='flex flex-col smin-750:flex-row top-vh'>
-        <div id="banner-image" class='w-[100%] smin-750:w-[80%] max-[750px]:overflow-visible overflow-hidden max-[750px]:h-screen'>
+        <div id="banner-image" class='w-[100%] smin-750:w-[80%] overflow-hidden max-[750px]:h-screen'>
             <div class="overlay_image_slide fade relative w-full bg-img-1">
                 <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide1@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block" >
                 <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9512@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
@@ -1698,7 +1698,7 @@
 
                         <div class='mt-[80px]'>
                             <button class='relative w-[240px] h-[56px] flex justify-center text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./about-us'>VIEW ALL</a>
                                 <div class='right-arrow'>
                                 </div>
                             </button>
@@ -1958,7 +1958,7 @@
 
         <div class='mt-[250px] max-[1600px]:mt-[300px] max-[1440px]:mt-[350px] max-[750px]:mt-[70px] flex justify-center'>
             <button class='relative w-[240px] h-[56px] flex justify-center text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
-                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                <a class='self-center josefin-sans font-bold text-[14px]' href='./team-01'>VIEW ALL</a>
                 <div class='right-arrow'>
                 </div>
             </button>
@@ -1999,7 +1999,7 @@
                         </div>
                         <div class='mt-[20px] mx-[20px] pb-[15px]'>
                             <button class='relative flex justify-center text-white hover:text-[#000]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./community#vision'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
                             </button>
@@ -2022,7 +2022,7 @@
                         </div>
                         <div class='mt-[30px] mx-[20px] pb-[15px]'>
                             <button class='relative flex justify-center text-white hover:text-[#000]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./community#activity'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
                             </button>
@@ -2045,7 +2045,7 @@
                         </div>
                         <div class='mt-[30px] mx-[20px] pb-[15px]'>
                             <button class='relative flex justify-center text-white hover:text-[#000]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./community#wellness'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
                             </button>

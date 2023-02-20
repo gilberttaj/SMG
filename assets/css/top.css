@@ -37,14 +37,14 @@
 .bg-img-2{
     background-image: url('../images/slide2@2x.png') ;
     animation-name: zoom-out;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
 .bg-img-3{
     background-image: url('../images/slide3@2x.png') ;
     animation-name: zoom-in;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
@@ -70,10 +70,10 @@
 
   @keyframes zoom-out {
     from {
-      transform: scale(1);
+      transform: scale(1.1);
     }
     to {
-      transform: scale(1.2);
+      transform: scale(1);
     }
   }
 
