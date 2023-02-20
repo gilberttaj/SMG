@@ -3,7 +3,7 @@
 
 <div id="top" class=''>
     <div id="top-1" class='flex flex-col smin-750:flex-row top-vh'>
-        <div id="banner-image" class='w-[100%] smin-750:w-[80%] max-[750px]:overflow-visible overflow-hidden max-[750px]:h-screen'>
+        <div id="banner-image" class='w-[100%] smin-750:w-[80%] overflow-hidden max-[750px]:h-screen'>
             <div class="overlay_image_slide fade relative w-full bg-img-1">
                 <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide1@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block" >
                 <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9512@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
