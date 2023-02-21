@@ -1,4 +1,4 @@
-<?php /* Template Name: Team 06 Template */ ?>
+<?php /* Template Name: Team 07 Template */ ?>
 <?php get_header(); ?>
 
 <!-- HEADER ABOUT -->
@@ -17,7 +17,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介　>トップチーム</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介　　サテライト</p>
 </div>
 
 <!-- First TAB PANE -->
