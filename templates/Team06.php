@@ -83,74 +83,45 @@
                 <span class="ml-[20px] text-[21px] leading-[42px]">ゴールキーパー</span>
             </div>
             <div class="flex flex-wrap justify-between">
+            <?php
+                $query = new WP_Query( array(
+                    'post_type' => 'players', 
+                    'order' => 'ASC',
+                    'tax_query' => array(
+                        array (
+                            'taxonomy' => 'players_cat',
+                            'field' => 'gk',
+                            'terms' => 3
+                        )
+                    ),
+                ) );
+                
+                while ( $query->have_posts() ) : $query->the_post();
+            ?>  
                 <div class="w-[30%] max-[750px]:w-[43%] mb-[60px]">
                     <div class="relative">
-                        <img class="w-full" src="<?= site_url('/wp-content/themes/smg') ?>/assets/images/team_06/Component 47 – 1.png">
-                        <div class="absolute bg-[#E1007E] bottom-0">
-                            <p class="px-[16px] py-[7px] text-white text-[20px] tracking-[2px] leading-[32px]">強化指定選手</p>
-                        </div>
+                    <?php echo get_the_post_thumbnail() ?>
+                        <!-- <img class="w-full" src="< ?= site_url('/wp-content/themes/smg') ?>/assets/images/team_06/Component 47 – 1.png"> -->
+                        <?php if( get_post_meta($post->ID, 'additional_info', true)) {?>
+                            <div class="absolute bg-[#E1007E] bottom-0">
+                                <p class="px-[16px] py-[7px] text-white text-[20px] tracking-[2px] leading-[32px]"><?php echo get_post_meta($post->ID, 'additional_info', true); ?></p>
+                            </div>
+                        <?php }?>
                     </div>
                     <div class="flex mt-[30px]">
                         <div class="w-[25%] text-center">
-                            <p class="text-[64px] josefin-sans font-bold leading-[96px] min-[751px]:max-[900px]:text-[50px]">1</p>
+                            <p class="text-[64px] josefin-sans font-bold leading-[96px] min-[751px]:max-[900px]:text-[50px]"><?php echo get_post_meta($post->ID, 'jersey_no', true); ?></p>
                         </div>
                         <div class="ml-[14px]">
-                            <p class="text-[28px] noto-sans leading-[42px] tracking-[2px] font-medium min-[751px]:max-[900px]:text-[20px]">伊能 真弥</p>
-                            <p class="text-[18px] font-bold leading-[27px] tracking-[2px] min-[751px]:max-[900px]:text-[15px]">Ino Maya</p>
+                            <p class="text-[28px] noto-sans leading-[42px] tracking-[2px] font-medium min-[751px]:max-[900px]:text-[20px]"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
+                            <p class="text-[18px] font-bold leading-[27px] tracking-[2px] min-[751px]:max-[900px]:text-[15px]"><?php echo get_post_meta($post->ID, 'name_eng', true); ?></p>
                         </div>
                     </div>
                 </div>
-                <div class="w-[30%] max-[750px]:w-[43%] mb-[60px]">
-                    <div class="relative">
-                        <img class="w-full" src="<?= site_url('/wp-content/themes/smg') ?>/assets/images/team_06/Component 47 – 1.png">
-                        <div class="absolute bg-[#E1007E] bottom-0">
-                            <p class="px-[16px] py-[7px] text-white text-[20px] tracking-[2px] leading-[32px]">強化指定選手</p>
-                        </div>
-                    </div>
-                    <div class="flex mt-[30px]">
-                        <div class="w-[25%] text-center">
-                            <p class="text-[64px] josefin-sans font-bold leading-[96px] min-[751px]:max-[900px]:text-[50px]">1</p>
-                        </div>
-                        <div class="ml-[14px]">
-                            <p class="text-[28px] noto-sans leading-[42px] tracking-[2px] font-medium min-[751px]:max-[900px]:text-[20px]">伊能 真弥</p>
-                            <p class="text-[18px] font-bold leading-[27px] tracking-[2px] min-[751px]:max-[900px]:text-[15px]">Ino Maya</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-[30%] max-[750px]:w-[43%] mb-[60px]">
-                    <div class="relative">
-                        <img class="w-full" src="<?= site_url('/wp-content/themes/smg') ?>/assets/images/team_06/Component 47 – 1.png">
-                        <div class="absolute bg-[#E1007E] bottom-0">
-                            <p class="px-[16px] py-[7px] text-white text-[20px] tracking-[2px] leading-[32px]">強化指定選手</p>
-                        </div>
-                    </div>
-                    <div class="flex mt-[30px]">
-                        <div class="w-[25%] text-center">
-                            <p class="text-[64px] josefin-sans font-bold leading-[96px] min-[751px]:max-[900px]:text-[50px]">1</p>
-                        </div>
-                        <div class="ml-[14px]">
-                            <p class="text-[28px] noto-sans leading-[42px] tracking-[2px] font-medium min-[751px]:max-[900px]:text-[20px]">伊能 真弥</p>
-                            <p class="text-[18px] font-bold leading-[27px] tracking-[2px] min-[751px]:max-[900px]:text-[15px]">Ino Maya</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-[30%] max-[750px]:w-[43%] mb-[60px]">
-                    <div class="relative">
-                        <img class="w-full" src="<?= site_url('/wp-content/themes/smg') ?>/assets/images/team_06/Component 47 – 1.png">
-                        <div class="absolute bg-[#E1007E] bottom-0">
-                            <p class="px-[16px] py-[7px] text-white text-[20px] tracking-[2px] leading-[32px]">強化指定選手</p>
-                        </div>
-                    </div>
-                    <div class="flex mt-[30px]">
-                        <div class="w-[25%] text-center">
-                            <p class="text-[64px] josefin-sans font-bold leading-[96px] min-[751px]:max-[900px]:text-[50px]">1</p>
-                        </div>
-                        <div class="ml-[14px]">
-                            <p class="text-[28px] noto-sans leading-[42px] tracking-[2px] font-medium min-[751px]:max-[900px]:text-[20px]">伊能 真弥</p>
-                            <p class="text-[18px] font-bold leading-[27px] tracking-[2px] min-[751px]:max-[900px]:text-[15px]">Ino Maya</p>
-                        </div>
-                    </div>
-                </div>
+            <?php
+                endwhile;
+                wp_reset_query();
+            ?>
             </div>
         </div>
     </div>
@@ -159,6 +130,7 @@
             min-[751px]:max-lg:right-[-45%] lg:max-xl:right-[-25%] xl:max-2xl:right-[-15%]
             max-[750px]:right-[-72%] max-[700px]:right-[-76%] max-[650px]:right-[-80%] z-[-1]
     ">
+
 </div>
 
 <!-- DF CONTENT -->
