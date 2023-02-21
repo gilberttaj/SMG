@@ -2,7 +2,7 @@
         </div>
         <footer class='mt-20'>
             <div class='footer-1'>
-                <div class='flex flex-row flex-wrap gap-y-7 m-auto justify-between w-[90%] smin-750:w-[90%] xl:w-[62.5%]'>
+                <div class='flex flex-row flex-wrap gap-y-7 m-auto justify-between w-[90%] smin-750:w-[90%] xl:w-[60%]'>
                     <div class='lg:w-[30%] smin-750:w-[48%] w-[100%]'>
                         <a href="#" style="text-decoration:none">
                             <img src="<?= site_url('/wp-content/themes/smg/') ?>assets/images/Group 9762@2x.png" class="w-full h-full">

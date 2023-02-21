@@ -4,8 +4,8 @@
 <!-- HEADER ABOUT -->
 <div class="relative flex justify-center items-center">
     <div class="w-full">
-        <img class="w-full lg:h-[350px] h-[320px] min-[751px]:hidden" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_03/Group 12020.png" >
-        <img class="w-full lg:h-[350px] h-[320px] max-[751px]:hidden" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_03/Group 11943.png" >
+        <img class="w-full lg:h-[350px] h-[320px] min-[751px]:hidden" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/Group 12020.png" >
+        <img class="w-full lg:h-[350px] h-[320px] max-[751px]:hidden" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/Group 11942.png" >
     </div>
     <div class="absolute top-0 h-full w-full flex justify-center items-center">
         <div class="text-center">
