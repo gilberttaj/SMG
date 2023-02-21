@@ -117,7 +117,7 @@
                 <div class="lg:ml-10 max-[750px]:w-[90%] max-[450px]:w-[95%] max-[750px]:mx-auto max-[750px]:relative">
                     <p class="xl:text-[46px] text-[40px] font-bold leading-[29px] rotate-[-9deg] ml-[15px] text-[#E1007E]">Our Mission</p>
                     <ul class="
-                    border-solid border border-[#004EA1] font-medium xl:text-[24px] min-[750px]:leading-[40px] min-[500px]:leading-[50px] leading-[43px]
+                    border-solid border border-[#004EA1] font-medium xl:text-[24px] min-[751px]:leading-[40px] min-[500px]:leading-[50px] leading-[43px]
                     min-[751px]:text-[20px] xl:px-[50px] xl:pt-[60px] xl:pb-[20px] px-[40px] pt-[50px] pb-[16px]
                     max-[750px]:mt-[20px] max-[500px]:mt-[5px] max-[750px]:mr-5 min-[500px]:text-[37px] text-[20px] 
                     bg-white
