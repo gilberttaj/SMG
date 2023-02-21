@@ -26,17 +26,17 @@
         <a href="<?= site_url('/team-05') ?>" class="text-white w-[20%] max-[750px]:w-[50%] py-[25px] bg-[#E1007E]">
             陸上競技
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[50%] py-[25px]">
-            陸上競技
+        <a href="" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+            トップチーム
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px]">
-            陸上競技
+        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+            サテライト
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px]">
-            陸上競技
+        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+            U-18
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px]">
-            陸上競技
+        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+            U-15
         </a>
     </div>
 </div>
@@ -184,7 +184,7 @@
             max-[750px]:right-[-72%] max-[700px]:right-[-76%] max-[650px]:right-[-80%] z-[-1]
         ">
     <img src="<?= site_url('/wp-content/themes/smg')?>/assets/images/team_05/pathspright.png"
-    class="absolute min-[751px]:hidden bottom-[10%] right-[-10%] z-[-1]">
+        class="absolute min-[751px]:hidden bottom-[10%] right-[-10%] z-[-1]">
 </div> 
 
 <div class="text-center font-bold mt-[100px] mb-[67px] max-[750px]:mb-[54px] max-[750px]:mt-[104px]">
