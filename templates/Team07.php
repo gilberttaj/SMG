@@ -26,24 +26,22 @@
         <a href="<?= site_url('/team-05') ?>" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             陸上競技
         </a>
-        <a href="<?= site_url('/team-06') ?>" class="w-[20%] max-[750px]:w-[50%] py-[25px] text-white bg-[#E1007E]">
+        <a href="<?= site_url('/team-06') ?>" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:text-white hover:bg-[#E1007E]">
             トップチーム
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+        <a href="<?= site_url('/team-07') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] bg-[#E1007E] text-white">
             サテライト
         </a>
         <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             U-18
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+        <a href="<?= site_url('/team-09') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             U-15
         </a>
     </div>
 </div>
 
 <!-- Second TAB PANE -->
-
-<!-- TAB PANE -->
 <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mx-auto mt-[114px] max-[750px]:mt-[44px]">
     <div class="flex font-bold noto-sans text-[20px] leading-[32px] tracking-[2px] text-center flex-wrap border-collapse">
         <a href="#gk" class="flex flex-col text-[#004EA1] border-2 max-[750px]:border-b-0 border-r-0 border-[#004EA1] w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#004EA1] hover:text-white">

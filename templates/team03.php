@@ -156,7 +156,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
@@ -174,7 +174,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
@@ -192,7 +192,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
@@ -210,7 +210,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
@@ -228,7 +228,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>

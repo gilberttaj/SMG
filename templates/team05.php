@@ -26,16 +26,16 @@
         <a href="<?= site_url('/team-05') ?>" class="text-white w-[20%] max-[750px]:w-[50%] py-[25px] bg-[#E1007E]">
             陸上競技
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+        <a href="<?= site_url('/team-06') ?>"  class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             トップチーム
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+        <a href="<?= site_url('/team-07') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             サテライト
         </a>
         <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             U-18
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+        <a href="<?= site_url('/team-09') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             U-15
         </a>
     </div>
