@@ -24,6 +24,11 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  <!-- {{-- REMODAL --}} -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.css" integrity="sha512-LVOzFPLcBUppn3NOx8FXJkh2TawWu/jk9ynbntKID6cjynQsfqmHlUbH72mjAwZXsu0LOLw26JoiC0qHJde70Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" integrity="sha512-jRxwiuoe3nt8lMSnOzNEuQ7ckDrLl31dwVYFWS6jklXQ6Nzl7b05rrWF9gjSxgOow5nFerdoN6CBB4gY5m5nDw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.js" integrity="sha512-eW+7mn1Hqoehrvza96oZlU3WiRw1g7Yenu7cnIw7rFP3GpRGm95IAIs6ifoNGZhD5iSEJEr5fV4yQpE+EFrUNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <?php if(is_page(13)){ ?>
     SCRIPTS FOR TEAM 2

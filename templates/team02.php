@@ -56,9 +56,9 @@
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
                 <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
             </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
+            <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:mr-[25px] xl:mr-[30px]">
                 <div class="flex flex-col items-center">
                     <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
                     font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
@@ -69,12 +69,12 @@
                     max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
                     '>横浜</span>
                 </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
+                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:mr-[25px] xl:mr-[15px] min-[751px]:mr-[30px] mr-[50px]">
                     <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
                     <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
                 </div>
                 <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
                     font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
                     <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
                     max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
@@ -94,9 +94,9 @@
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
                 <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U15リーグ第0節</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U15リーグ第0節</p>
             </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
+            <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:ml-[25px] xl:ml-[30px]">
                 <div class="flex flex-col items-center">
                     <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
                     font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
@@ -104,7 +104,7 @@
                     max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
                     '>名古屋</span>
                 </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
+                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:ml-[25px] xl:ml-[15px] min-[751px]:ml-[30px] ml-[50px]">
                     <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
                     <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>AWAY</span>
                 </div>
@@ -133,9 +133,9 @@
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
                 <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U18リーグ第0節</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U18リーグ第0節</p>
             </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
+            <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:mr-[25px] xl:mr-[30px]">
                 <div class="flex flex-col items-center">
                     <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
                     font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
@@ -146,15 +146,16 @@
                     max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
                     '>横浜U18</span>
                 </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
+                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:mr-[25px] xl:mr-[15px] min-[751px]:mr-[30px] mr-[50px]">
                     <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
                     <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
                 </div>
                 <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
-                    font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
+                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                        font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0
+                    </span>
                     <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
-                    max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                        max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
                     '>名古屋</span>
                 </div>
             </div>
@@ -171,9 +172,9 @@
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
                 <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
             </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
+            <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:mr-[25px] xl:mr-[30px]">
                 <div class="flex flex-col items-center">
                     <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
                     font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
@@ -184,12 +185,12 @@
                     max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
                     '>横浜</span>
                 </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
+                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:mr-[25px] xl:mr-[15px] min-[751px]:mr-[30px] mr-[50px]">
                     <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
                     <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
                 </div>
                 <div class="flex flex-col items-center">
-                <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                    <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
                     font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
                     <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
                     max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
@@ -209,9 +210,9 @@
                     <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
                 </p>
                 <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
-                <p class="text-white mt-[4px] noto-sans text-[12px] max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U15リーグ第0節</p>
+                <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U15リーグ第0節</p>
             </div>
-            <div class="flex flex-row justify-between w-[85%] mx-auto mt-[8px]">
+            <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:ml-[25px] xl:ml-[30px]">
                 <div class="flex flex-col items-center">
                     <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
                     font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
@@ -219,7 +220,7 @@
                     max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
                     '>名古屋</span>
                 </div>
-                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px]">
+                <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:ml-[25px] xl:ml-[15px] min-[751px]:ml-[30px] ml-[50px]">
                     <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
                     <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>AWAY</span>
                 </div>
@@ -244,6 +245,7 @@
     </div>
 </div>
 
+
 <!-- Second Slider -->
 <div class="min-[1800px]:w-[50%] xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mt-[70px] mx-auto">
     <div class="font-bold text-center">
@@ -262,7 +264,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
@@ -280,7 +282,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
@@ -298,7 +300,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
@@ -316,7 +318,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
@@ -334,7 +336,7 @@
                         <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
                     </p>
                     <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
-                    <p class="mt-[4px] noto-sans text-[24px leading-[24px] tracking-[2px]">vs 名古屋</p>
+                    <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
                 </div>
                 <div class="text-center mt-[10px]">
                     <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
