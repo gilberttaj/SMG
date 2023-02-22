@@ -97,7 +97,7 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?>  
                     <div class="w-[30%] max-[750px]:w-[43%] mb-[41px]">
-                        <div class="relative overflow-hidden cursor-pointer" data-remodal-target="player_1">
+                        <div class="relative overflow-hidden cursor-pointer" data-remodal-target="player_<?php echo get_the_ID() ?>">
                             <div  class='transition duration-300 ease-in hover:scale-110'>
                                 <?php echo get_the_post_thumbnail() ?>
                             </div>
@@ -401,14 +401,29 @@
 
 <!-- START OF REMODAL FOR GK TO FW -->
     <!-- START OF QUERY -->
-        <div class="remodal px-5 mt-[32px]" data-remodal-id="player_1">
+    <?php
+        $query = new WP_Query( array(
+            'post_type' => 'players', 
+            'order' => 'ASC',
+            'tax_query' => array(
+                array (
+                    'taxonomy' => 'players_cat',
+                    'field' => 'gk6',
+                    'terms' => 3
+                )
+            ),
+        ) );
+        
+        while ( $query->have_posts() ) : $query->the_post();
+    ?>  
+        <div class="remodal px-5 mt-[32px]" data-remodal-id="player_<?php echo get_the_ID() ?>">
             <button data-remodal-action="close" class="remodal-close float-right"></button>
             <div class="modal-content ">
                 <div class="flex">
                     <div class="w-[35%] mr-[26px]">
                         <div class="text-left">
                             <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans">1</p>
-                            <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans">伊能 真弥</p>
+                            <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
                             <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans">Ino Maya</p>
                         </div>
                     </div>
@@ -421,7 +436,7 @@
                 </div>
                 <div class="flex mt-[15px]">
                     <div class="w-[35%] mr-[26px]">
-                        <img src="<?= site_url('/wp-content/themes/smg/assets/images/team_06/Group 9521.png') ?>">
+                        <?php echo get_the_post_thumbnail() ?>
                         <div class="mt-[10px] bg-[#E1007E] w-[70%]">
                             <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
                                 leading-[32px] tracking-[2px] text-white 
@@ -532,6 +547,10 @@
                 </div>
             </div>
         </div>
+    <?php
+            endwhile;
+            wp_reset_query();
+    ?>
     <!-- END OF QUERY -->
 <!-- END OF REMODAL FOR GK TO FW -->
 
