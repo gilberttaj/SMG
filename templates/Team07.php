@@ -91,7 +91,7 @@
                             array (
                                 'taxonomy' => 'players_cat',
                                 'field' => 'gk7',
-                                'terms' => 10
+                                'terms' => 8
                             )
                         ),
                     ) );
@@ -156,7 +156,7 @@
                             array (
                                 'taxonomy' => 'players_cat',
                                 'field' => 'df7',
-                                'terms' => 11
+                                'terms' => 9
                             )
                         ),
                     ) );
@@ -212,7 +212,7 @@
                             array (
                                 'taxonomy' => 'players_cat',
                                 'field' => 'mf7',
-                                'terms' => 13
+                                'terms' => 10
                             )
                         ),
                     ) );
@@ -274,7 +274,7 @@
                                 array (
                                     'taxonomy' => 'players_cat',
                                     'field' => 'fw7',
-                                    'terms' => 12
+                                    'terms' => 11
                                 )
                             ),
                         ) );
@@ -330,7 +330,7 @@
                             array (
                                 'taxonomy' => 'players_cat',
                                 'field' => 'ts7',
-                                'terms' => 14
+                                'terms' => 12
                             )
                         ),
                     ) );
