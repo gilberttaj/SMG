@@ -32,7 +32,7 @@
         <a href="<?= site_url('/team-07') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] bg-[#E1007E] text-white">
             サテライト
         </a>
-        <a href="" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+        <a href="<?= site_url('/team-08') ?>" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             U-18
         </a>
         <a href="<?= site_url('/team-09') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
@@ -356,5 +356,146 @@
         </div>
     </div>
 </div>
+
+<!-- START OF REMODAL FOR GK TO FW -->
+    <!-- START OF QUERY -->
+    <div class="remodal px-5 mt-[32px]" data-remodal-id="player_1">
+        <button data-remodal-action="close" class="remodal-close float-right"></button>
+        <div class="modal-content ">
+            <div class="text-left">
+                <p class="text-[29px] leading-[44px] max-[600px]:text-[24px] text-[#004EA1]
+                    max-[600px]:leading-[32px] font-bold noto-sans">
+                    コーチ
+                </p>
+                <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] 
+                    max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans">
+                    有田 恭也
+                </p>
+                <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] 
+                    max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans">
+                    Arita Kyoya
+                </p>
+            </div>
+            <div class="flex mt-[15px]">
+                <div class="w-[35%] mr-[26px]">
+                    <img src="<?= site_url('/wp-content/themes/smg/assets/images/team_06/Group 9521.png') ?>">
+                </div>
+                <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
+                    <div class="flex border-b border-[#707070] pb-[5px]">
+                        <div class="w-[40%] mr-[20px]">
+                            生年月日
+                        </div>
+                        <div class="w-[60%]">
+                            2000/9/29
+                        </div>
+                    </div>
+                    <div class="flex border-b border-[#707070] py-[5px]">
+                        <div class="w-[40%] mr-[20px]">
+                            ポジション
+                        </div>
+                        <div class="w-[60%]">
+                            GK
+                        </div>
+                    </div>
+                    <div class="flex border-b border-[#707070] py-[5px]">
+                        <div class="w-[40%] mr-[20px]">
+                            代表歴
+                        </div>
+                        <div class="w-[60%]">
+                            U-19女子日本代表
+                            U-20女子日本代表候補
+                        </div>
+                    </div>
+                    <div class="flex border-b border-[#707070] py-[5px]">
+                        <div class="w-[40%] mr-[20px]">
+                            前所属チーム
+                        </div>
+                        <div class="w-[60%]">
+                            浦和レッドダイヤモンズ
+                            レディースユース
+                        </div>
+                    </div>
+                    <div class="flex border-b border-[#707070] py-[5px]">
+                        <div class="w-[40%] mr-[20px]">
+                            利き足
+                        </div>
+                        <div class="w-[60%]">
+                            右
+                        </div>
+                    </div>
+                    <div class="flex border-b border-[#707070] py-[5px]">
+                        <div class="w-[40%] mr-[20px]">
+                            高校時代の出身
+                            チーム／出身校
+                        </div>
+                        <div class="w-[60%]">
+                            浦和レッドダイヤモンズ
+                            レディースユース
+                        </div>
+                    </div>
+                    <div class="flex border-b border-[#707070] py-[5px]">
+                        <div class="w-[40%] mr-[20px]">
+                            ブログリレー
+                        </div>
+                        <div class="w-[60%]">
+                            https://note.com/nssusmg/n/
+                            nde7faaa6f9a0
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF QUERY -->
+<!-- END OF REMODAL FOR GK TO FW -->
+
+<!-- START REMODAL FOR TEAM STAFF -->
+    <!-- START OF COACH AND DOCTOR -->
+        <div class="remodal px-5 mt-[32px]" data-remodal-id="staff_2">
+            <button data-remodal-action="close" class="remodal-close float-right"></button>
+            <div class="modal-content ">
+                <div class="text-left">
+                    <p class="text-[29px] leading-[44px] max-[600px]:text-[24px] text-[#004EA1]
+                        max-[600px]:leading-[32px] font-bold noto-sans">
+                        コーチ
+                    </p>
+                    <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] 
+                        max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans">
+                        有田 恭也
+                    </p>
+                    <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] 
+                        max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans">
+                        Arita Kyoya
+                    </p>
+                </div>
+                <div class="flex">
+                    <div class="w-[35%] mr-[26px]">
+                        <div class="mt-[15px]">
+                            <img src="<?= site_url('/wp-content/themes/smg/assets/images/team_06/Group 9525.png') ?>">
+                        </div>
+                    </div>
+                    <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[25%] max-[500px]:w-[35%] mr-[20px]">
+                                生年月日
+                            </div>
+                            <div class="w-[75%] max-[500px]:w-[65%]">
+                                2000/9/29
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[25%] max-[500px]:w-[35%] mr-[20px]">
+                                出身
+                            </div>
+                            <div class="w-[75%] max-[500px]:w-[65%]">
+                                福井県
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- END OF COACH AND DOCTOR -->
+<!-- END OF REMODAL FOR TEAM STAFF -->
 
 <?php get_footer(); ?>

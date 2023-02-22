@@ -1,4 +1,4 @@
-<?php /* Template Name: Team 09 Template */ ?>
+<?php /* Template Name: Team 08 Template */ ?>
 <?php get_header(); ?>
 <?php 
     $data = [
@@ -401,10 +401,10 @@
         <a href="<?= site_url('/team-07') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             サテライト
         </a>
-        <a href="<?= site_url('/team-08') ?>" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
+        <a href="<?= site_url('/team-08') ?>" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] bg-[#E1007E] text-white">
             U-18
         </a>
-        <a href="<?= site_url('/team-09') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] bg-[#E1007E] text-white">
+        <a href="<?= site_url('/team-09') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-[#E1007E] hover:text-white">
             U-15
         </a>
     </div>
