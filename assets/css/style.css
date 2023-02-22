@@ -506,3 +506,10 @@ body{
     background-repeat: no-repeat;
 }
 
+
+#gk{
+    background-image: url('../images/Path 232.png');
+    background-repeat: no-repeat;
+    background-size: 31.25% ;
+    background-position: 0px 400px;
+}

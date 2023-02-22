@@ -99,8 +99,10 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?> 
                     <div class="w-[30%] max-[750px]:w-[43%] mb-[41px]">
-                        <div class="relative">
-                            <?php echo get_the_post_thumbnail() ?> 
+                        <div class="relative overflow-hidden cursor-pointer">
+                            <div  class='transition duration-300 ease-in hover:scale-110'>
+                                <?php echo get_the_post_thumbnail() ?>
+                            </div>
                             <?php if( get_post_meta($post->ID, 'additional_info', true)) {?>
                                     <div class="absolute bg-[#E1007E] bottom-0">
                                         <p class="px-[16px] py-[7px] text-white text-[20px] tracking-[2px] leading-[32px]"><?php echo get_post_meta($post->ID, 'additional_info', true); ?></p>
@@ -162,8 +164,10 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?> 
                     <div class="w-[30%] max-[750px]:w-[43%] mt-[41px]">
-                        <div class="relative">
-                            <?php echo get_the_post_thumbnail() ?> 
+                        <div class="relative overflow-hidden cursor-pointer">
+                            <div  class='transition duration-300 ease-in hover:scale-110'>
+                                <?php echo get_the_post_thumbnail() ?>
+                            </div>
                             <?php if( get_post_meta($post->ID, 'additional_info', true)) {?>
                                     <div class="absolute bg-[#E1007E] bottom-0">
                                         <p class="px-[16px] py-[7px] text-white text-[20px] tracking-[2px] leading-[32px]"><?php echo get_post_meta($post->ID, 'additional_info', true); ?></p>
@@ -216,8 +220,10 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?> 
                     <div class="w-[30%] max-[750px]:w-[43%] mb-[41px]">
-                        <div class="relative">
-                                <?php echo get_the_post_thumbnail() ?> 
+                        <div class="relative overflow-hidden cursor-pointer">
+                            <div  class='transition duration-300 ease-in hover:scale-110'>
+                                <?php echo get_the_post_thumbnail() ?>
+                            </div>
                                 <?php if( get_post_meta($post->ID, 'additional_info', true)) {?>
                                         <div class="absolute bg-[#E1007E] bottom-0">
                                             <p class="px-[16px] py-[7px] text-white text-[20px] tracking-[2px] leading-[32px]"><?php echo get_post_meta($post->ID, 'additional_info', true); ?></p>
@@ -276,8 +282,10 @@
                         while ( $query->have_posts() ) : $query->the_post();
                     ?> 
                         <div class="w-[30%] max-[750px]:w-[43%] mt-[41px]">
-                            <div class="relative">
-                                <?php echo get_the_post_thumbnail() ?> 
+                            <div class="relative overflow-hidden cursor-pointer">
+                                <div  class='transition duration-300 ease-in hover:scale-110'>
+                                    <?php echo get_the_post_thumbnail() ?>
+                                </div>
                                 <?php if( get_post_meta($post->ID, 'additional_info', true)) {?>
                                         <div class="absolute bg-[#E1007E] bottom-0">
                                             <p class="px-[16px] py-[7px] text-white text-[20px] tracking-[2px] leading-[32px]"><?php echo get_post_meta($post->ID, 'additional_info', true); ?></p>
@@ -330,8 +338,10 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?> 
                     <div class="w-[30%] max-[750px]:w-[43%] mb-[41px]">
-                        <div class="relative">
-                            <?php echo get_the_post_thumbnail() ?> 
+                        <div class="relative overflow-hidden cursor-pointer">
+                            <div  class='transition duration-300 ease-in hover:scale-110'>
+                                <?php echo get_the_post_thumbnail() ?>
+                            </div>
                         </div>
                         <div class="noto-sans mt-[30px]">
                             <p class="text-[18px] font-bold leading-[27px] tracking-[2px]"><?php echo get_post_meta($post->ID, 'additional_info', true); ?></p>
