@@ -1784,7 +1784,7 @@
                         </div>
                         <div class='mt-[30px] ml-[15px]'>
                             <button class='relative flex justify-center text-white view-hover hover:text-[#D19F00]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./team-02'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
 
                                 </div>
@@ -1815,7 +1815,7 @@
                             max-[1800px]:mt-[20px]
                             max-[1331px]:mt-[15px]'>
                             <button class='relative flex justify-center text-white hover:text-[#D19F00]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./team-03'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
 
                                 </div>
@@ -1835,7 +1835,7 @@
                     </div>
                     <div class='mt-[30px] mx-[35px] mb-[40px]'>
                         <button class='relative flex justify-center text-white hover:text-[#D19F00]'>
-                            <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
+                            <a class='self-center josefin-sans font-bold text-[14px]' href='./team-04'>VIEW MORE</a>
                             <div class='team-right-arrow'>
                             </div>
                         </button>
@@ -2057,7 +2057,7 @@
 
         <div class='mt-[70px] flex justify-center'>
             <button class='relative w-[240px] h-[56px] flex justify-center text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
-                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                <a class='self-center josefin-sans font-bold text-[14px]' href='./community'>VIEW ALL</a>
                 <div class='right-arrow'>
 
                 </div>
