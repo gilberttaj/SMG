@@ -512,9 +512,8 @@
                             <div class="w-[40%] mr-[20px]">
                                 ブログリレー
                             </div>
-                            <div class="w-[60%]">
-                                https://note.com/nssusmg/n/
-                                nde7faaa6f9a0
+                            <div class="w-[60%] break-all">
+                                https://note.com/nssusmg/n/nde7faaa6f9a0
                             </div>
                         </div>
                     </div>

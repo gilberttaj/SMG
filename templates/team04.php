@@ -56,7 +56,7 @@
         <p class="text-[10px] leading-[16px] tracking-[4px] mt-[4px] max-[750px]:text-[20px] max-[750px]:leading-[32px]">競技・試合結果</p>
     </div>
     <div class="team_02_slider mt-[30px] row">
-        <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
+        <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px]">
             <div class="font-bold text-center">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
@@ -94,7 +94,7 @@
                '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
             </div>
         </div>
-        <div class="flex flex-col bg-[#333333] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
+        <div class="flex flex-col bg-[#333333] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px]">
             <div class="font-bold text-center">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
@@ -133,7 +133,7 @@
                '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
             </div>
         </div>
-        <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
+        <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px]">
             <div class="font-bold text-center">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
@@ -172,7 +172,7 @@
                '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
             </div>
         </div>
-        <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
+        <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px]">
             <div class="font-bold text-center">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
@@ -210,7 +210,7 @@
                '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
             </div>
         </div>
-        <div class="flex flex-col bg-[#333333] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px]">
+        <div class="flex flex-col bg-[#333333] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px]">
             <div class="font-bold text-center">
                 <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
                     04.20 
