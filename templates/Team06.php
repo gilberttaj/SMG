@@ -422,16 +422,18 @@
                 <div class="flex">
                     <div class="w-[35%] mr-[26px]">
                         <div class="text-left">
-                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans">1</p>
+                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
                             <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
-                            <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans">Ino Maya</p>
+                            <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
                         </div>
                     </div>
                     <div class="w-[65%] text-left">
-                        <div class="font-medium noto-sans leading-[28px] max-[600px]:leading-[24px]">
-                            <p class="text-[20px] max-[600px]:text-[18px]">キャッチフレーズ</p>
-                            <p class="text-[32px] max-[600px]:text-[24px] mt-[13px]">ニッタイの壁</p>
-                        </div>
+                        <?php if( get_field('キャッチフレーズ')) {?>
+                            <div class="font-medium noto-sans leading-[28px] max-[600px]:leading-[24px]">
+                                <p class="text-[20px] max-[600px]:text-[18px]">キャッチフレーズ</p>
+                                <p class="text-[32px] max-[600px]:text-[24px] mt-[13px]"><?php echo get_field('キャッチフレーズ')?></p>
+                            </div>
+                        <?php  }?>
                     </div>
                 </div>
                 <div class="flex mt-[15px]">
@@ -452,7 +454,7 @@
                                 生年月日
                             </div>
                             <div class="w-[60%]">
-                                2000/9/29
+                                <?php echo get_field('生年月日')?>
                             </div>
                         </div>
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -460,7 +462,7 @@
                                 リーグ登録年数
                             </div>
                             <div class="w-[60%]">
-                                6年
+                                <?php echo get_field('リーグ登録年数')?>
                             </div>
                         </div>
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -468,7 +470,7 @@
                                 ポジション
                             </div>
                             <div class="w-[60%]">
-                                GK
+                                <?php echo get_field('ポジション')?>
                             </div>
                         </div>
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -476,8 +478,7 @@
                                 代表歴
                             </div>
                             <div class="w-[60%]">
-                                U-19女子日本代表
-                                U-20女子日本代表候補
+                                <?php echo get_field('代表歴')?>
                             </div>
                         </div>
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -485,8 +486,7 @@
                                 前所属チーム
                             </div>
                             <div class="w-[60%]">
-                                浦和レッドダイヤモンズ
-                                レディースユース
+                                <?php echo get_field('前所属チーム')?>
                             </div>
                         </div>
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -494,7 +494,7 @@
                                 昨年度出場回数
                             </div>
                             <div class="w-[60%]">
-                                21試合
+                                <?php echo get_field('昨年度出場回数')?>
                             </div>
                         </div>
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -502,7 +502,7 @@
                                 得点数
                             </div>
                             <div class="w-[60%]">
-                                —
+                                <?php echo get_field('得点数')?>
                             </div>
                         </div>
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -510,7 +510,7 @@
                                 利き足
                             </div>
                             <div class="w-[60%]">
-                                右
+                                <?php echo get_field('利き足')?>
                             </div>
                         </div>
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -519,8 +519,7 @@
                                 チーム／出身校
                             </div>
                             <div class="w-[60%]">
-                                浦和レッドダイヤモンズ
-                                レディースユース
+                                <?php echo get_field('高校時代の出身_チーム／出身校')?>
                             </div>
                         </div>
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -528,22 +527,24 @@
                                 ブログリレー
                             </div>
                             <div class="w-[60%]">
-                                https://note.com/nssusmg/n/
-                                nde7faaa6f9a0
+                                <?php echo get_field('ブログリレー')?>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="flex mt-[49px] gap-[16px]">
                     <div>
-                        <img src="<?= site_url('/wp-content/themes/smg/assets/images/team_06/2S3A1490.png') ?>">
+                        <?php $image1 = get_field('image_1'); ?>
+                        <img src="<?php echo $image1;?>">
                     </div>
                     <div>
-                        <img src="<?= site_url('/wp-content/themes/smg/assets/images/team_06/2S3A3148.png') ?>">
-                    </div>
+                        <?php $image2 = get_field('image_2'); ?>
+                            <img src="<?php echo $image2;?>">
+                        </div>
                     <div>
-                        <img src="<?= site_url('/wp-content/themes/smg/assets/images/team_06/2S3A7633.png') ?>">
-                    </div>
+                        <?php $image3 = get_field('image_3'); ?>
+                            <img src="<?php echo $image3;?>">
+                        </div>
                 </div>
             </div>
         </div>
