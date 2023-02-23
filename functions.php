@@ -3,6 +3,8 @@
 add_action( 'init', 'create_post_type' );
 add_theme_support( 'post-thumbnails' );
 function create_post_type() {
+
+  // ***********************PLAYERS*************************** //
     register_post_type( 'players', //カスタム投稿タイプ名を指定
         array(
             'labels' => array(
@@ -28,20 +30,38 @@ function create_post_type() {
       'show_ui' => true
     )
   );
-/* カスタムタクソノミー、タグを使えるようにする */
-  register_taxonomy(
-    'players_tag', /* タクソノミーの名前 */
-    'players', /* 使用するカスタム投稿タイプ名 */
+
+
+    // ***********************STAFF*************************** //
+
+    register_post_type( 'staff', //カスタム投稿タイプ名を指定
     array(
-      'hierarchical' => false,
+        'labels' => array(
+        'name' => __( 'staff' ),
+        'singular_name' => __( 'staff' )
+    ),
+    'public' => true,
+    'has_archive' => true, /* アーカイブページを持つ */
+    'menu_position' =>5, //管理画面のメニュー順位
+    'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'custom-fields' ,'comments' ),
+    )
+    );
+  /* カテゴリタクソノミー(カテゴリー分け)を使えるように設定する */
+    register_taxonomy(
+    'staff_cat', /* タクソノミーの名前 */
+    'staff', /* 使用するカスタム投稿タイプ名 */
+    array(
+      'hierarchical' => true, /* trueだと親子関係が使用可能。falseで使用不可 */
       'update_count_callback' => '_update_post_term_count',
-      'label' => '選手タグ',
-      'singular_label' => '選手タグ',
+      'label' => 'staff category',
+      'singular_label' => 'staff category',
       'public' => true,
       'show_ui' => true
     )
-  );
+    );
 
+
+     // ***********************NEWS*************************** //
     register_post_type( 'news', //カスタム投稿タイプ名を指定
     array(
         'labels' => array(
@@ -67,19 +87,19 @@ function create_post_type() {
     'show_ui' => true
     )
     );
-    /* カスタムタクソノミー、タグを使えるようにする */
-    register_taxonomy(
-    'news_tag', /* タクソノミーの名前 */
-    'news', /* 使用するカスタム投稿タイプ名 */
-    array(
-    'hierarchical' => false,
-    'update_count_callback' => '_update_post_term_count',
-    'label' => 'News Tags',
-    'singular_label' => 'News Tags',
-    'public' => true,
-    'show_ui' => true
-    )
-    );
+  
+    // register_taxonomy(
+    // 'news_tag', 
+    // 'news', 
+    // array(
+    // 'hierarchical' => false,
+    // 'update_count_callback' => '_update_post_term_count',
+    // 'label' => 'News Tags',
+    // 'singular_label' => 'News Tags',
+    // 'public' => true,
+    // 'show_ui' => true
+    // )
+    // );
 }
 
 
