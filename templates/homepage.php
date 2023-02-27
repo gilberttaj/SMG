@@ -40,7 +40,7 @@
             <span class="dot"></span>
         </div>
         <div id="result-sp-section" class='w-[100%] smin-750:w-[20%] smin-750:hidden block'>
-        <!-- ****************************************************** START OF RESULTSP *************************************************************** -->
+            <!-- ****************************************************** START OF RESULTSP *************************************************************** -->
             <div id='result-title' class='mt-[80px] mb-[20px]'>
                 <div class='text-center josefin-sans text-[44px] font-bold'>
                     RESULT
@@ -148,10 +148,10 @@
                     </div>
                 </div>
             </div>
-        <!-- ****************************************************** END OF RESULTSP *************************************************************** -->
+            <!-- ****************************************************** END OF RESULTSP *************************************************************** -->
         </div>
         <div id="result-pc-section" class='h-[10%] smin-750:w-[20%] smin-750:block hidden relative min-w-[300px]'>
-        <!-- ****************************************************** START OF resultPC *************************************************************** -->
+            <!-- ****************************************************** START OF resultPC *************************************************************** -->
             <div id='result-pc-title' class=''>
                 <div class='p-[20px] flex flex-col bg-[#004EA1] leading-[16px]'>
                     <span class='josefin-sans text-[22px] font-bold text-white'>RESULT</span>
@@ -363,7 +363,7 @@
                     </div>
                 </div>
             </div>
-        <!-- ****************************************************** END OF resultPC *************************************************************** -->
+            <!-- ****************************************************** END OF resultPC *************************************************************** -->
         </div>
     </div>
     <div style="text-align:center" class='mt-[20px] smin-750:block hidden absolute left-[48%]'>
@@ -616,7 +616,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-lg'>
@@ -629,7 +629,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -643,7 +643,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -656,7 +656,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -670,7 +670,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -683,7 +683,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -697,7 +697,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -710,7 +710,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -724,7 +724,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -737,7 +737,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -751,7 +751,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -764,7 +764,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -778,7 +778,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -791,7 +791,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -805,7 +805,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -818,7 +818,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -1372,7 +1372,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-lg'>
@@ -1385,7 +1385,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -1399,7 +1399,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -1412,7 +1412,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -1426,7 +1426,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -1439,7 +1439,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -1453,7 +1453,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -1466,7 +1466,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -1480,7 +1480,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -1493,7 +1493,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -1507,7 +1507,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -1520,7 +1520,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -1534,7 +1534,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -1547,7 +1547,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -1561,7 +1561,7 @@
                                     </div>
                                     <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class='p-[20px] shadow-md'>
@@ -1574,7 +1574,7 @@
                                 <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                 <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                 <p>くお願いいたします。</p>
-                        
+
                             </div>
                         </div>
                     </div>
@@ -2075,11 +2075,10 @@
                 slidesToScroll: 1,
                 arrows: true,
                 infinite: false,
-                autoplay:false,
-                autoplaySpeed:2000,
+                autoplay: false,
+                autoplaySpeed: 2000,
                 speed: 1000,
-                responsive: [
-                    {
+                responsive: [{
                         breakpoint: 1281,
                         settings: {
                             slidesToShow: 3,
@@ -2249,7 +2248,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <script>
-        $( "#vision" ).click(function() {
+        $("#vision").click(function() {
             console.log('vision')
         });
     </script>

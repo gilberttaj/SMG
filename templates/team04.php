@@ -17,7 +17,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介  >育成・普及　サテライト／U-18／U-15</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>　><a href="<?= site_url('/team-01')?>">選手・チーム紹介</a>　>育成・普及　サテライト／U-18／U-15</p>
 </div>
 
 <!-- First Content -->
@@ -652,7 +652,7 @@
                         </div>
                         <div class="text-center border-2 border-[#004EA1] w-[260px] max-[750px]:w-[336px] mt-[42px] relative ">
                             <div class="triangle-right absolute"></div>
-                            <p class="px-[51px] text-[#004EA1] text-[18px] leading-[36px] tracking-[4px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">自覚のある選手</p>
+                            <p class="px-[51px] text-[#004EA1] text-[18px] font-bold leading-[36px] tracking-[4px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">自覚のある選手</p>
                         </div>
                         <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[20px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">
                             <p>常に日体大SMG横浜であることを意識し、地域から応援してもらえる存在、自ら考え行動できる人間の育成を目指します。</p>
@@ -660,14 +660,14 @@
 
                         <div class="text-center border-2 border-[#004EA1] w-[260px] max-[750px]:w-[336px] mt-[42px] relative">
                             <div class="triangle-right absolute"></div>
-                            <p class="px-[51px] text-[#004EA1] text-[18px] leading-[36px] tracking-[4px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">自覚のある選手</p>
+                            <p class="px-[51px] text-[#004EA1] text-[18px] font-bold leading-[36px] tracking-[4px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">魅力ある選手</p>
                         </div>
                         <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[20px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">
                             <p>チームに貢献できる確かな技術、観客を沸かせる華麗なプレー、ピッチ以外でも人々を惹きつける行動ができる人間の育成を目指します。</p>
                         </div>
                         <div class="text-center border-2 border-[#004EA1] w-[260px] max-[750px]:w-[336px] mt-[42px] relative">
                             <div class="triangle-right absolute"></div>
-                            <p class="px-[51px] text-[#004EA1] text-[18px] leading-[36px] tracking-[4px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">自覚のある選手</p>
+                            <p class="px-[51px] text-[#004EA1] text-[18px] font-bold leading-[36px] tracking-[4px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">たくましい選手</p>
                         </div>
                         <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[20px] max-[750px]:text-[20px] max-[750px]:leading-[48px]">
                             <p>パワフルにスピーディーにタフに闘える､またどんな逆境にも負けず、最後まであきらめずに闘うことのできる人間の育成を目指します。</p>
@@ -682,9 +682,9 @@
         min-[751px]:w-[40%] lg:w-[35%] xl:w-[30%]
         max-[750px]:w-[60%] max-[550px]:w-[70%] max-[450px]:w-[80%] max-[320px]:w-[90%] mx-auto
     ">
-        <a href="" class="bg-[#004EA1] border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
-            <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] text-white josefin-sans">TEAM</p>
-            <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px] text-white">選手紹介</p>
+        <a href="<?= site_url('/team-07')?>" class="hover:bg-white hover:text-[#004EA1] text-white bg-[#004EA1] border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
+            <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] josefin-sans">TEAM</p>
+            <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px]">選手紹介</p>
         </a>
     </div>
     <img class="absolute top-[-10%] z-[-1] 
@@ -718,12 +718,12 @@
                     <p>ユニフォーム</p>
                     <p class="text-[18px]">サテライト／U-18／U-15</p>
                 </div>    
-                <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[25px]
+                <div class="text-[14px] font-medium leading-[28px] tracking-[2px] mt-[11px]
                 max-[750px]:text-[24px]
                 ">
                     <p>日本体育大学と横浜をイメージする青色を基調に、パートナー企業（ユニフォームスポンサー）のロゴマークが際立つよう、シンプルな柄・デザインを採用しています。</p>
                 </div>
-                <div class="max-[750px]:mt-[56px]">
+                <div class="max-[750px]:mt-[56px] mt-[42px]">
                     <div class="py-[11px] max-[750px]:pb-[22px] text-[18px] max-[750px]:text-[28px] leading-[18px] tracking-[4px] font-bold border-b-2 border-black">
                         <p>ユニフォームパートナー</p>
                     </div>

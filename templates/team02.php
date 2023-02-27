@@ -18,7 +18,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介  >なでしこリーグ 日体大SMG横浜</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>　><a href="<?= site_url('/team-01')?>">選手・チーム紹介</a>　>なでしこリーグ 日体大SMG横浜</p>
 </div>
 
 <!-- First Content -->
@@ -604,9 +604,9 @@
         min-[751px]:w-[40%] lg:w-[35%] xl:w-[30%]
         max-[750px]:w-[60%] max-[550px]:w-[70%] max-[450px]:w-[80%] max-[320px]:w-[90%] mx-auto
     ">
-        <a href="" class="bg-[#004EA1] border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
-            <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] text-white josefin-sans">TEAM</p>
-            <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px] text-white">選手紹介</p>
+        <a href="<?= site_url('/team-06')?>" class="bg-[#004EA1] hover:bg-white hover:text-[#004EA1] text-white border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
+            <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] josefin-sans">TEAM</p>
+            <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px]">選手紹介</p>
         </a>
     </div>
     <img class="absolute top-[75%] z-[-1] 
@@ -634,7 +634,7 @@
             </div>
         </div>
         <div class="min-[751px]:w-[50%] relative min-[751px]:ml-[40px]">
-            <div class="noto-sans max-[750px]:w-full max-[750px]:px-5 max-[750px]:mt-[50px]">
+            <div class="noto-sans max-[750px]:w-full max-[750px]:px-5 max-[750px]:mt-[50px] min-[1800px]:w-[50%] xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%]">
                 <div class="text-[32px] font-bold leading-[48px] tracking-[4px] max-[750px]:hidden">
                     <p>2023シーズン</p>
                     <p>ユニフォーム</p>
@@ -644,7 +644,7 @@
                 ">
                     <p>日本体育大学と横浜をイメージする青色を基調に、パートナー企業（ユニフォームスポンサー）のロゴマークが際立つよう、シンプルな柄・デザインを採用しています。</p>
                 </div>
-                <div class="max-[750px]:mt-[56px]">
+                <div class="max-[750px]:mt-[56px] mt-[50px]">
                     <div class="py-[11px] max-[750px]:pb-[22px] text-[18px] max-[750px]:text-[28px] leading-[18px] tracking-[4px] font-bold border-b-2 border-black">
                         <p>ユニフォームパートナー</p>
                     </div>

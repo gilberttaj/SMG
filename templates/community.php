@@ -32,7 +32,7 @@
                 <p>地域とともに</p>
                 <p>未来を駆ける</p>
             </div>
-            <div class="max-[750px]:hidden font-medium 2xl:text-[16px] lg:text-[14px] smin-750:text-[12px] noto-sans 2xl:leading-[40px] lg:leading-[30px] smin-750:leading-[20px] tracking-[2px] text-left">
+            <div class="font-bold max-[750px]:hidden 2xl:text-[16px] lg:text-[14px] smin-750:text-[12px] noto-sans 2xl:leading-[40px] lg:leading-[30px] smin-750:leading-[20px] tracking-[2px] text-left">
                 <p>横浜市青葉区を中心とする地域で、</p>
                 <p>スポーツを中心とした地域コミュニティーをつくり、</p>
                 <p>地域に住む人の健康増進や生きる喜びを創出したい！</p>
@@ -46,7 +46,7 @@
                地域とともに
                未来を駆ける
             </div>
-            <div class="max-[750px]:mt-[43px] min-[751px]:hidden text-left font-medium max-[750px]:font-[500] noto-sans text-[24px] max-[400px]:text-[20px] leading-[48px] max-[400px]:leading-[38px] tracking-[2px]">
+            <div class="font-bold max-[750px]:mt-[43px] min-[751px]:hidden text-left max-[750px]:font-[500] noto-sans text-[24px] max-[400px]:text-[20px] leading-[48px] max-[400px]:leading-[38px] tracking-[2px]">
                 横浜市青葉区を中心とする地域で、
                 スポーツを中心とした地域コミュニティーをつくり、
                 地域に住む人の健康増進や生きる喜びを創出したい！
