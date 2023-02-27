@@ -852,7 +852,7 @@
                         <div class='text-center leading-[18px] mt-[5px]'>
                             <span class='josefin-sans text-[24px] font-bold'>04.21</span>
                             <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>Kick off</span>
+                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
                         </div>
                         <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
                             日体大SMG横浜
@@ -874,7 +874,7 @@
                         <div class='text-center leading-[18px] mt-[5px]'>
                             <span class='josefin-sans text-[24px] font-bold'>04.21</span>
                             <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>Kick off</span>
+                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
                         </div>
                         <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
                             日体大SMG横浜
@@ -896,7 +896,7 @@
                         <div class='text-center leading-[18px] mt-[5px]'>
                             <span class='josefin-sans text-[24px] font-bold'>04.21</span>
                             <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>Kick off</span>
+                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
                         </div>
                         <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
                             日体大SMG横浜
@@ -918,7 +918,7 @@
                         <div class='text-center leading-[18px] mt-[5px]'>
                             <span class='josefin-sans text-[24px] font-bold'>04.21</span>
                             <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>Kick off</span>
+                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
                         </div>
                         <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
                             日体大SMG横浜
@@ -940,7 +940,7 @@
                         <div class='text-center leading-[18px] mt-[5px]'>
                             <span class='josefin-sans text-[24px] font-bold'>04.21</span>
                             <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>Kick off</span>
+                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
                         </div>
                         <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
                             日体大SMG横浜
@@ -962,7 +962,7 @@
                         <div class='text-center leading-[18px] mt-[5px]'>
                             <span class='josefin-sans text-[24px] font-bold'>04.21</span>
                             <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>Kick off</span>
+                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
                         </div>
                         <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
                             日体大SMG横浜
@@ -1004,7 +1004,7 @@
                         <div class='text-center leading-[38px] mt-[10px]'>
                             <span class='josefin-sans text-[50px] font-bold'>04.21</span>
                             <span class='josefin-sans text-[21px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[29px] font-bold'>Kick off</span>
+                            <span class='josefin-sans text-[29px] font-bold'>14:00 Kick off</span>
                         </div>
                         <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold'>
                             日体大SMG横浜
@@ -1023,7 +1023,7 @@
                         <div class='text-center leading-[38px] mt-[10px]'>
                             <span class='josefin-sans text-[50px] font-bold'>04.21</span>
                             <span class='josefin-sans text-[21px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[29px] font-bold'>Kick off</span>
+                            <span class='josefin-sans text-[29px] font-bold'>14:00 Kick off</span>
                         </div>
                         <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold'>
                             日体大SMG横浜
@@ -1652,9 +1652,11 @@
                     </div>
                 </div>
                 <div class='w-[50%]'>
-                    <div class='w-[50%] max-[1440px]:w-[70%] max-[1024px]:w-[90%] mb-[270px] ml-[45px]'>
+                    <div class='w-[60%] max-[1440px]:w-[70%] max-[1024px]:w-[90%] mb-[270px] ml-[45px]'>
                         <div class='noto-sans text-[36px] font-semibold tracking-[5px] leading-[72px] mr-[20px] '>
                             総合型地域スポーツクラブへ
+                        </div>
+                        <div class='noto-sans text-[36px] font-semibold tracking-[5px] leading-[72px] mr-[20px] '>
                             日体大ＳＭＧ横浜
                         </div>
                         <div class='noto-sans text-[16px] font-semibold leading-[40px] mt-[60px] mr-[20px] '>
@@ -1999,7 +2001,7 @@
                         </div>
                         <div class='mt-[20px] mx-[20px] pb-[15px]'>
                             <button class='relative flex justify-center text-white hover:text-[#000]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]' href='./community#vision'>VIEW MORE</a>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./community?params=vision' id='vision'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
                             </button>
@@ -2022,7 +2024,7 @@
                         </div>
                         <div class='mt-[30px] mx-[20px] pb-[15px]'>
                             <button class='relative flex justify-center text-white hover:text-[#000]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]' href='./community#activity'>VIEW MORE</a>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./community?params=activity'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
                             </button>
@@ -2045,7 +2047,7 @@
                         </div>
                         <div class='mt-[30px] mx-[20px] pb-[15px]'>
                             <button class='relative flex justify-center text-white hover:text-[#000]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]' href='./community#wellness'>VIEW MORE</a>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./community?params=wellness'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
                             </button>
@@ -2245,3 +2247,9 @@
 
     <?php get_footer(); ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+        $( "#vision" ).click(function() {
+            console.log('vision')
+        });
+    </script>
