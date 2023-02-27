@@ -8,28 +8,28 @@
                 <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide1@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block" >
                 <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9512@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
                 <div class='w-[33.33%] absolute bottom-[12%] left-[10%]'>
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11993.png' />
+                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
                 </div>
             </div>
             <div class="overlay_image_slide fade w-full bg-img-2">
                 <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide2@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block">
                 <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/LINE_ALBUM_211021_839_02.psd@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
                 <div class='w-[33.33%] absolute bottom-[3%] right-[21%]'>
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11992.png' />
+                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
                 </div>
             </div>
             <div class="overlay_image_slide fade w-full bg-img-3">
                 <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide3@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block" >
                 <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Mask Group 12@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
                 <div class='w-[33.33%] absolute bottom-[20%] left-[24%]'>
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11991.png' />
+                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
                 </div>
             </div>
             <div class="overlay_image_slide fade w-full  bg-img-4">
                 <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide4@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block">
                 <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Slide4_sp12@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
                 <div class='w-[33.33%] absolute bottom-[12%] left-[10%]'>
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990.png' />
+                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
                 </div>
             </div>
         </div>
@@ -826,8 +826,8 @@
                 <!-- ****************************************************** END OF newsCards *************************************************************** -->
             </div>
             <div class='ml-[calc(50vw-105px)] mt-[90px] max-[992px]:ml-[calc(50vw-165px)] '>
-                <button class='relative w-[240px] h-[56px] flex justify-center text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
-                    <a class='self-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
+                    <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
                     <div class='right-arrow'>
                     </div>
                 </button>
@@ -1584,8 +1584,8 @@
 
 
                 <div class='flex justify-center mt-[70px]'>
-                    <button class='relative w-[240px] h-[56px] flex justify-center text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black'>
-                        <a class='self-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                    <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black'>
+                        <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
                         <div class='right-arrow'>
                         </div>
                     </button>
@@ -1699,8 +1699,8 @@
                         </div>
 
                         <div class='mt-[80px]'>
-                            <button class='relative w-[240px] h-[56px] flex justify-center text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
-                                <a class='self-center josefin-sans font-bold text-[14px]' href='./about-us'>VIEW ALL</a>
+                            <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
+                                <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]' href='./about-us'>VIEW ALL</a>
                                 <div class='right-arrow'>
                                 </div>
                             </button>
@@ -1739,8 +1739,8 @@
                     </div>
                 </div>
                 <div class='flex justify-center mt-[75px] pb-[80px]'>
-                    <button class='relative w-[240px] h-[56px] flex justify-center text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black'>
-                        <a class='self-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                    <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black'>
+                        <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
                         <div class='right-arrow'>
                         </div>
                     </button>
@@ -1959,8 +1959,8 @@
         </div>
 
         <div class='mt-[250px] max-[1600px]:mt-[300px] max-[1440px]:mt-[350px] max-[750px]:mt-[70px] flex justify-center'>
-            <button class='relative w-[240px] h-[56px] flex justify-center text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
-                <a class='self-center josefin-sans font-bold text-[14px]' href='./team-01'>VIEW ALL</a>
+            <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
+                <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]' href='./team-01'>VIEW ALL</a>
                 <div class='right-arrow'>
                 </div>
             </button>
@@ -2058,8 +2058,8 @@
         </div>
 
         <div class='mt-[70px] flex justify-center'>
-            <button class='relative w-[240px] h-[56px] flex justify-center text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
-                <a class='self-center josefin-sans font-bold text-[14px]' href='./community'>VIEW ALL</a>
+            <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
+                <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]' href='./community'>VIEW ALL</a>
                 <div class='right-arrow'>
 
                 </div>
