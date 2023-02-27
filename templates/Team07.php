@@ -89,7 +89,7 @@
                             array (
                                 'taxonomy' => 'players_cat',
                                 'field' => 'gk7',
-                                'terms' => 8
+                                'terms' => 10
                             )
                         ),
                     ) );
@@ -97,7 +97,7 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?> 
                     <div class="w-[30%] max-[750px]:w-[43%] mb-[41px]">
-                        <div class="relative overflow-hidden cursor-pointer">
+                        <div class="relative overflow-hidden cursor-pointer" data-remodal-target="player_<?php echo get_the_ID() ?>">
                             <div  class='transition duration-300 ease-in hover:scale-110'>
                                 <?php echo get_the_post_thumbnail() ?>
                             </div>
@@ -154,7 +154,7 @@
                             array (
                                 'taxonomy' => 'players_cat',
                                 'field' => 'df7',
-                                'terms' => 9
+                                'terms' => 11
                             )
                         ),
                     ) );
@@ -162,7 +162,7 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?> 
                     <div class="w-[30%] max-[750px]:w-[43%] mt-[41px]">
-                        <div class="relative overflow-hidden cursor-pointer">
+                        <div class="relative overflow-hidden cursor-pointer" data-remodal-target="player_<?php echo get_the_ID() ?>">
                             <div  class='transition duration-300 ease-in hover:scale-110'>
                                 <?php echo get_the_post_thumbnail() ?>
                             </div>
@@ -210,7 +210,7 @@
                             array (
                                 'taxonomy' => 'players_cat',
                                 'field' => 'mf7',
-                                'terms' => 10
+                                'terms' => 13
                             )
                         ),
                     ) );
@@ -218,7 +218,7 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?> 
                     <div class="w-[30%] max-[750px]:w-[43%] mb-[41px]">
-                        <div class="relative overflow-hidden cursor-pointer">
+                        <div class="relative overflow-hidden cursor-pointer" data-remodal-target="player_<?php echo get_the_ID() ?>">
                             <div  class='transition duration-300 ease-in hover:scale-110'>
                                 <?php echo get_the_post_thumbnail() ?>
                             </div>
@@ -272,7 +272,7 @@
                                 array (
                                     'taxonomy' => 'players_cat',
                                     'field' => 'fw7',
-                                    'terms' => 11
+                                    'terms' => 12
                                 )
                             ),
                         ) );
@@ -280,7 +280,7 @@
                         while ( $query->have_posts() ) : $query->the_post();
                     ?> 
                         <div class="w-[30%] max-[750px]:w-[43%] mt-[41px]">
-                            <div class="relative overflow-hidden cursor-pointer">
+                            <div class="relative overflow-hidden cursor-pointer" data-remodal-target="player_<?php echo get_the_ID() ?>">
                                 <div  class='transition duration-300 ease-in hover:scale-110'>
                                     <?php echo get_the_post_thumbnail() ?>
                                 </div>
@@ -322,13 +322,13 @@
                 <!-- START OF QUERY -->
                 <?php
                     $query = new WP_Query( array(
-                        'post_type' => 'players', 
+                        'post_type' => 'staff', 
                         'order' => 'ASC',
                         'tax_query' => array(
                             array (
-                                'taxonomy' => 'players_cat',
-                                'field' => 'ts7',
-                                'terms' => 12
+                                'taxonomy' => 'staff_cat',
+                                'field' => 'サテライト',
+                                'terms' => 17
                             )
                         ),
                     ) );
@@ -336,13 +336,13 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?> 
                     <div class="w-[30%] max-[750px]:w-[43%] mb-[41px]">
-                        <div class="relative overflow-hidden cursor-pointer">
+                        <div class="relative overflow-hidden cursor-pointer" data-remodal-target="staff_<?php echo get_the_ID() ?>">
                             <div  class='transition duration-300 ease-in hover:scale-110'>
                                 <?php echo get_the_post_thumbnail() ?>
                             </div>
                         </div>
                         <div class="noto-sans mt-[30px]">
-                            <p class="text-[18px] font-bold leading-[27px] tracking-[2px]"><?php echo get_post_meta($post->ID, 'additional_info', true); ?></p>
+                            <p class="text-[18px] font-bold leading-[27px] tracking-[2px]"><?php echo get_field('Position')?></p>
                             <p class="font-medium text-[28px] leading-[42px] tracking-[2px]"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
                             <p class="font-bold text-[18px] josefin-sans leading-[27px] tracking-[2px]"><?php echo get_post_meta($post->ID, 'name_eng', true); ?></p>
                         </div>
@@ -357,144 +357,727 @@
     </div>
 </div>
 
+
 <!-- START OF REMODAL FOR GK TO FW -->
     <!-- START OF QUERY -->
-    <div class="remodal px-5 mt-[32px]" data-remodal-id="player_1">
-        <button data-remodal-action="close" class="remodal-close float-right"></button>
-        <div class="modal-content ">
-            <div class="text-left">
-                <p class="text-[29px] leading-[44px] max-[600px]:text-[24px] text-[#004EA1]
-                    max-[600px]:leading-[32px] font-bold noto-sans">
-                    コーチ
-                </p>
-                <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] 
-                    max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans">
-                    有田 恭也
-                </p>
-                <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] 
-                    max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans">
-                    Arita Kyoya
-                </p>
-            </div>
-            <div class="flex mt-[15px]">
-                <div class="w-[35%] mr-[26px]">
-                    <img src="<?= site_url('/wp-content/themes/smg/assets/images/team_06/Group 9521.png') ?>">
+        <!-- START Modal for GK -->
+    <!-- START OF QUERY -->
+    <?php
+        $query = new WP_Query( array(
+            'post_type' => 'players', 
+            'order' => 'ASC',
+            'tax_query' => array(
+                array (
+                    'taxonomy' => 'players_cat',
+                    'field' => 'gk7',
+                    'terms' => 10
+                )
+            ),
+        ) );
+        
+        while ( $query->have_posts() ) : $query->the_post();
+    ?>  
+        <div class="remodal px-5 mt-[32px]" data-remodal-id="player_<?php echo get_the_ID() ?>">
+            <button data-remodal-action="close" class="remodal-close float-right"></button>
+            <div class="modal-content ">
+                <div class="flex">
+                    <div class="w-[35%] mr-[26px]">
+                        <div class="text-left">
+                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
+                            <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
+                            <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
+                        </div>
+                    </div>
+                    <div class="w-[65%] text-left">
+                        <?php if( get_field('キャッチフレーズ')) {?>
+                            <div class="font-medium noto-sans leading-[28px] max-[600px]:leading-[24px]">
+                                <p class="text-[20px] max-[600px]:text-[18px]">キャッチフレーズ</p>
+                                <p class="text-[32px] max-[600px]:text-[24px] mt-[13px]"><?php echo get_field('キャッチフレーズ')?></p>
+                            </div>
+                        <?php  }?>
+                    </div>
                 </div>
-                <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
-                    <div class="flex border-b border-[#707070] pb-[5px]">
-                        <div class="w-[40%] mr-[20px]">
-                            生年月日
+                <div class="flex mt-[15px]">
+                    <div class="w-[35%] mr-[26px]">
+                        <?php echo get_the_post_thumbnail() ?>
+                        <?php if( get_field('additional_info')) {?>
+                            <div class="mt-[10px] bg-[#E1007E] w-[70%]">
+                                <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
+                                    leading-[32px] tracking-[2px] text-white 
+                                    max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
+                                    "> 
+                                    <?php echo get_field('additional_info')?>
+                                </p>
+                            </div>
+                        <?php }?>
+                    </div>
+                    <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                生年月日
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('生年月日')?>
+                            </div>
                         </div>
-                        <div class="w-[60%]">
-                            2000/9/29
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                リーグ登録年数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('リーグ登録年数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                ポジション
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('ポジション')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                代表歴
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('代表歴')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                前所属チーム
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('前所属チーム')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                昨年度出場回数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('昨年度出場回数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                得点数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('得点数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                利き足
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('利き足')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                高校時代の出身
+                                チーム／出身校
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('高校時代の出身_チーム／出身校')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                ブログリレー
+                            </div>
+                            <div class="w-[60%] break-all">
+                                <?php echo get_field('ブログリレー')?>
+                            </div>
                         </div>
                     </div>
-                    <div class="flex border-b border-[#707070] py-[5px]">
-                        <div class="w-[40%] mr-[20px]">
-                            ポジション
-                        </div>
-                        <div class="w-[60%]">
-                            GK
-                        </div>
+                </div>
+                <div class="flex mt-[49px] gap-[16px]">
+                    <div>
+                        <?php $image1 = get_field('image_1'); ?>
+                        <img src="<?php echo $image1;?>">
                     </div>
-                    <div class="flex border-b border-[#707070] py-[5px]">
-                        <div class="w-[40%] mr-[20px]">
-                            代表歴
+                    <div>
+                        <?php $image2 = get_field('image_2'); ?>
+                            <img src="<?php echo $image2;?>">
                         </div>
-                        <div class="w-[60%]">
-                            U-19女子日本代表
-                            U-20女子日本代表候補
+                    <div>
+                        <?php $image3 = get_field('image_3'); ?>
+                            <img src="<?php echo $image3;?>">
                         </div>
-                    </div>
-                    <div class="flex border-b border-[#707070] py-[5px]">
-                        <div class="w-[40%] mr-[20px]">
-                            前所属チーム
-                        </div>
-                        <div class="w-[60%]">
-                            浦和レッドダイヤモンズ
-                            レディースユース
-                        </div>
-                    </div>
-                    <div class="flex border-b border-[#707070] py-[5px]">
-                        <div class="w-[40%] mr-[20px]">
-                            利き足
-                        </div>
-                        <div class="w-[60%]">
-                            右
-                        </div>
-                    </div>
-                    <div class="flex border-b border-[#707070] py-[5px]">
-                        <div class="w-[40%] mr-[20px]">
-                            高校時代の出身
-                            チーム／出身校
-                        </div>
-                        <div class="w-[60%]">
-                            浦和レッドダイヤモンズ
-                            レディースユース
-                        </div>
-                    </div>
-                    <div class="flex border-b border-[#707070] py-[5px]">
-                        <div class="w-[40%] mr-[20px]">
-                            ブログリレー
-                        </div>
-                        <div class="w-[60%]">
-                            https://note.com/nssusmg/n/
-                            nde7faaa6f9a0
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    <?php
+            endwhile;
+            wp_reset_query();
+    ?>
+<!-- START Modal for GK -->
+
+<!-- START Modal for DF -->
+    <!-- START OF QUERY -->
+    <?php
+        $query = new WP_Query( array(
+            'post_type' => 'players', 
+            'order' => 'ASC',
+            'tax_query' => array(
+                array (
+                    'taxonomy' => 'players_cat',
+                    'field' => 'df7',
+                    'terms' => 11
+                )
+            ),
+        ) );
+        
+        while ( $query->have_posts() ) : $query->the_post();
+    ?>  
+        <div class="remodal px-5 mt-[32px]" data-remodal-id="player_<?php echo get_the_ID() ?>">
+            <button data-remodal-action="close" class="remodal-close float-right"></button>
+            <div class="modal-content ">
+                <div class="flex">
+                    <div class="w-[35%] mr-[26px]">
+                        <div class="text-left">
+                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
+                            <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
+                            <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
+                        </div>
+                    </div>
+                    <div class="w-[65%] text-left">
+                        <?php if( get_field('キャッチフレーズ')) {?>
+                            <div class="font-medium noto-sans leading-[28px] max-[600px]:leading-[24px]">
+                                <p class="text-[20px] max-[600px]:text-[18px]">キャッチフレーズ</p>
+                                <p class="text-[32px] max-[600px]:text-[24px] mt-[13px]"><?php echo get_field('キャッチフレーズ')?></p>
+                            </div>
+                        <?php  }?>
+                    </div>
+                </div>
+                <div class="flex mt-[15px]">
+                    <div class="w-[35%] mr-[26px]">
+                        <?php echo get_the_post_thumbnail() ?>
+                        <?php if( get_field('additional_info')) {?>
+                            <div class="mt-[10px] bg-[#E1007E] w-[70%]">
+                                <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
+                                    leading-[32px] tracking-[2px] text-white 
+                                    max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
+                                    "> 
+                                    <?php echo get_field('additional_info')?>
+                                </p>
+                            </div>
+                        <?php }?>
+                    </div>
+                    <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                生年月日
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('生年月日')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                リーグ登録年数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('リーグ登録年数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                ポジション
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('ポジション')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                代表歴
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('代表歴')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                前所属チーム
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('前所属チーム')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                昨年度出場回数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('昨年度出場回数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                得点数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('得点数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                利き足
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('利き足')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                高校時代の出身
+                                チーム／出身校
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('高校時代の出身_チーム／出身校')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                ブログリレー
+                            </div>
+                            <div class="w-[60%] break-all">
+                                <?php echo get_field('ブログリレー')?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex mt-[49px] gap-[16px]">
+                    <div>
+                        <?php $image1 = get_field('image_1'); ?>
+                        <img src="<?php echo $image1;?>">
+                    </div>
+                    <div>
+                        <?php $image2 = get_field('image_2'); ?>
+                            <img src="<?php echo $image2;?>">
+                        </div>
+                    <div>
+                        <?php $image3 = get_field('image_3'); ?>
+                            <img src="<?php echo $image3;?>">
+                        </div>
+                </div>
+            </div>
+        </div>
+    <?php
+            endwhile;
+            wp_reset_query();
+    ?>
+<!-- END Modal for DF -->
+
+<!-- START Modal for MF -->
+    <!-- START OF QUERY -->
+    <?php
+        $query = new WP_Query( array(
+            'post_type' => 'players', 
+            'order' => 'ASC',
+            'tax_query' => array(
+                array (
+                    'taxonomy' => 'players_cat',
+                    'field' => 'mf7',
+                    'terms' => 13
+                )
+            ),
+        ) );
+        
+        while ( $query->have_posts() ) : $query->the_post();
+    ?>  
+        <div class="remodal px-5 mt-[32px]" data-remodal-id="player_<?php echo get_the_ID() ?>">
+            <button data-remodal-action="close" class="remodal-close float-right"></button>
+            <div class="modal-content ">
+                <div class="flex">
+                    <div class="w-[35%] mr-[26px]">
+                        <div class="text-left">
+                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
+                            <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
+                            <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
+                        </div>
+                    </div>
+                    <div class="w-[65%] text-left">
+                        <?php if( get_field('キャッチフレーズ')) {?>
+                            <div class="font-medium noto-sans leading-[28px] max-[600px]:leading-[24px]">
+                                <p class="text-[20px] max-[600px]:text-[18px]">キャッチフレーズ</p>
+                                <p class="text-[32px] max-[600px]:text-[24px] mt-[13px]"><?php echo get_field('キャッチフレーズ')?></p>
+                            </div>
+                        <?php  }?>
+                    </div>
+                </div>
+                <div class="flex mt-[15px]">
+                    <div class="w-[35%] mr-[26px]">
+                        <?php echo get_the_post_thumbnail() ?>
+                        <?php if( get_field('additional_info')) {?>
+                            <div class="mt-[10px] bg-[#E1007E] w-[70%]">
+                                <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
+                                    leading-[32px] tracking-[2px] text-white 
+                                    max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
+                                    "> 
+                                    <?php echo get_field('additional_info')?>
+                                </p>
+                            </div>
+                        <?php }?>
+                    </div>
+                    <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                生年月日
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('生年月日')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                リーグ登録年数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('リーグ登録年数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                ポジション
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('ポジション')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                代表歴
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('代表歴')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                前所属チーム
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('前所属チーム')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                昨年度出場回数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('昨年度出場回数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                得点数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('得点数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                利き足
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('利き足')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                高校時代の出身
+                                チーム／出身校
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('高校時代の出身_チーム／出身校')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                ブログリレー
+                            </div>
+                            <div class="w-[60%] break-all">
+                                <?php echo get_field('ブログリレー')?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex mt-[49px] gap-[16px]">
+                    <div>
+                        <?php $image1 = get_field('image_1'); ?>
+                        <img src="<?php echo $image1;?>">
+                    </div>
+                    <div>
+                        <?php $image2 = get_field('image_2'); ?>
+                            <img src="<?php echo $image2;?>">
+                        </div>
+                    <div>
+                        <?php $image3 = get_field('image_3'); ?>
+                            <img src="<?php echo $image3;?>">
+                        </div>
+                </div>
+            </div>
+        </div>
+    <?php
+            endwhile;
+            wp_reset_query();
+    ?>
+<!-- END Modal for MF -->
+
+<!-- START Modal for FW -->
+    <!-- START OF QUERY -->
+    <?php
+        $query = new WP_Query( array(
+            'post_type' => 'players', 
+            'order' => 'ASC',
+            'tax_query' => array(
+                array (
+                    'taxonomy' => 'players_cat',
+                    'field' => 'fw7',
+                    'terms' => 12
+                )
+            ),
+        ) );
+        
+        while ( $query->have_posts() ) : $query->the_post();
+    ?>  
+        <div class="remodal px-5 mt-[32px]" data-remodal-id="player_<?php echo get_the_ID() ?>">
+            <button data-remodal-action="close" class="remodal-close float-right"></button>
+            <div class="modal-content ">
+                <div class="flex">
+                    <div class="w-[35%] mr-[26px]">
+                        <div class="text-left">
+                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
+                            <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
+                            <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
+                        </div>
+                    </div>
+                    <div class="w-[65%] text-left">
+                        <?php if( get_field('キャッチフレーズ')) {?>
+                            <div class="font-medium noto-sans leading-[28px] max-[600px]:leading-[24px]">
+                                <p class="text-[20px] max-[600px]:text-[18px]">キャッチフレーズ</p>
+                                <p class="text-[32px] max-[600px]:text-[24px] mt-[13px]"><?php echo get_field('キャッチフレーズ')?></p>
+                            </div>
+                        <?php  }?>
+                    </div>
+                </div>
+                <div class="flex mt-[15px]">
+                    <div class="w-[35%] mr-[26px]">
+                        <?php echo get_the_post_thumbnail() ?>
+                        <?php if( get_field('additional_info')) {?>
+                            <div class="mt-[10px] bg-[#E1007E] w-[70%]">
+                                <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
+                                    leading-[32px] tracking-[2px] text-white 
+                                    max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
+                                    "> 
+                                    <?php echo get_field('additional_info')?>
+                                </p>
+                            </div>
+                        <?php }?>
+                    </div>
+                    <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                生年月日
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('生年月日')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                リーグ登録年数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('リーグ登録年数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                ポジション
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('ポジション')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                代表歴
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('代表歴')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                前所属チーム
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('前所属チーム')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                昨年度出場回数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('昨年度出場回数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                得点数
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('得点数')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                利き足
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('利き足')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                高校時代の出身
+                                チーム／出身校
+                            </div>
+                            <div class="w-[60%]">
+                                <?php echo get_field('高校時代の出身_チーム／出身校')?>
+                            </div>
+                        </div>
+                        <div class="flex border-b border-[#707070] py-[5px]">
+                            <div class="w-[40%] mr-[20px]">
+                                ブログリレー
+                            </div>
+                            <div class="w-[60%] break-all">
+                                <?php echo get_field('ブログリレー')?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex mt-[49px] gap-[16px]">
+                    <div>
+                        <?php $image1 = get_field('image_1'); ?>
+                        <img src="<?php echo $image1;?>">
+                    </div>
+                    <div>
+                        <?php $image2 = get_field('image_2'); ?>
+                            <img src="<?php echo $image2;?>">
+                        </div>
+                    <div>
+                        <?php $image3 = get_field('image_3'); ?>
+                            <img src="<?php echo $image3;?>">
+                        </div>
+                </div>
+            </div>
+        </div>
+    <?php
+            endwhile;
+            wp_reset_query();
+    ?>
+<!-- END Modal for FW -->
+
+
+
     <!-- END OF QUERY -->
 <!-- END OF REMODAL FOR GK TO FW -->
 
 <!-- START REMODAL FOR TEAM STAFF -->
+
     <!-- START OF COACH AND DOCTOR -->
-        <div class="remodal px-5 mt-[32px]" data-remodal-id="staff_2">
-            <button data-remodal-action="close" class="remodal-close float-right"></button>
-            <div class="modal-content ">
-                <div class="text-left">
-                    <p class="text-[29px] leading-[44px] max-[600px]:text-[24px] text-[#004EA1]
-                        max-[600px]:leading-[32px] font-bold noto-sans">
-                        コーチ
-                    </p>
-                    <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] 
-                        max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans">
-                        有田 恭也
-                    </p>
-                    <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] 
-                        max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans">
-                        Arita Kyoya
-                    </p>
-                </div>
-                <div class="flex">
-                    <div class="w-[35%] mr-[26px]">
-                        <div class="mt-[15px]">
-                            <img src="<?= site_url('/wp-content/themes/smg/assets/images/team_06/Group 9525.png') ?>">
-                        </div>
+        <!-- START OF QUERY -->
+        <?php
+            $query = new WP_Query( array(
+                'post_type' => 'staff', 
+                'order' => 'ASC',
+            ) );
+        
+            while ( $query->have_posts() ) : $query->the_post();
+        ?>  
+            <div class="remodal px-5 mt-[32px]" data-remodal-id="staff_<?php echo get_the_ID() ?>">
+                <button data-remodal-action="close" class="remodal-close float-right"></button>
+                <div class="modal-content ">
+                    <div class="text-left">
+                        <p class="text-[29px] leading-[44px] max-[600px]:text-[24px] text-[#004EA1]
+                            max-[600px]:leading-[32px] font-bold noto-sans">
+                            <?php echo get_field('specific_position') != 'None' ? get_field('specific_position') : '' ?><?php echo get_field('Position')?>
+                        </p>
+                        <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] 
+                            max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans">
+                            <?php echo get_field('name_jap')?>
+                        </p>
+                        <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] 
+                            max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans">
+                            <?php echo get_field('name_eng')?>
+                        </p>
                     </div>
-                    <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
-                        <div class="flex border-b border-[#707070] py-[5px]">
-                            <div class="w-[25%] max-[500px]:w-[35%] mr-[20px]">
-                                生年月日
-                            </div>
-                            <div class="w-[75%] max-[500px]:w-[65%]">
-                                2000/9/29
+                    <div class="flex">
+                        <div class="w-[35%] mr-[26px]">
+                            <div class="mt-[15px]">
+                                <?php echo get_the_post_thumbnail() ?>
                             </div>
                         </div>
-                        <div class="flex border-b border-[#707070] py-[5px]">
-                            <div class="w-[25%] max-[500px]:w-[35%] mr-[20px]">
-                                出身
-                            </div>
-                            <div class="w-[75%] max-[500px]:w-[65%]">
-                                福井県
-                            </div>
+                        <?php 
+
+                        ?>
+                        <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
+                            <?php if( get_field('Position') == 'コーチ' || get_field('Position') == 'チームドクター') {?>
+                                <div class="flex border-b border-[#707070] py-[5px]">
+                                    <?php if( get_field('Position') == 'コーチ') {?>
+                                        <div class="w-[25%] max-[500px]:w-[35%] mr-[20px]">
+                                            生年月日
+                                        </div>
+                                        <div class="w-[75%] max-[500px]:w-[65%]">
+                                            <?php echo get_field('生年月日')?>
+                                        </div>
+                                    <?php }elseif(get_field('Position') == 'チームドクター'){ ?>
+                                        <div class="<?php echo get_field('Position') == 'コーチ' ? 'w-[25%]' : 'w-[40%]' ?> max-[500px]:w-[35%] mr-[20px]">
+                                            専門診療科目
+                                        </div>
+                                        <div class="<?php echo get_field('Position') == 'コーチ' ? 'w-[75%]' : 'w-[60%]' ?> max-[500px]:w-[65%]">
+                                            <?php echo get_field('専門診療科目')?>
+                                        </div>
+                                    <?php }?>
+                                </div>
+                                <div class="flex border-b border-[#707070] py-[5px]">
+                                    <div class="<?php echo get_field('Position') == 'コーチ' ? 'w-[25%]' : 'w-[40%]' ?> max-[500px]:w-[35%] mr-[20px]">
+                                        出身
+                                    </div>
+                                    <div class="<?php echo get_field('Position') == 'コーチ' ? 'w-[75%]' : 'w-[60%]' ?> max-[500px]:w-[65%]">
+                                        <?php echo get_field('出身')?>
+                                    </div>
+                                </div>
+
+                                <?php if(get_field('Position') == 'チームドクター'){ ?>
+                                    <div class="flex border-b border-[#707070] py-[5px]">
+                                        <div class="w-[40%] max-[500px]:w-[35%] mr-[20px]">
+                                            所属病院
+                                        </div>
+                                        <div class="w-[60%] max-[500px]:w-[65%]">
+                                            <?php echo get_field('所属病院')?>
+                                        </div>
+                                    </div>
+                                <?php }?>
+                            <?php }?>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        <?php
+            endwhile;
+            wp_reset_query();
+        ?>
     <!-- END OF COACH AND DOCTOR -->
 <!-- END OF REMODAL FOR TEAM STAFF -->
 
