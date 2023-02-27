@@ -409,7 +409,7 @@
     
     <div class="flex justify-center flex-col mb-[52px] max-[750px]:mb-[41px] text-center font-bold">
         <div>
-            <p class="josefin-sans text-[48px] max-[750px]:text-[44px]">Welness</p>
+            <p class="josefin-sans text-[48px] max-[750px]:text-[44px]">Wellness</p>
             <p class="noto-sans tracking-[4px] text-[20px] leading-[16px] max-[750px]:tracking-[8px]">地域の人々の健康を考える.</p>
         </div>
 
@@ -496,3 +496,29 @@
       })
 </script>
 <?php get_footer(); ?>
+
+<script>
+    $(document).ready(function(){
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        let string = urlParams.get('params')
+        // var params1 = params.get('params1');
+        
+        console.log('community',string); // output: "value1"
+        
+        if(string == 'vision'){
+            let targetOffset = $('#vision').offset().top-200;
+            $('html, body').scrollTop(targetOffset);
+        }
+
+        if(string == 'activity'){
+            let targetOffset = $('#activity').offset().top-50;
+            $('html, body').scrollTop(targetOffset);
+        }
+
+        if(string == 'wellness'){
+            let targetOffset = $('#wellness').offset().top-100;
+            $('html, body').scrollTop(targetOffset);
+        }
+    });
+</script>
