@@ -66,7 +66,7 @@
     <div class="parallelogram-left mt-10 z-[-1] min-[751px]:left-[-35%] lg:left-[-25%] xl:left-[-15%] 2xl:left-[-8%]"></div>
 </div>
 <!-- OUTLINE -->
-<div class="w-full mt-[100px] max-[750px]:mt-[90px] relative min-[751px]:flex">
+<div class="z-[1] w-full mt-[100px] max-[750px]:mt-[90px] relative min-[751px]:flex">
     <div class="smin-750:w-[50%] min-[751px]:10 min-[751px]:mr-[40px]">
         <div class="relative max-[750px]:overflow-hidden">
             <div class="min-[751px]:hidden flex flex-col justify-center items-center mb-10">
@@ -91,9 +91,9 @@
                     日本体育大学学友会サッカー部女子を内包するクラブチームです。アマチュア最高峰のなでしこリーグ1部に挑戦しているＴＯＰチームと関東女子サッカーリーグ2部に所属しているサテライトチームは、日本体育大学の学生を中心に活動しています。U-18、U-15チームは、横浜市北部エリアを中心とする地域の様々な中学校・高等学校に通う選手たちで構成され、総勢約150名を超える女子サッカー選手が在籍しています。2022シーズンより、新富士病院グループ（ＳＭＧ）とトップパートナー契約を結び、クラブ名を「日体大ＳＭＧ横浜」に変更致しました。また、陸上混成種目（七種競技）を専門とする大玉華鈴選手を招き入れ、総合型地域スポーツクラブへの第一歩を踏み出しています。
                 </p>
                 <div class="xl:mt-[100px] lg:mt-[70px] min-[751px]:mt-[50px] max-[750px]:mt-[170px] max-[750px]:w-[60%] max-[550px]:w-[70%] max-[450px]:w-[80%] max-[320px]:w-[90%]   max-[750px]:mx-auto">
-                    <a href="" class="bg-white border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
-                        <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] text-[#004EA1] josefin-sans">TEAM</p>
-                        <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px] text-[#004EA1]">選手・チーム紹介</p>
+                    <a href="<?= site_url('/team-05')?>" class="hover:bg-[#004EA1] hover:text-white text-[#004EA1] bg-white border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
+                        <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] josefin-sans">TEAM</p>
+                        <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px]">選手・チーム紹介</p>
                     </a>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                     border-solid border border-[#004EA1] font-medium xl:text-[24px] min-[751px]:leading-[40px] min-[500px]:leading-[50px] leading-[43px]
                     min-[751px]:text-[20px] xl:px-[50px] xl:pt-[60px] xl:pb-[20px] px-[40px] pt-[50px] pb-[16px]
                     max-[750px]:mt-[20px] max-[500px]:mt-[5px] max-[750px]:mr-5 min-[500px]:text-[37px] text-[20px] 
-                    bg-white
+                    bg-white text-[#004EA1]
                     ">
                         <li>１．地域の健康推進</li>
                         <li>１．地域振興</li>
@@ -161,9 +161,7 @@
                     <p class="font-medium noto-sans min-[1200px]:leading-[28px] min-[751px]:leading-[20px] leading-[48px] tracking-[2px] lg:text-[14px] min-[751px]:text-[12px] text-[24px]">
                     「スポーツは日本人のくらしをもっと豊かにできる！」そう信じて日体大ＳＭＧ横浜は地域のスポーツクラブとして存在し続けたいと考えています。幼い子どもから高齢者まで（多世代）、それぞれの体力や志向に応じて（他志向）、好みのスポーツを楽しみ（多種目）、地域のスポーツを中心とする共通の話題に溢れた地域のくらしに貢献します。クラブが地域住民・企業・学校・行政等のハブとして機能し、地域の皆さまに必要とされるクラブを目指して、少しずつ前進して参ります。「このまちに日体大ＳＭＧ横浜というクラブがあって本当に幸せだ！」と言われることを夢見ています。
                     </p>
-                </div>
-                
-               
+                </div> 
             </div>
         </div>
     </div>
@@ -173,9 +171,9 @@
         min-[751px]:w-[40%] lg:w-[35%] xl:w-[30%]
         max-[750px]:w-[60%] max-[550px]:w-[70%] max-[450px]:w-[80%] max-[320px]:w-[90%] mx-auto
     ">
-        <a href="" class="border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
-            <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] text-[#004EA1] josefin-sans">COMMUNITY</p>
-            <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px] text-[#004EA1]">地域活動・プロジェクト</p>
+        <a href="<?= site_url('/community')?>" class="border-solid hover:bg-[#004EA1] hover:text-white text-[#004EA1] border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
+            <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] josefin-sans">COMMUNITY</p>
+            <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px]">地域活動・プロジェクト</p>
         </a>
     </div>
     

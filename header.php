@@ -30,12 +30,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" integrity="sha512-jRxwiuoe3nt8lMSnOzNEuQ7ckDrLl31dwVYFWS6jklXQ6Nzl7b05rrWF9gjSxgOow5nFerdoN6CBB4gY5m5nDw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.js" integrity="sha512-eW+7mn1Hqoehrvza96oZlU3WiRw1g7Yenu7cnIw7rFP3GpRGm95IAIs6ifoNGZhD5iSEJEr5fV4yQpE+EFrUNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-  <?php if(is_page(13)){ ?>
-    SCRIPTS FOR TEAM 2
-
-    <?php
-  } ?>
-
   <script>
       tailwind.config = {
           theme: {
@@ -86,32 +80,42 @@
 
 </head>
 <body>
-<header id='header' class="fixed w-full top-[32px] bg-white z-[1]">
+<header id='header' class="fixed w-full top-[32px] bg-white z-[50]">
         <nav class="w-full flex flex-row smin-750:shadow-md">
             <div class="flex flex-row max-lg:h-20 max-smin-750:hidden w-[48%] max-xl:w-[50%]">
-                <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer "> 
+                <a href="<?= site_url('/news-page') ?>" class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer "> 
                     <h3 class="nav-title">ニュース</h3>
-                </div>
-                <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
+                </a>
+                <a href="<?= site_url('/about-us') ?>" class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
                     <h3 class="nav-title">日体大SMG横浜とは</h3>
-                </div>
-                <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
+                </a>
+                <a href="<?= site_url('/team-01') ?>" class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
                     <h3 class="nav-title">選手・チーム紹介</h3>
-                </div>
-                <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
+                </a>
+                <a href="<?= site_url('/schedule') ?>" class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
                     <h3 class="nav-title">スケジュール一覧</h3>
-                </div>
+                </a>
             </div>
             <div class="max-smin-750:w-[50%] max-smin-750:block hidden"></div>
             <div class="logo w-[176px] max-smin-750:w-[214px] z-10">
-                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 36 – 1.png">
+                <a href="<?= site_url() ?>">
+                    <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 36 – 1.png">
+                </a>
             </div>
             <div class="max-smin-750:w-[40%] max-smin-750:block hidden"></div>
             <div class="flex flex-row max-lg:h-20 max-smin-750:hidden w-[43%]">
-                <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> <h3 class="nav-title">競技・試合結果</h3></div>
-                <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> <h3 class="nav-title">地域活動・<p>プロジェクト</p></h3></div>
-                <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> <h3 class="nav-title">サポーターズクラブ<p>BLUES</p></h3></div>
-                <div class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> <h3 class="nav-title"><p>BLUES</p>オンラインショップ</h3></div>
+                <a href="<?= site_url('/results') ?>" class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
+                    <h3 class="nav-title">競技・試合結果</h3>
+                </a>
+                <a href="<?= site_url('/community') ?>" class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
+                    <h3 class="nav-title">地域活動・<p>プロジェクト</p></h3>
+                </a>
+                <a href="https://blue-s-official.com" class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
+                    <h3 class="nav-title">サポーターズクラブ<p>BLUES</p></h3>
+                </a>
+                <a href="https://blue-s-official.com/shop"  class="nav-link text-[#004EA1] w-3/12 xl:py-4 smin-750:p-2 flex justify-center text-center items-center hover:bg-[#004EA1] hover:text-white cursor-pointer"> 
+                    <h3 class="nav-title"><p>BLUES</p>オンラインショップ</h3>
+                </a>
             </div>
             <div class="nav-envelope flex justify-center items-center flex-col xl:w-[5%] w-[6%] max-lg:w-[8%] max-smin-750:hidden">
                 <i class="fa-solid fa-envelope text-4xl max-lg:text-3xl text-white max:md-lg"></i>
@@ -136,15 +140,15 @@
                 <div class="sidebar sidebar-hidden">
                     <ul class="menu mt-[35%] max-sm:mt-[45%]" id="sidebar-menu">
                         <li><a href="#" >トップページ</a></li>
-                        <li><a href="#" >ニュース   </a></li>
-                        <li><a href="#" >日体大SMG横浜とは</a></li>
-                        <li><a href="#" >チーム・選手紹介</a></li>
-                        <li><a href="#" >スケジュール一覧</a></li>
-                        <li><a href="#" >競技・試合結果</a></li>
-                        <li><a href="#" >地域活動・プロジェクト</a></li>
-                        <li><a href="#" >サポーターズクラブ BLUES</a></li>
+                        <li><a href="<?= site_url('/news-page') ?>" >ニュース   </a></li>
+                        <li><a href="<?= site_url('/about-us') ?>" >日体大SMG横浜とは</a></li>
+                        <li><a href="<?= site_url('/about-us') ?>" >チーム・選手紹介</a></li>
+                        <li><a href="<?= site_url('/schedule') ?>" >スケジュール一覧</a></li>
+                        <li><a href="<?= site_url('/results') ?>" >競技・試合結果</a></li>
+                        <li><a href="<?= site_url('/community') ?>" >地域活動・プロジェクト</a></li>
+                        <li><a href="https://blue-s-official.com" >サポーターズクラブ BLUES</a></li>
                         <li><a href="#" >日本体育大学 女子サッカー部HP</a></li>
-                        <li><a href="#" >BLUES オンラインショップ</a></li>
+                        <li><a href="https://blue-s-official.com/shop" >BLUES オンラインショップ</a></li>
                         <li><a href="#" >プライバシーポリシー</a></li>
                         <li><a href="#" >お問合せ</a></li>
                     </ul>
@@ -154,3 +158,7 @@
     </header>
 
     <div class="tp-margin">
+
+        <div class="scrollTop" id="toTop">
+            <i class="scroll_arrow text-white text-[32px] fas fa-angle-up"></i>
+        </div>

@@ -18,7 +18,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介  >陸上競技（混成競技）大玉華鈴選手</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>　><a href="<?= site_url('/team-01')?>">選手・チーム紹介</a>　>陸上競技（混成競技）大玉華鈴選手</p>
 </div>
 
 <!-- First Content -->
@@ -496,9 +496,9 @@
         min-[751px]:w-[40%] lg:w-[35%] xl:w-[30%]
         max-[750px]:w-[60%] max-[550px]:w-[70%] max-[450px]:w-[80%] max-[320px]:w-[90%] mx-auto
     ">
-        <a href="" class="bg-[#004EA1] border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
-            <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] text-white josefin-sans">TEAM</p>
-            <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px] text-white">選手紹介</p>
+        <a href="<?= site_url('/team-05')?>" class="hover:bg-white hover:text-[#004EA1] text-white bg-[#004EA1] border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
+            <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] josefin-sans">TEAM</p>
+            <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px]">選手紹介</p>
         </a>
     </div>
     <img class="absolute top-[75%] z-[-1] 

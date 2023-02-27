@@ -17,7 +17,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介　>陸上競技</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>　><a href="<?= site_url('/team-01')?>">選手・チーム紹介</a>　>陸上競技</p>
 </div>
 
 <!-- TAB PANE -->
@@ -78,8 +78,8 @@
                         ■主な競技成績
                     </div>
                     <div class=" border-y border-[#333333] mt-[20px] py-[15px]">
-                        <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] max-[750px]:w-[20%] mr-[20px] max-[750px]:leading-[48px]">
+                        <div class="flex leading-[28px] max-[750px]:leading-[32px]">   
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2022年 6月
                             </div>
                             <div class="flex-1">
@@ -89,9 +89,9 @@
                         </div>
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
-                        <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] max-[750px]:w-[20%] mr-[20px] max-[750px]:leading-[48px]">
-                                2022年 6月
+                        <div class="flex leading-[28px] max-[750px]:leading-[32px]">   
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
+                                2022年 4月
                             </div>
                             <div class="flex-1">
                                 <div class="leading-[22px] max-[750px]:leading-[32px]">
@@ -106,8 +106,8 @@
                         </div>
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
-                        <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] max-[750px]:w-[20%] mr-[20px]">
+                        <div class="flex leading-[28px] max-[750px]:leading-[32px]">   
+                            <div class="mr-[20px]">
                                 2021年 6月
                             </div>
                             <div class="flex-1">
@@ -223,7 +223,7 @@
                     </div>
                     <div class=" border-y border-[#333333] mt-[20px] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 1998年
                             </div>
                             <div class="flex-1">
@@ -233,7 +233,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2001年
                             </div>
                             <div class="flex-1">
@@ -247,7 +247,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2002年
                             </div>
                             <div class="flex-1">
@@ -260,7 +260,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2003年
                             </div>
                             <div class="flex-1">
@@ -272,7 +272,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2004年
                             </div>
                             <div class="flex-1">
@@ -284,7 +284,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2005年
                             </div>
                             <div class="flex-1">
@@ -296,7 +296,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2006年
                             </div>
                             <div class="flex-1">
@@ -308,7 +308,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2018年
                             </div>
                             <div class="flex-1">
@@ -320,7 +320,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2019年
                             </div>
                             <div class="flex-1">
@@ -332,7 +332,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2020年
                             </div>
                             <div class="flex-1">
@@ -344,7 +344,7 @@
                     </div>
                     <div class=" border-b border-[#333333] py-[15px]">
                         <div class="flex items-center leading-[28px] max-[750px]:leading-[32px]">   
-                            <div class="w-[15%] mr-[20px] max-[750px]:leading-[48px]">
+                            <div class="mr-[20px] max-[750px]:leading-[48px]">
                                 2021年
                             </div>
                             <div class="flex-1">
