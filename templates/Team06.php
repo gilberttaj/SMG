@@ -321,7 +321,7 @@
                             array (
                                 'taxonomy' => 'staff_cat',
                                 'field' => 'トップチーム',
-                                'terms' => 16
+                                'terms' => 14
                             )
                         ),
                     ) );
@@ -329,7 +329,7 @@
                     while ( $query->have_posts() ) : $query->the_post();
                 ?>  
                     <div class="w-[30%] max-[750px]:w-[43%] mb-[41px]">
-                        <div class="relative overflow-hidden cursor-pointer"  data-remodal-target="staff_<?php echo get_the_ID() == 168 ? get_the_ID().'_head' : get_the_ID() ?>">
+                        <div class="relative overflow-hidden cursor-pointer"  data-remodal-target="staff_<?php echo get_the_ID() == 252 ? get_the_ID().'_head' : get_the_ID() ?>">
                             <div  class='transition duration-300 ease-in hover:scale-110'>
                                 <?php echo get_the_post_thumbnail() ?>
                             </div>
@@ -441,14 +441,16 @@
                 <div class="flex mt-[15px]">
                     <div class="w-[35%] mr-[26px]">
                         <?php echo get_the_post_thumbnail() ?>
-                        <div class="mt-[10px] bg-[#E1007E] w-[70%]">
-                            <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
-                                leading-[32px] tracking-[2px] text-white 
-                                max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
-                                "> 
-                                強化指定選手
-                            </p>
-                        </div>
+                        <?php if( get_field('additional_info')) {?>
+                            <div class="mt-[10px] bg-[#E1007E] w-[70%]">
+                                <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
+                                    leading-[32px] tracking-[2px] text-white 
+                                    max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
+                                    "> 
+                                    <?php echo get_field('additional_info')?>
+                                </p>
+                            </div>
+                        <?php }?>
                     </div>
                     <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -528,7 +530,7 @@
                             <div class="w-[40%] mr-[20px]">
                                 ブログリレー
                             </div>
-                            <div class="w-[60%]">
+                            <div class="w-[60%] break-all">
                                 <?php echo get_field('ブログリレー')?>
                             </div>
                         </div>
@@ -596,14 +598,16 @@
                 <div class="flex mt-[15px]">
                     <div class="w-[35%] mr-[26px]">
                         <?php echo get_the_post_thumbnail() ?>
-                        <div class="mt-[10px] bg-[#E1007E] w-[70%]">
-                            <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
-                                leading-[32px] tracking-[2px] text-white 
-                                max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
-                                "> 
-                                強化指定選手
-                            </p>
-                        </div>
+                        <?php if( get_field('additional_info')) {?>
+                            <div class="mt-[10px] bg-[#E1007E] w-[70%]">
+                                <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
+                                    leading-[32px] tracking-[2px] text-white 
+                                    max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
+                                    "> 
+                                    <?php echo get_field('additional_info')?>
+                                </p>
+                            </div>
+                        <?php }?>
                     </div>
                     <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -683,7 +687,7 @@
                             <div class="w-[40%] mr-[20px]">
                                 ブログリレー
                             </div>
-                            <div class="w-[60%]">
+                            <div class="w-[60%] break-all">
                                 <?php echo get_field('ブログリレー')?>
                             </div>
                         </div>
@@ -751,14 +755,16 @@
                 <div class="flex mt-[15px]">
                     <div class="w-[35%] mr-[26px]">
                         <?php echo get_the_post_thumbnail() ?>
-                        <div class="mt-[10px] bg-[#E1007E] w-[70%]">
-                            <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
-                                leading-[32px] tracking-[2px] text-white 
-                                max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
-                                "> 
-                                強化指定選手
-                            </p>
-                        </div>
+                        <?php if( get_field('additional_info')) {?>
+                            <div class="mt-[10px] bg-[#E1007E] w-[70%]">
+                                <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
+                                    leading-[32px] tracking-[2px] text-white 
+                                    max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
+                                    "> 
+                                    <?php echo get_field('additional_info')?>
+                                </p>
+                            </div>
+                        <?php }?>
                     </div>
                     <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -838,7 +844,7 @@
                             <div class="w-[40%] mr-[20px]">
                                 ブログリレー
                             </div>
-                            <div class="w-[60%]">
+                            <div class="w-[60%] break-all">
                                 <?php echo get_field('ブログリレー')?>
                             </div>
                         </div>
@@ -906,14 +912,16 @@
                 <div class="flex mt-[15px]">
                     <div class="w-[35%] mr-[26px]">
                         <?php echo get_the_post_thumbnail() ?>
-                        <div class="mt-[10px] bg-[#E1007E] w-[70%]">
-                            <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
-                                leading-[32px] tracking-[2px] text-white 
-                                max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
-                                "> 
-                                強化指定選手
-                            </p>
-                        </div>
+                        <?php if( get_field('additional_info')) {?>
+                            <div class="mt-[10px] bg-[#E1007E] w-[70%]">
+                                <p class="px-[10px] py-[7px] font-bold noto-sans text-[20px] 
+                                    leading-[32px] tracking-[2px] text-white 
+                                    max-[600px]:text-[15px] max-[600px]:leading-[28px] max-[400px]:text-[12px]
+                                    "> 
+                                    <?php echo get_field('additional_info')?>
+                                </p>
+                            </div>
+                        <?php }?>
                     </div>
                     <div class="w-[65%] text-left noto-sans font-medium text-[20px] leading-[30px] max-[600px]:text-[12px] leading-[20px]">
                         <div class="flex border-b border-[#707070] py-[5px]">
@@ -993,7 +1001,7 @@
                             <div class="w-[40%] mr-[20px]">
                                 ブログリレー
                             </div>
-                            <div class="w-[60%]">
+                            <div class="w-[60%] break-all">
                                 <?php echo get_field('ブログリレー')?>
                             </div>
                         </div>
@@ -1148,7 +1156,7 @@
                             <div class="w-[40%] mr-[20px]">
                                 ブログリレー
                             </div>
-                            <div class="w-[60%]">
+                            <div class="w-[60%] break-all">
                                 <?php echo get_field('ブログリレー')?>
                             </div>
                         </div>
@@ -1183,7 +1191,7 @@
 <!-- START REMODAL FOR TEAM STAFF -->
     <!-- START OF TOP HEAD -->
         <!-- START OF QUERY -->
-            <div class="remodal px-5 mt-[32px]" data-remodal-id="staff_168_head">
+            <div class="remodal px-5 mt-[32px]" data-remodal-id="staff_252_head">
                 <button data-remodal-action="close" class="remodal-close float-right"></button>
                 <div class="modal-content ">
                     <div class="flex">
