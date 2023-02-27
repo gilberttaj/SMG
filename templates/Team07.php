@@ -17,7 +17,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介　　サテライト</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>　><a href="<?= site_url('/team-01')?>">選手・チーム紹介</a>　>サテライト</p>
 </div>
 
 <!-- First TAB PANE -->
@@ -138,7 +138,7 @@
         min-[751px]:max-lg:left-[-45%] lg:max-xl:left-[-25%] xl:max-2xl:left-[-15%]
         max-[750px]:top-[-5%] max-[750px]:left-[-72%] max-[700px]:left-[-76%] max-[650px]:left-[-80%]
     "> -->
-    <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mx-auto relative">
+    <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mx-auto min-[751px]:mt-[129px] max-[751px]:mt-[111px] relative">
         <div class="min-[751px]:w-[90%] mx-auto">
             <div class="font-bold">
                 <span class="josefin-sans text-[64px] leading-[96px]">DF</span> 
@@ -256,7 +256,7 @@
         min-[751px]:max-lg:left-[-45%] lg:max-xl:left-[-25%] xl:max-2xl:left-[-15%]
         max-[750px]:top-[-5%] max-[750px]:left-[-72%] max-[700px]:left-[-76%] max-[650px]:left-[-80%]
     "> -->
-    <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mx-auto relative">
+    <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] min-[751px]:mt-[129px] max-[751px]:mt-[111px] mx-auto relative">
         <div class="min-[751px]:w-[90%] mx-auto">
             <div class="font-bold">
                 <span class="josefin-sans text-[64px] leading-[96px]">FW</span> 
@@ -1081,4 +1081,19 @@
     <!-- END OF COACH AND DOCTOR -->
 <!-- END OF REMODAL FOR TEAM STAFF -->
 
+
+<!-- <script>
+    $(document).ready(function() {
+        $("a[href^='#']").on('click', function(e) {
+            // prevent default anchor click behavior
+            e.preventDefault();
+
+            // animate
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top - 150
+            }, 300, function(){
+            });
+        });
+    })
+</script> -->
 <?php get_footer(); ?>

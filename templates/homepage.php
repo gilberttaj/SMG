@@ -1189,7 +1189,7 @@
                 </div>
                 <div class='flex justify-center mt-[75px] pb-[80px]'>
                     <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black'>
-                        <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                        <a href='./about-us' class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
                         <div class='right-arrow'>
                         </div>
                     </button>
@@ -1524,11 +1524,10 @@
                 slidesToScroll: 1,
                 arrows: true,
                 infinite: false,
-                autoplay:false,
-                autoplaySpeed:2000,
+                autoplay: false,
+                autoplaySpeed: 2000,
                 speed: 1000,
-                responsive: [
-                    {
+                responsive: [{
                         breakpoint: 1281,
                         settings: {
                             slidesToShow: 3,
@@ -1698,7 +1697,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <script>
-        $( "#vision" ).click(function() {
+        $("#vision").click(function() {
             console.log('vision')
         });
     </script>

@@ -386,7 +386,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >選手・チーム紹介　　サテライト</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>　><a href="<?= site_url('/team-01')?>">選手・チーム紹介</a>  　>U-15</p>
 </div>
 
 <!-- First TAB PANE -->
@@ -538,7 +538,7 @@
         <div class="min-[751px]:w-[90%] mx-auto">
             <div class="font-bold">
                 <span class="josefin-sans text-[64px] leading-[96px]">FW</span> 
-                <span class="ml-[20px] text-[21px] leading-[42px]">ゴールキーパー</span>
+                <span class="ml-[20px] text-[21px] leading-[42px]">フォワード</span>
             </div>
             <div class="flex flex-wrap min-[751px]:gap-[20px] max-[750px]:justify-between">
                 <?php foreach($data['fw'] as $key => $value) {?>
@@ -560,7 +560,6 @@
 </div>
 
 <!-- Team Staff Content -->
-<!-- FW CONTENT -->
 <div class="relative overflow-hidden" id="team_staff">
     <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mx-auto min-[751px]:mt-[129px] max-[751px]:mt-[111px] relative">
         <div class="min-[751px]:w-[90%] mx-auto">

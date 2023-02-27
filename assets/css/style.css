@@ -513,3 +513,25 @@ body{
     background-size: 31.25% ;
     background-position: 0px 400px;
 } */
+
+.scrollTop {
+    background-color: #000000;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1000;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .scrollTop {
+        right: 15px;
+        bottom: 155px;
+    }
+}

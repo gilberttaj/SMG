@@ -176,13 +176,10 @@
 
     $(document).ready(function(){
         let headerHeight = $('#header').height();
-        console.log(headerHeight)
-        
+
         let topHeight = $(window).height() - headerHeight
 
         let windowWidth = $(window).width();
-
-        console.log('topHeight', topHeight)
 
         if(windowWidth > 750){
             $(".top-vh").css("height", topHeight);
@@ -191,18 +188,48 @@
 
             $("#result-pc-content").css("height", topHeight-80);
         }
-
-     
+        window.onscroll = function() {
+            if(windowWidth < 601) {
+                if (window.pageYOffset > 0) {
+                    if($('#wpadminbar').length == 0){
+                        $('#header').addClass('top-0')
+                        $('#header').removeClass('top-[32px]')
+                        $('html').attr('style', 'margin-top: 32px !important');
+                    }else{
+                        $('html').attr('style', 'margin-top: 0 !important');
+                        $('#header').removeClass('top-[32px]')
+                        $('#header').addClass('top-0')
+                    }
+                }else{
+                    if($('#wpadminbar').length == 0){
+                        $('#header').addClass('top-0')
+                        $('#header').removeClass('top-[32px]')
+                        $('html').attr('style', 'margin-top: 0 !important');
+                    }else{
+                        $('html').attr('style', 'margin-top: 32px !important');
+                        $('#header').addClass('top-[32px]')
+                        $('#header').removeClass('top-0')
+                    }
+                }
+            }
+        }
+        if($('#wpadminbar').length == 0){
+            $('html').attr('style', 'margin-top: 0 !important');
+            $('#header').removeClass('top-[32px]')
+            $('#header').addClass('top-0')
+        }else{
+            $('#header').removeClass('top-0')
+            $('#header').addClass('top-[32px]')
+            $('html').attr('style', 'margin-top: 32px !important');
+        }
+      
     });
-
 
     $(window).resize(function(){
         let headerHeight = $('#header').height();
-        console.log(headerHeight)
-        
+
         let topHeight = $(window).height() - headerHeight
 
-        console.log('topHeight', topHeight)
         let windowWidth = $(window).width();
 
         if(windowWidth > 750){
@@ -212,7 +239,55 @@
 
             $("#result-pc-content").css("height", topHeight-80);
         }
+        window.onscroll = function() {
+            if(windowWidth < 601) {
+                if (window.pageYOffset > 0) {
+                    if($('#wpadminbar').length == 0){
+                        $('#header').addClass('top-0')
+                        $('#header').removeClass('top-[32px]')
+                        $('html').attr('style', 'margin-top: 32px !important');
+                    }else{
+                        $('html').attr('style', 'margin-top: 0 !important');
+                        $('#header').removeClass('top-[32px]')
+                        $('#header').addClass('top-0')
+                    }
+                }else{
+                    if($('#wpadminbar').length == 0){
+                        $('#header').addClass('top-0')
+                        $('#header').removeClass('top-[32px]')
+                        $('html').attr('style', 'margin-top: 0 !important');
+                    }else{
+                        $('html').attr('style', 'margin-top: 32px !important');
+                        $('#header').addClass('top-[32px]')
+                        $('#header').removeClass('top-0')
+                    }
+                }
+            }
+        }
+        if($('#wpadminbar').length == 0){
+            $('html').attr('style', 'margin-top: 0 !important');
+            $('#header').removeClass('top-[32px]')
+            $('#header').addClass('top-0')
+        }else{
+            $('#header').removeClass('top-0')
+            $('#header').addClass('top-[32px]')
+            $('html').attr('style', 'margin-top: 32px !important');
+        }
+        
     });
+    
+    $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $('#toTop').fadeIn();
+        }else {
+            $('#toTop').fadeOut();
+        }
+    });
+
+    $("#toTop").click(function() {
+        $("html, body").animate({scrollTop: 0}, 750);
+    });
+    
     $('.nav-burger').on("click", function(){
         $('.sidebar').addClass("active");
         $('.navbar-backdrop').addClass("active");
@@ -297,7 +372,6 @@
             ]
         });
     })
-
 
 </script>
 
