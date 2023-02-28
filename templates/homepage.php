@@ -11,7 +11,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="overlay_image_slide fade w-full bg-img-2">
+            <div class="overlay_image_slide fade w-full bg-img-2">
                 <div class='h-full flex'>
                     <div class='slide-1 self-end ml-[160px] mb-[160px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
                         <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
@@ -40,7 +40,7 @@
                         <img src='<?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
         <div style="text-align:center" class='mt-[20px] smin-750:hidden block'>
             <span class="dot"></span>
@@ -1213,7 +1213,7 @@
         max-[759px]:w-[94%]'>
                     <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9513@2x.png' />
                     <div class='absolute w-[42.5%] h-[78.5%] top-[10%] max-[1853px]:top-[7%] right-[-1px] pr-[105px] max-[1900px]:pr-[95px] max-[1853px]:pr-[83px] max-[1796px]:pr-[72px] max-[1744px]:pr-[50px]
-            max-[1695px]:pr-[83px] max-[1600px]:pr-[85px] max-[1531px]:pr-[90px] max-[1487px]:pr-[70px] max-[1440px]:pr-[42px]
+            max-[1695px]:pr-[83px] max-[1600px]:pr-[75px] max-[1531px]:pr-[90px] max-[1487px]:pr-[70px] max-[1440px]:pr-[42px]
             max-[1280px]:pr-[80px]
             max-[1175px]:pr-[60px]
             max-[1108px]:pr-[50px]'>
