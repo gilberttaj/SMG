@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="<?= site_url('/wp-content/themes/smg/') ?>assets/css/top.css">
   <link rel="stylesheet" href="<?= site_url('/wp-content/themes/smg/') ?>assets/css/newsCards.css">
   <link rel="stylesheet" href="<?= site_url('/wp-content/themes/smg/') ?>assets/css/news.css">
+  <link rel="stylesheet" href="<?= site_url('/wp-content/themes/smg/') ?>assets/css/pagination.css">
 
 
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
