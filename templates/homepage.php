@@ -613,7 +613,7 @@
                 </div>
                 <div class='ml-[calc(50vw-105px)] mt-[90px] max-[992px]:ml-[calc(50vw-165px)] '>
                     <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
-                        <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                        <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]' href='./news-page'>VIEW ALL</a>
                         <div class='right-arrow'>
                         </div>
                     </button>

@@ -103,5 +103,26 @@ function create_post_type() {
 }
 
 
+function handle_contact_form_submission() {
+  $name = sanitize_text_field( $_POST['name'] );
+  $email = sanitize_email( $_POST['email'] );
+  $message = sanitize_textarea_field( $_POST['message'] );
+  
+  $to = 'gibotajada@gmail.com';
+  $subject = 'New Contact Form Submission';
+  $body = "Name: $name\n\nEmail: $email\n\nMessage:\n$message";
+  
+  wp_mail( $to, $subject, $body );
+  
+  wp_redirect( home_url( '/thank-you/' ) );
+  exit;
+}
+add_action( 'admin_post_nopriv_submit_contact_form', 'handle_contact_form_submission' );
+add_action( 'admin_post_submit_contact_form', 'handle_contact_form_submission' );
+
+
 global $wp_rewrite;
 $wp_rewrite->flush_rules();
+
+
+
