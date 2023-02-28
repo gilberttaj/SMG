@@ -285,7 +285,7 @@
                     </div>
                     <div class="flex mt-[30px]">
                         <div class="w-[25%] text-center">
-                            <p class="text-[64px] josefin-sans font-bold leading-[96px] min-[751px]:max-[900px]:text-[50px]"><?php echo get_post_meta($post->ID, 'jersey_no', true); ?></p>
+                            <p class="text-[#004EA1] text-[64px] josefin-sans font-bold leading-[96px] min-[751px]:max-[900px]:text-[50px]"><?php echo get_post_meta($post->ID, 'jersey_no', true); ?></p>
                         </div>
                         <div class="ml-[14px]">
                             <p class="text-[28px] noto-sans leading-[42px] tracking-[2px] font-medium min-[751px]:max-[900px]:text-[20px]"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
@@ -424,7 +424,7 @@
                 <div class="flex">
                     <div class="w-[35%] mr-[26px]">
                         <div class="text-left">
-                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
+                            <p class="text-[#004EA1] text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
                             <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
                             <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
                         </div>
@@ -581,7 +581,7 @@
                 <div class="flex">
                     <div class="w-[35%] mr-[26px]">
                         <div class="text-left">
-                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
+                            <p class="text-[#004EA1] text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
                             <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
                             <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
                         </div>
@@ -738,7 +738,7 @@
                 <div class="flex">
                     <div class="w-[35%] mr-[26px]">
                         <div class="text-left">
-                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
+                            <p class="text-[#004EA1] text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
                             <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
                             <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
                         </div>
@@ -895,7 +895,7 @@
                 <div class="flex">
                     <div class="w-[35%] mr-[26px]">
                         <div class="text-left">
-                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
+                            <p class="text-[#004EA1] text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
                             <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
                             <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
                         </div>
@@ -1052,7 +1052,7 @@
                 <div class="flex">
                     <div class="w-[35%] mr-[26px]">
                         <div class="text-left">
-                            <p class="text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
+                            <p class="text-[#004EA1] text-[56px] leading-[60px] max-[600px]:text-[46px] max-[600px]:leading-[50px] font-bold josefin-sans"><?php echo get_field('jersey_no')?></p>
                             <p class="text-[36px] leading-[42px] max-[600px]:text-[26px] max-[600px]:leading-[32px] tracking-[2px] font-medium noto-sans"><?php echo get_post_meta($post->ID, 'name_jap', true); ?></p>
                             <p class="text-[18px] leading-[27px] max-[600px]:text-[15px] max-[600px]:leading-[22px] tracking-[2px] font-bold josefin-sans"><?php echo get_field('name_eng')?></p>
                         </div>
