@@ -5,33 +5,42 @@
     <div id="top-1" class='flex flex-col smin-750:flex-row top-vh'>
         <div id="banner-image" class='w-[100%] smin-750:w-[80%] overflow-hidden max-[750px]:h-screen'>
             <div class="overlay_image_slide fade relative w-full bg-img-1">
-                <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide1@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block" >
-                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9512@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
-                <div class='w-[33.33%] absolute bottom-[12%] left-[10%]'>
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                <div class='h-full flex'>
+                    <div class='self-end ml-[160px] mb-[160px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
+                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                    </div>
                 </div>
             </div>
-            <div class="overlay_image_slide fade w-full bg-img-2">
-                <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide2@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block">
-                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/LINE_ALBUM_211021_839_02.psd@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
-                <div class='w-[33.33%] absolute bottom-[3%] right-[21%]'>
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+            <!-- <div class="overlay_image_slide fade w-full bg-img-2">
+                <div class='h-full flex'>
+                    <div class='slide-1 self-end ml-[160px] mb-[160px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
+                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                    </div>
+                    <div class='slide-2 self-end ml-auto mr-[115px] mb-[160px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
+                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                    </div>
                 </div>
             </div>
             <div class="overlay_image_slide fade w-full bg-img-3">
-                <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide3@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block" >
-                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Mask Group 12@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
-                <div class='w-[33.33%] absolute bottom-[20%] left-[24%]'>
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                <div class='h-full flex relative'>
+                    <div class='slide-1 absolute bottom-[160px] right-[115px]'>
+                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                    </div>
+                    <div class='slide-2 self-end ml-auto mr-[115px] mb-[200px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
+                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                    </div>
                 </div>
             </div>
             <div class="overlay_image_slide fade w-full  bg-img-4">
-                <!-- <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/slide4@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:hidden block">
-                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Slide4_sp12@2x.png" class="overlay_image_wrapper zoom w-full max-[750px]:block hidden" > -->
-                <div class='w-[33.33%] absolute bottom-[12%] left-[10%]'>
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                <div class='h-full flex relative'>
+                    <div class='slide-1 absolute bottom-[200px] right-[115px]'>
+                        <img src='<?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                    </div>
+                    <div class='slide-2 self-end ml-[85px] mb-[275px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
+                        <img src='<?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
+                    </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div style="text-align:center" class='mt-[20px] smin-750:hidden block'>
             <span class="dot"></span>
@@ -39,8 +48,8 @@
             <span class="dot"></span>
             <span class="dot"></span>
         </div>
+        <!-- ****************************************************** START OF RESULTSP *************************************************************** -->
         <div id="result-sp-section" class='w-[100%] smin-750:w-[20%] smin-750:hidden block'>
-            <!-- ****************************************************** START OF RESULTSP *************************************************************** -->
             <div id='result-title' class='mt-[80px] mb-[20px]'>
                 <div class='text-center josefin-sans text-[44px] font-bold'>
                     RESULT
@@ -148,10 +157,11 @@
                     </div>
                 </div>
             </div>
-            <!-- ****************************************************** END OF RESULTSP *************************************************************** -->
         </div>
+        <!-- ****************************************************** END OF RESULTSP *************************************************************** -->
+        
+        <!-- ****************************************************** START OF resultPC *************************************************************** -->
         <div id="result-pc-section" class='h-[10%] smin-750:w-[20%] smin-750:block hidden relative min-w-[300px]'>
-            <!-- ****************************************************** START OF resultPC *************************************************************** -->
             <div id='result-pc-title' class=''>
                 <div class='p-[20px] flex flex-col bg-[#004EA1] leading-[16px]'>
                     <span class='josefin-sans text-[22px] font-bold text-white'>RESULT</span>
@@ -363,8 +373,8 @@
                     </div>
                 </div>
             </div>
-            <!-- ****************************************************** END OF resultPC *************************************************************** -->
         </div>
+         <!-- ****************************************************** END OF resultPC *************************************************************** -->
     </div>
     <div style="text-align:center" class='mt-[20px] smin-750:block hidden absolute left-[48%]'>
         <span class="pc-dot"></span>
@@ -376,776 +386,18 @@
 
 <!-- ****************************************************** NEWS *************************************************************** -->
 
-<div id='news'>
-    <div class='flex flex-col smin-750:flex-row'>
-        <div class='w-[60%] smin-750:w-[80%] bg-news mt-[100px] bg-no-repeat smin-750:block hidden min-w-[60%]'>
-            <div class='mt-[50px] ml-[calc(50vw-70px)] flex flex-col w-[150px]'>
-                <span class='josefin-sans text-[48px] font-bold text-white'>NEWS</span>
-                <span class='noto-sans text-[20px] font-bold text-white text-center'>ニュース</span>
-            </div>
-            <div>
-                <!-- ****************************************************** START OF newsCards *************************************************************** -->
-                <!-- <div class="mt-[70px] mx-auto w-[90%] max-[750px]:w-full">
-                    <div class="top-news row mt-[30px]">
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
-                            <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 31 – 5@2x.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
-                            <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 32 – 7@2x.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
-                            <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 33 – 7@2x.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
-                            <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 34 – 6@2x.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
-                            <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 31 – 5@2x.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
-                            <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 32 – 7@2x.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
-                            <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 33 – 7@2x.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
-                            <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 34 – 6@2x.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="team_02_slider-full row mt-[30px]">
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-lg'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new3.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new5.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
+    <div id='news'>
+        <div class='flex flex-col smin-750:flex-row'>
+            <div class='w-[60%] smin-750:w-[80%] bg-news mt-[100px] bg-no-repeat smin-750:block hidden min-w-[60%]'>
+                <div class='mt-[50px] ml-[calc(50vw-70px)] flex flex-col w-[150px]'>
+                    <span class='josefin-sans text-[48px] font-bold text-white'>NEWS</span>
+                    <span class='noto-sans text-[20px] font-bold text-white text-center'>ニュース</span>
                 </div>
-                <!-- ****************************************************** END OF newsCards *************************************************************** -->
-            </div>
-            <div class='ml-[calc(50vw-105px)] mt-[90px] max-[992px]:ml-[calc(50vw-165px)] '>
-                <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
-                    <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
-                    <div class='right-arrow'>
-                    </div>
-                </button>
-
-            </div>
-        </div>
-
-        <div class='smin-750:w-[20%] smin-750:block hidden relative min-w-[300px]'>
-            <!-- ****************************************************** START OF newsPC *************************************************************** -->
-            <div id='news-pc-title' class=''>
-                <div class='p-[20px] flex flex-col bg-[#004EA1] pb-[40px] leading-[16px] h-[100px]'>
-                    <span class='josefin-sans text-[22px] font-bold text-white'>SCHEDULE</span>
-                    <span class='noto-sans text-[10px] font-bold text-white'>スケジュール一覧</span>
-                </div>
-            </div>
-            <div id='news-pc-content' class='flex flex-col gap-[10px] overflow-y-scroll'>
-                <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
-                    <div class='h-[107px]'>
-                        <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='text-center leading-[18px] mt-[5px]'>
-                            <span class='josefin-sans text-[24px] font-bold'>04.21</span>
-                            <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
-                            vs 名古屋
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
-                            会場：神奈川県立保土ヶ谷公園サッカー場
-                        </div>
-                    </div>
-                </div>
-
-                <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
-                    <div class='h-[107px]'>
-                        <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='text-center leading-[18px] mt-[5px]'>
-                            <span class='josefin-sans text-[24px] font-bold'>04.21</span>
-                            <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
-                            vs 名古屋
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
-                            会場：神奈川県立保土ヶ谷公園サッカー場
-                        </div>
-                    </div>
-                </div>
-
-                <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
-                    <div class='h-[107px]'>
-                        <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='text-center leading-[18px] mt-[5px]'>
-                            <span class='josefin-sans text-[24px] font-bold'>04.21</span>
-                            <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
-                            vs 名古屋
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
-                            会場：神奈川県立保土ヶ谷公園サッカー場
-                        </div>
-                    </div>
-                </div>
-
-                <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
-                    <div class='h-[107px]'>
-                        <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='text-center leading-[18px] mt-[5px]'>
-                            <span class='josefin-sans text-[24px] font-bold'>04.21</span>
-                            <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
-                            vs 名古屋
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
-                            会場：神奈川県立保土ヶ谷公園サッカー場
-                        </div>
-                    </div>
-                </div>
-
-                <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
-                    <div class='h-[107px]'>
-                        <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='text-center leading-[18px] mt-[5px]'>
-                            <span class='josefin-sans text-[24px] font-bold'>04.21</span>
-                            <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
-                            vs 名古屋
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
-                            会場：神奈川県立保土ヶ谷公園サッカー場
-                        </div>
-                    </div>
-                </div>
-
-                <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
-                    <div class='h-[107px]'>
-                        <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='text-center leading-[18px] mt-[5px]'>
-                            <span class='josefin-sans text-[24px] font-bold'>04.21</span>
-                            <span class='josefin-sans text-[10px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
-                            vs 名古屋
-                        </div>
-                        <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
-                            会場：神奈川県立保土ヶ谷公園サッカー場
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ****************************************************** END OF newsPC *************************************************************** -->
-
-        </div>
-    </div>
-    <div id="news-section" class='w-[100%] smin-750:w-[20%] smin-750:hidden block'>
-        <!-- ****************************************************** START OF scheduleSP *************************************************************** -->
-        <div id='sched-title' class='mt-[80px] mb-[20px]'>
-            <div class='text-center josefin-sans text-[44px] font-bold'>
-                SCHEDULE
-            </div>
-            <div class='text-center noto-sans text-[20px] font-bold tracking-[5px]'>
-                競技・試合日程
-            </div>
-        </div>
-        <div id="sched-container">
-            <div id="sched-slider-container">
-                <div class='sched-btn-container'>
-                    <!-- <span onclick="slideRight()" class="sched-btn"></span> -->
-                    <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9305@2x.png' onclick="slideRightSched()" />
-                </div>
-                <div id="sched-slider">
-                    <div class="sched-slide h-[225px] bg-[#F7F7F7]">
-                        <div class='noto-sans text-[25px] text-white font-bold text-center bg-[#004EA1] py-[5px]'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='text-center leading-[38px] mt-[10px]'>
-                            <span class='josefin-sans text-[50px] font-bold'>04.21</span>
-                            <span class='josefin-sans text-[21px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[29px] font-bold'>14:00 Kick off</span>
-                        </div>
-                        <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='noto-sans text-[28px] font-bold leading-[32px] text-center font-bold'>
-                            vs 名古屋
-                        </div>
-                        <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold' z>
-                            会場：神奈川県立保土ヶ谷公園サッカー場
-                        </div>
-                    </div>
-                    <div class="sched-slide h-[225px]">
-                        <div class='noto-sans text-[25px] text-white font-bold text-center bg-[#004EA1] py-[5px]'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='text-center leading-[38px] mt-[10px]'>
-                            <span class='josefin-sans text-[50px] font-bold'>04.21</span>
-                            <span class='josefin-sans text-[21px] font-bold'>SUN</span>
-                            <span class='josefin-sans text-[29px] font-bold'>14:00 Kick off</span>
-                        </div>
-                        <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold'>
-                            日体大SMG横浜
-                        </div>
-                        <div class='noto-sans text-[28px] font-bold leading-[32px] text-center font-bold'>
-                            vs 名古屋
-                        </div>
-                        <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold' z>
-                            会場：神奈川県立保土ヶ谷公園サッカー場
-                        </div>
-                    </div>
-                    <!-- <div class="sched-slide h-[25.8vh]">
-
-    </div> -->
-                    <div class='sched-btn-container'>
-                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9306@2x.png' onclick="slideLeftSched()" />
-                        <!-- <span onclick="slideLeft()" class="sched-btn"></span> -->
-                    </div>
-                </div>
-            </div>
-
-
-            <script>
-                var containerSched = document.getElementById('sched-container')
-                var sliderSched = document.getElementById('sched-slider');
-                var slidesSched = document.getElementsByClassName('sched-slide').length;
-                var buttonsSched = document.getElementsByClassName('sched-btn');
-
-
-                var currentPositionSched = 0;
-                var currentMarginSched = 0;
-                var slidesPerPageSched = 0;
-                var slidesCountSched = slidesSched - slidesPerPageSched;
-                var containerWidthSched = containerSched.offsetWidth;
-                var prevKeyActiveSched = false;
-                var nextKeyActiveSched = true;
-
-                window.addEventListener("resize", checkWidthSched);
-
-                function checkWidthSched() {
-                    containerWidthSched = containerSched.offsetWidth;
-                    setParams(containerWidthSched);
-                }
-
-                function setParamsSched(w) {
-                    if (w < 551) {
-                        slidesPerPageSched = 1;
-                    } else {
-                        if (w < 901) {
-                            slidesPerPageSched = 1;
-                        } else {
-                            if (w < 1101) {
-                                slidesPerPageSched = 1;
-                            } else {
-                                slidesPerPageSched = 1;
-                            }
-                        }
-                    }
-                    slidesCountSched = slidesSched - slidesPerPageSched;
-                    if (currentPositionSched > slidesCountSched) {
-                        currentPositionSched -= slidesPerPageSched;
-                    };
-                    currentMarginSched = -currentPositionSched * (100 / slidesPerPageSched);
-                    sliderSched.style.marginLeft = currentMarginSched + '%';
-                    if (currentPositionSched > 0) {
-                        buttonsSched[0].classList.remove('inactive');
-                    }
-                    if (currentPositionSched < slidesCountSched) {
-                        buttonsSched[1].classList.remove('inactive');
-                    }
-                    if (currentPositionSched >= slidesCountSched) {
-                        buttonsSched[1].classList.add('inactive');
-                    }
-                }
-
-                setParamsSched();
-
-                function slideRightSched() {
-                    if (currentPositionSched != 0) {
-                        sliderSched.style.marginLeft = currentMarginSched + (100 / slidesPerPageSched) + '%';
-                        currentMarginSched += (100 / slidesPerPageSched);
-                        currentPositionSched--;
-                    };
-                    if (currentPositionSched === 0) {
-                        buttonsSched[0].classList.add('inactive');
-                    }
-                    if (currentPositionSched < slidesCountSched) {
-                        buttonsSched[1].classList.remove('inactive');
-                    }
-                };
-
-                function slideLeftSched() {
-                    if (currentPositionSched != slidesCountSched) {
-                        sliderSched.style.marginLeft = currentMarginSched - (100 / slidesPerPageSched) + '%';
-                        currentMarginSched -= (100 / slidesPerPageSched);
-                        currentPositionSched++;
-                    };
-                    if (currentPositionSched == slidesCountSched) {
-                        buttonsSched[1].classList.add('inactive');
-                    }
-                    if (currentPositionSched > 0) {
-                        buttonsSched[0].classList.remove('inactive');
-                    }
-                };
-            </script>
-            <!-- ****************************************************** END OF scheduleSP *************************************************************** -->
-
-        </div>
-
-        <div class='w-[100%] smin-750:w-[20%] smin-750:hidden block mt-[100px]'>
-            <!-- ****************************************************** START OF newsSP *************************************************************** -->
-            <div class='h-[100vh] bg-newsSP bg-no-repeat bg-right'>
-                <div class='pt-[75px] text-center text-white'>
-                    <div class='josefin-sans text-[44px] font-bold'>NEWS</div>
-                    <div class='notosans text-[20px] font-bold leading-[32px]'>ニュース</div>
-                </div>
-                <!-- ****************************************************** Start OF newsCards *************************************************************** -->
-                <!-- <div class="mt-[70px] mx-auto w-[90%] max-[750px]:w-full">
-                    <div class="top-news row mt-[30px]">
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
+                <div class='w-[90%] mx-auto'>
+                    <div class="team_02_slider-full row mt-[30px]">
+                        <div class="news-slide mb-[5px] bg-white">
                             <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 31 – 5@2x.png">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
                                 <div class="absolute top-0 w-full h-full">
                                     <div class="relative w-full h-full flex justify-center items-center">
                                         <div class="leading-[18px]">
@@ -1153,10 +405,10 @@
                                         </div>
                                         <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                     </div>
-
+                                    
                                 </div>
                             </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
+                            <div class='p-[20px] shadow-lg'>
                                 <div class='leading-[18px]'>
                                     <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
                                     <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
@@ -1166,13 +418,13 @@
                                     <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                     <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                     <p>くお願いいたします。</p>
-
+                            
                                 </div>
                             </div>
                         </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
+                        <div class="news-slide mb-[5px] bg-white">
                             <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 32 – 7@2x.png">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
                                 <div class="absolute top-0 w-full h-full">
                                     <div class="relative w-full h-full flex justify-center items-center">
                                         <div class="leading-[18px]">
@@ -1180,10 +432,10 @@
                                         </div>
                                         <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                     </div>
-
+                                    
                                 </div>
                             </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
+                            <div class='p-[20px] shadow-md'>
                                 <div class='leading-[18px]'>
                                     <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
                                     <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
@@ -1193,13 +445,12 @@
                                     <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                     <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                     <p>くお願いいたします。</p>
-
                                 </div>
                             </div>
                         </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
+                        <div class="news-slide mb-[5px] bg-white">
                             <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 33 – 7@2x.png">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new3.png">
                                 <div class="absolute top-0 w-full h-full">
                                     <div class="relative w-full h-full flex justify-center items-center">
                                         <div class="leading-[18px]">
@@ -1207,10 +458,10 @@
                                         </div>
                                         <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                     </div>
-
+                                    
                                 </div>
                             </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
+                            <div class='p-[20px] shadow-md'>
                                 <div class='leading-[18px]'>
                                     <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
                                     <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
@@ -1220,13 +471,12 @@
                                     <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                     <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                     <p>くお願いいたします。</p>
-
                                 </div>
                             </div>
                         </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
+                        <div class="news-slide mb-[5px] bg-white">
                             <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 34 – 6@2x.png">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
                                 <div class="absolute top-0 w-full h-full">
                                     <div class="relative w-full h-full flex justify-center items-center">
                                         <div class="leading-[18px]">
@@ -1234,10 +484,10 @@
                                         </div>
                                         <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                     </div>
-
+                                    
                                 </div>
                             </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
+                            <div class='p-[20px] shadow-md'>
                                 <div class='leading-[18px]'>
                                     <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
                                     <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
@@ -1247,13 +497,12 @@
                                     <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                     <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                     <p>くお願いいたします。</p>
-
                                 </div>
                             </div>
                         </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
+                        <div class="news-slide mb-[5px] bg-white">
                             <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 31 – 5@2x.png">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new5.png">
                                 <div class="absolute top-0 w-full h-full">
                                     <div class="relative w-full h-full flex justify-center items-center">
                                         <div class="leading-[18px]">
@@ -1261,10 +510,10 @@
                                         </div>
                                         <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                     </div>
-
+                                    
                                 </div>
                             </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
+                            <div class='p-[20px] shadow-md'>
                                 <div class='leading-[18px]'>
                                     <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
                                     <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
@@ -1274,13 +523,13 @@
                                     <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                     <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                     <p>くお願いいたします。</p>
-
+                            
                                 </div>
                             </div>
                         </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
+                        <div class="news-slide mb-[5px] bg-white">
                             <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 32 – 7@2x.png">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
                                 <div class="absolute top-0 w-full h-full">
                                     <div class="relative w-full h-full flex justify-center items-center">
                                         <div class="leading-[18px]">
@@ -1288,10 +537,10 @@
                                         </div>
                                         <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                     </div>
-
+                                    
                                 </div>
                             </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
+                            <div class='p-[20px] shadow-md'>
                                 <div class='leading-[18px]'>
                                     <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
                                     <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
@@ -1301,13 +550,13 @@
                                     <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                     <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                     <p>くお願いいたします。</p>
-
+                            
                                 </div>
                             </div>
                         </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
+                        <div class="news-slide mb-[5px] bg-white">
                             <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 33 – 7@2x.png">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
                                 <div class="absolute top-0 w-full h-full">
                                     <div class="relative w-full h-full flex justify-center items-center">
                                         <div class="leading-[18px]">
@@ -1315,10 +564,10 @@
                                         </div>
                                         <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                     </div>
-
+                                    
                                 </div>
                             </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
+                            <div class='p-[20px] shadow-md'>
                                 <div class='leading-[18px]'>
                                     <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
                                     <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
@@ -1328,13 +577,13 @@
                                     <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                     <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                     <p>くお願いいたします。</p>
-
+                            
                                 </div>
                             </div>
                         </div>
-                        <div class="news-slide shadow-lg h-[320px] bg-white">
+                        <div class="news-slide mb-[5px] bg-white">
                             <div class="relative">
-                                <img src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/Component 34 – 6@2x.png">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
                                 <div class="absolute top-0 w-full h-full">
                                     <div class="relative w-full h-full flex justify-center items-center">
                                         <div class="leading-[18px]">
@@ -1342,10 +591,10 @@
                                         </div>
                                         <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
                                     </div>
-
+                                    
                                 </div>
                             </div>
-                            <div class='h-[50%] mx-[20px] mt-[20px]'>
+                            <div class='p-[20px] shadow-md'>
                                 <div class='leading-[18px]'>
                                     <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
                                     <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
@@ -1355,284 +604,484 @@
                                     <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
                                     <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
                                     <p>くお願いいたします。</p>
-
+                            
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> -->
-                <div class="team_02_slider-full row mt-[30px]">
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-lg'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new3.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new5.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-slide mb-[5px] bg-white">
-                        <div class="relative">
-                            <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
-                            <div class="absolute top-0 w-full h-full">
-                                <div class="relative w-full h-full flex justify-center items-center">
-                                    <div class="leading-[18px]">
-                                        <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                    </div>
-                                    <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class='p-[20px] shadow-md'>
-                            <div class='leading-[18px]'>
-                                <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                            </div>
-                            <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                <p>くお願いいたします。</p>
-
-                            </div>
-                        </div>
-                    </div>
+                    <!-- ****************************************************** END OF newsCards *************************************************************** -->
                 </div>
-                <!-- ****************************************************** END OF newsCards *************************************************************** -->
-
-
-
-                <div class='flex justify-center mt-[70px]'>
-                    <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black'>
+                <div class='ml-[calc(50vw-105px)] mt-[90px] max-[992px]:ml-[calc(50vw-165px)] '>
+                    <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black hover:border-[1px] hover:border-[#000]'>
                         <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
                         <div class='right-arrow'>
                         </div>
                     </button>
+
                 </div>
             </div>
 
+            <div class='smin-750:w-[20%] smin-750:block hidden relative min-w-[300px]'>
+                <!-- ****************************************************** START OF newsPC *************************************************************** -->
+                <div id='news-pc-title' class=''>
+                    <div class='p-[20px] flex flex-col bg-[#004EA1] pb-[40px] leading-[16px] h-[100px]'>
+                        <span class='josefin-sans text-[22px] font-bold text-white'>SCHEDULE</span>
+                        <span class='noto-sans text-[10px] font-bold text-white'>スケジュール一覧</span>
+                    </div>
+                </div>
+                <div id='news-pc-content' class='flex flex-col gap-[10px] overflow-y-scroll'>
+                    <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
+                        <div class='h-[107px]'>
+                            <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='text-center leading-[18px] mt-[5px]'>
+                                <span class='josefin-sans text-[24px] font-bold'>04.21</span>
+                                <span class='josefin-sans text-[10px] font-bold'>SUN</span>
+                                <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
+                                vs 名古屋
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
+                                会場：神奈川県立保土ヶ谷公園サッカー場
+                            </div>
+                        </div>
+                    </div>
 
-            <script>
-                $(document).ready(function() {
-                    $(".top-news").slick({
-                        slidesToShow: 4,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        infinite: false,
-                        autoplay: false,
-                        autoplaySpeed: 2000,
-                        speed: 1000,
-                        responsive: [{
-                                breakpoint: 1024,
-                                settings: {
-                                    slidesToShow: 2,
-                                }
-                            },
-                            {
-                                breakpoint: 751,
-                                settings: {
-                                    slidesToShow: 1,
-                                }
-                            },
-                        ]
-                    });
-                });
-            </script>
+                    <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
+                        <div class='h-[107px]'>
+                            <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='text-center leading-[18px] mt-[5px]'>
+                                <span class='josefin-sans text-[24px] font-bold'>04.21</span>
+                                <span class='josefin-sans text-[10px] font-bold'>SUN</span>
+                                <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
+                                vs 名古屋
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
+                                会場：神奈川県立保土ヶ谷公園サッカー場
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
+                        <div class='h-[107px]'>
+                            <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='text-center leading-[18px] mt-[5px]'>
+                                <span class='josefin-sans text-[24px] font-bold'>04.21</span>
+                                <span class='josefin-sans text-[10px] font-bold'>SUN</span>
+                                <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
+                                vs 名古屋
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
+                                会場：神奈川県立保土ヶ谷公園サッカー場
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
+                        <div class='h-[107px]'>
+                            <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='text-center leading-[18px] mt-[5px]'>
+                                <span class='josefin-sans text-[24px] font-bold'>04.21</span>
+                                <span class='josefin-sans text-[10px] font-bold'>SUN</span>
+                                <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
+                                vs 名古屋
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
+                                会場：神奈川県立保土ヶ谷公園サッカー場
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
+                        <div class='h-[107px]'>
+                            <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='text-center leading-[18px] mt-[5px]'>
+                                <span class='josefin-sans text-[24px] font-bold'>04.21</span>
+                                <span class='josefin-sans text-[10px] font-bold'>SUN</span>
+                                <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
+                                vs 名古屋
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
+                                会場：神奈川県立保土ヶ谷公園サッカー場
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='card bg-[#F7F7F7] mt-[18px] w-[90%] m-auto'>
+                        <div class='h-[107px]'>
+                            <div class='noto-sans text-[12px] text-white font-bold leading-[16px] text-center bg-[#004EA1] py-[5px]'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='text-center leading-[18px] mt-[5px]'>
+                                <span class='josefin-sans text-[24px] font-bold'>04.21</span>
+                                <span class='josefin-sans text-[10px] font-bold'>SUN</span>
+                                <span class='josefin-sans text-[14px] font-bold'>14:00 Kick off</span>
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='noto-sans text-[14px] font-bold leading-[14px] text-center font-bold'>
+                                vs 名古屋
+                            </div>
+                            <div class='noto-sans text-[10px] font-bold leading-[16px] text-center font-bold' z>
+                                会場：神奈川県立保土ヶ谷公園サッカー場
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ****************************************************** END OF newsPC *************************************************************** -->
+
+            </div>
+        </div>
+        <div id="news-section" class='w-[100%] smin-750:w-[20%] smin-750:hidden block'>
+            <!-- ****************************************************** START OF scheduleSP *************************************************************** -->
+            <div id='sched-title' class='mt-[80px] mb-[20px]'>
+                <div class='text-center josefin-sans text-[44px] font-bold'>
+                    SCHEDULE
+                </div>
+                <div class='text-center noto-sans text-[20px] font-bold tracking-[5px]'>
+                    競技・試合日程
+                </div>
+            </div>
+            <div id="sched-container">
+                <div id="sched-slider-container">
+                    <div class='sched-btn-container'>
+                        <!-- <span onclick="slideRight()" class="sched-btn"></span> -->
+                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9305@2x.png' onclick="slideRightSched()" />
+                    </div>
+                    <div id="sched-slider">
+                        <div class="sched-slide h-[225px] bg-[#F7F7F7]">
+                            <div class='noto-sans text-[25px] text-white font-bold text-center bg-[#004EA1] py-[5px]'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='text-center leading-[38px] mt-[10px]'>
+                                <span class='josefin-sans text-[50px] font-bold'>04.21</span>
+                                <span class='josefin-sans text-[21px] font-bold'>SUN</span>
+                                <span class='josefin-sans text-[29px] font-bold'>14:00 Kick off</span>
+                            </div>
+                            <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='noto-sans text-[28px] font-bold leading-[32px] text-center font-bold'>
+                                vs 名古屋
+                            </div>
+                            <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold' z>
+                                会場：神奈川県立保土ヶ谷公園サッカー場
+                            </div>
+                        </div>
+                        <div class="sched-slide h-[225px]">
+                            <div class='noto-sans text-[25px] text-white font-bold text-center bg-[#004EA1] py-[5px]'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='text-center leading-[38px] mt-[10px]'>
+                                <span class='josefin-sans text-[50px] font-bold'>04.21</span>
+                                <span class='josefin-sans text-[21px] font-bold'>SUN</span>
+                                <span class='josefin-sans text-[29px] font-bold'>14:00 Kick off</span>
+                            </div>
+                            <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold'>
+                                日体大SMG横浜
+                            </div>
+                            <div class='noto-sans text-[28px] font-bold leading-[32px] text-center font-bold'>
+                                vs 名古屋
+                            </div>
+                            <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold' z>
+                                会場：神奈川県立保土ヶ谷公園サッカー場
+                            </div>
+                        </div>
+                        <!-- <div class="sched-slide h-[25.8vh]">
+
+
+                        <div class='sched-btn-container'>
+                            <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9306@2x.png' onclick="slideLeftSched()" />
+                            <!-- <span onclick="slideLeft()" class="sched-btn"></span> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ****************************************************** END OF scheduleSP *************************************************************** -->
+
+            </div>
+
+            <div class='w-[100%] smin-750:w-[20%] smin-750:hidden block mt-[100px]'>
+                <!-- ****************************************************** START OF newsSP *************************************************************** -->
+                <div class='h-[100vh] bg-newsSP bg-no-repeat bg-right'>
+                    <div class='pt-[75px] text-center text-white'>
+                        <div class='josefin-sans text-[44px] font-bold'>NEWS</div>
+                        <div class='notosans text-[20px] font-bold leading-[32px]'>ニュース</div>
+                    </div>
+                    <!-- ****************************************************** Start OF newsCards *************************************************************** -->
+                    <div class="team_02_slider-full row mt-[30px]">
+                        <div class="news-slide mb-[5px] bg-white">
+                            <div class="relative">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
+                                <div class="absolute top-0 w-full h-full">
+                                    <div class="relative w-full h-full flex justify-center items-center">
+                                        <div class="leading-[18px]">
+                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                                        </div>
+                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class='p-[20px] shadow-lg'>
+                                <div class='leading-[18px]'>
+                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
+                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
+                                </div>
+                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
+                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
+                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
+                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
+                                    <p>くお願いいたします。</p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-slide mb-[5px] bg-white">
+                            <div class="relative">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
+                                <div class="absolute top-0 w-full h-full">
+                                    <div class="relative w-full h-full flex justify-center items-center">
+                                        <div class="leading-[18px]">
+                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                                        </div>
+                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class='p-[20px] shadow-md'>
+                                <div class='leading-[18px]'>
+                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
+                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
+                                </div>
+                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
+                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
+                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
+                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
+                                    <p>くお願いいたします。</p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-slide mb-[5px] bg-white">
+                            <div class="relative">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new3.png">
+                                <div class="absolute top-0 w-full h-full">
+                                    <div class="relative w-full h-full flex justify-center items-center">
+                                        <div class="leading-[18px]">
+                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                                        </div>
+                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class='p-[20px] shadow-md'>
+                                <div class='leading-[18px]'>
+                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
+                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
+                                </div>
+                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
+                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
+                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
+                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
+                                    <p>くお願いいたします。</p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-slide mb-[5px] bg-white">
+                            <div class="relative">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
+                                <div class="absolute top-0 w-full h-full">
+                                    <div class="relative w-full h-full flex justify-center items-center">
+                                        <div class="leading-[18px]">
+                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                                        </div>
+                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class='p-[20px] shadow-md'>
+                                <div class='leading-[18px]'>
+                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
+                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
+                                </div>
+                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
+                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
+                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
+                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
+                                    <p>くお願いいたします。</p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-slide mb-[5px] bg-white">
+                            <div class="relative">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new5.png">
+                                <div class="absolute top-0 w-full h-full">
+                                    <div class="relative w-full h-full flex justify-center items-center">
+                                        <div class="leading-[18px]">
+                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                                        </div>
+                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class='p-[20px] shadow-md'>
+                                <div class='leading-[18px]'>
+                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
+                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
+                                </div>
+                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
+                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
+                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
+                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
+                                    <p>くお願いいたします。</p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-slide mb-[5px] bg-white">
+                            <div class="relative">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
+                                <div class="absolute top-0 w-full h-full">
+                                    <div class="relative w-full h-full flex justify-center items-center">
+                                        <div class="leading-[18px]">
+                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                                        </div>
+                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class='p-[20px] shadow-md'>
+                                <div class='leading-[18px]'>
+                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
+                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
+                                </div>
+                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
+                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
+                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
+                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
+                                    <p>くお願いいたします。</p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-slide mb-[5px] bg-white">
+                            <div class="relative">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
+                                <div class="absolute top-0 w-full h-full">
+                                    <div class="relative w-full h-full flex justify-center items-center">
+                                        <div class="leading-[18px]">
+                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                                        </div>
+                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class='p-[20px] shadow-md'>
+                                <div class='leading-[18px]'>
+                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
+                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
+                                </div>
+                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
+                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
+                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
+                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
+                                    <p>くお願いいたします。</p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-slide mb-[5px] bg-white">
+                            <div class="relative">
+                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
+                                <div class="absolute top-0 w-full h-full">
+                                    <div class="relative w-full h-full flex justify-center items-center">
+                                        <div class="leading-[18px]">
+                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                                        </div>
+                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class='p-[20px] shadow-md'>
+                                <div class='leading-[18px]'>
+                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
+                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
+                                </div>
+                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
+                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
+                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
+                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
+                                    <p>くお願いいたします。</p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ****************************************************** END OF newsCards *************************************************************** -->
 
 
 
+                    <div class='flex justify-center mt-[70px]'>
+                        <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black'>
+                            <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                            <div class='right-arrow'>
+                            </div>
+                        </button>
+                    </div>
+                </div>
 
+                <!-- ****************************************************** END OF newsSP *************************************************************** -->
 
-            <!-- ****************************************************** END OF newsSP *************************************************************** -->
+            </div>
 
         </div>
-
     </div>
 
 
-
-    <!-- ****************************************************** ABOUT US *************************************************************** -->
+<!-- ****************************************************** ABOUT US *************************************************************** -->
     <div id="aboutUs" class='mt-[130px]'>
         <div class='bg-about bg-no-repeat smin-750:block hidden'>
             <div class='flex flex-col justify-center items-center'>
@@ -1740,7 +1189,7 @@
                 </div>
                 <div class='flex justify-center mt-[75px] pb-[80px]'>
                     <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black'>
-                        <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
+                        <a href='./about-us' class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
                         <div class='right-arrow'>
                         </div>
                     </button>
@@ -2146,7 +1595,7 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " slider-active";
             pcDot[slideIndex - 1].className += " slider-active";
-            setTimeout(showSlides, 3000); // Change image every 2 seconds
+            setTimeout(showSlides, 5000); // Change image every 2 seconds
         }
     </script>
     <script>
@@ -2252,3 +1701,118 @@
             console.log('vision')
         });
     </script>
+
+
+
+<script>
+    $(document).ready(function() {
+        $(".top-news").slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            infinite: false,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            speed: 1000,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 751,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+            ]
+        });
+    });
+</script>
+
+
+
+<script>
+    var containerSched = document.getElementById('sched-container')
+    var sliderSched = document.getElementById('sched-slider');
+    var slidesSched = document.getElementsByClassName('sched-slide').length;
+    var buttonsSched = document.getElementsByClassName('sched-btn');
+
+
+    var currentPositionSched = 0;
+    var currentMarginSched = 0;
+    var slidesPerPageSched = 0;
+    var slidesCountSched = slidesSched - slidesPerPageSched;
+    var containerWidthSched = containerSched.offsetWidth;
+    var prevKeyActiveSched = false;
+    var nextKeyActiveSched = true;
+
+    window.addEventListener("resize", checkWidthSched);
+
+    function checkWidthSched() {
+        containerWidthSched = containerSched.offsetWidth;
+        setParams(containerWidthSched);
+    }
+
+    function setParamsSched(w) {
+        if (w < 551) {
+            slidesPerPageSched = 1;
+        } else {
+            if (w < 901) {
+                slidesPerPageSched = 1;
+            } else {
+                if (w < 1101) {
+                    slidesPerPageSched = 1;
+                } else {
+                    slidesPerPageSched = 1;
+                }
+            }
+        }
+        slidesCountSched = slidesSched - slidesPerPageSched;
+        if (currentPositionSched > slidesCountSched) {
+            currentPositionSched -= slidesPerPageSched;
+        };
+        currentMarginSched = -currentPositionSched * (100 / slidesPerPageSched);
+        sliderSched.style.marginLeft = currentMarginSched + '%';
+        if (currentPositionSched > 0) {
+            buttonsSched[0].classList.remove('inactive');
+        }
+        if (currentPositionSched < slidesCountSched) {
+            buttonsSched[1].classList.remove('inactive');
+        }
+        if (currentPositionSched >= slidesCountSched) {
+            buttonsSched[1].classList.add('inactive');
+        }
+    }
+
+    setParamsSched();
+
+    function slideRightSched() {
+        if (currentPositionSched != 0) {
+            sliderSched.style.marginLeft = currentMarginSched + (100 / slidesPerPageSched) + '%';
+            currentMarginSched += (100 / slidesPerPageSched);
+            currentPositionSched--;
+        };
+        if (currentPositionSched === 0) {
+            buttonsSched[0].classList.add('inactive');
+        }
+        if (currentPositionSched < slidesCountSched) {
+            buttonsSched[1].classList.remove('inactive');
+        }
+    };
+
+    function slideLeftSched() {
+        if (currentPositionSched != slidesCountSched) {
+            sliderSched.style.marginLeft = currentMarginSched - (100 / slidesPerPageSched) + '%';
+            currentMarginSched -= (100 / slidesPerPageSched);
+            currentPositionSched++;
+        };
+        if (currentPositionSched == slidesCountSched) {
+            buttonsSched[1].classList.add('inactive');
+        }
+        if (currentPositionSched > 0) {
+            buttonsSched[0].classList.remove('inactive');
+        }
+    };
+</script>

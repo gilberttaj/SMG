@@ -59,23 +59,59 @@
     background-size: cover;
 }
 
+.slide-1{
+  /* transform: translate(-50%, -50%); */
+  /* display: block; */
+  opacity: 1;
+  animation:fadeOut 2s 2s ease forwards
+  /* animation: fadeIn 2s 2s ease forwards; */
+}
+
+
+.slide-2{
+  /* transform: translate(-50%, -50%); */
+  opacity: 0;
+  animation: zoom-in 2s 2s ease forwards;
+}
+
+
+
+
 @keyframes zoom-in {
     from {
       background-size: 100%;
+      opacity: 0;
     }
     to {
       background-size: 110%;
+      opacity: 1;
     }
   }
 
   @keyframes zoom-out {
     from {
       transform: scale(1.1);
+
     }
     to {
       transform: scale(1);
+
     }
   }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  
+  
+
+
 
 
 
