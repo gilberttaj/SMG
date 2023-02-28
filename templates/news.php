@@ -95,17 +95,21 @@
                 while ( $query->have_posts() ) : $query->the_post();
             ?>  
                 <div class="xl:w-[30%] min-[751px]:w-[43%] max-[750px]:w-full mb-[5px] bg-white">
-                    <div class="relative">
-                        <?php echo get_the_post_thumbnail() ?>
-                        <div class="absolute top-0 w-full h-full">
-                            <div class="relative w-full h-full flex justify-center items-center">
-                                <div class="leading-[18px]">
-                                    <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                    <div class="relative overflow-hidden cursor-pointer">
+                        <a href='<?= site_url()?>/news-detail?id=<?php echo get_the_ID()?>'>
+                            <div class="transition duration-300 ease-in hover:scale-110">
+                                <?php echo get_the_post_thumbnail() ?>
+                                <div class="absolute top-0 w-full h-full">
+                                    <div class="relative w-full h-full flex justify-center items-center">
+                                        <div class="leading-[18px]">
+                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
+                                        </div>
+                                        
+                                    </div>
                                 </div>
-                                <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'><?php echo get_field('Tag')?></span>
-                            </div>
-                            
-                        </div>
+                            </div>  
+                        </a>    
+                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'><?php echo get_field('Tag')?></span>
                     </div>
                     <div class='p-[20px] shadow-lg'>
                         <div class='leading-[18px]'>

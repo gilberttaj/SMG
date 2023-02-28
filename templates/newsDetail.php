@@ -18,6 +18,12 @@
 <div class="min-[751px]:w-[60%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
     <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a> 　><a href="<?= site_url('news-page')?>">ニュース</a>　>大西若菜選手デザインのマフラータオルが完成！</p>
 </div>
+<?php 
+    $queryString = $_SERVER['QUERY_STRING'];
+    parse_str($queryString, $params);
+    $newsId = $params['id'];
+    echo($newsId);
+?>
 
 <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mx-auto min-[751px]:mt-[129px] max-[751px]:mt-[111px] relative mb-[230px] max-[750px]:mb-[200px]">
     <div class="min-[751px]:w-[90%] mx-auto">
@@ -58,10 +64,27 @@
             </p>
         </div>
 
+        <?php
+        $args = array(
+        'post_type' => 'news',
+        'p' => $newsId
+        );
 
+        $query = new WP_Query( $args );
+
+        if ( $query->have_posts() ) {
+            while ( $query->have_posts() ) {
+                $query->the_post();
+        ?>
         <div class="mt-[40px]">
-            <img src="<?= site_url('/wp-content/themes/smg/assets/images/news/Group 11942.png')?>" alt="">
+            <?php echo get_the_post_thumbnail() ?>
         </div>
+        <?php
+    }
+
+wp_reset_postdata(); // Restore global post data
+}
+?>
 
         <div class="mt-[46.2px] text-[14px] font-medium leading-[28px] noto-sans">
             <p>
