@@ -7,15 +7,15 @@
     </div>
     <div class="absolute top-0 h-full w-full flex justify-center items-center" data-aos="fade-up">
         <div class="text-center">
-            <h1 class="text-[48px] font-bold josefin-sans text-white leading-[58.09px]">SCHEDULE</h1>
-            <p class="text-[20px] font-bold noto-sans text-white leading-[24.2px] tracking-[4px] ">スケジュール一覧</p>
+            <h1 class="text-[48px] font-bold josefin-sans text-white leading-[58.09px]">RESULT</h1>
+            <p class="text-[20px] font-bold noto-sans text-white leading-[24.2px] tracking-[4px] ">競技・試合結果</p>
         </div>
     </div>
 </div>
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[52.5%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a>  >スケジュール一覧</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595] max-[750px]:text-[18px] max-[750px]:leading-[27px]"><a href="<?= site_url()?>">ホーム</a>  >スケジュール一覧</p>
 </div>
 
 <!-- Content -->
@@ -27,7 +27,9 @@
             <p class="mt-[17px] max-[750px]:mt-[22px] text-[36px] leading-[46.67px] tracking-[4px]">
                 日体大SMG横浜
             </p>
-            <p class="leading-[0px] text-[45px]">__</p>
+            <div class="flex justify-center mt-[23px]">
+                <div class="border-b-[6px] border-black w-[60px]"></div>
+            </div>
         </div>
         <div class="flex gap-5 mt-[70px] flex-wrap justify-center">
             <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px] xl:w-[31%] min-[751px]:w-[43%] max-[750px]:w-full">
@@ -154,9 +156,11 @@
         <div class="text-center font-bold noto-sans">
             <p class="text-[18px] leading-[28px]">陸上競技（混成競技）</p>
             <p class="mt-[17px] max-[750px]:mt-[22px] text-[36px] leading-[46.67px] tracking-[4px]">
-                大玉 華鈴選手
+                大玉 華鈴<span class="text-[22px]">選手</span>
             </p>
-            <p class="leading-[0px] text-[45px]">__</p>
+            <div class="flex justify-center mt-[23px]">
+                <div class="border-b-[6px] border-black w-[60px]"></div>
+            </div>
         </div>
         <div class="flex gap-5 mt-[70px] flex-wrap justify-center">
             <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] py-[24px] px-[12px] xl:w-[31%] min-[751px]:w-[43%] max-[750px]:w-full">
@@ -220,7 +224,9 @@
             <p class="mt-[17px] max-[750px]:mt-[22px] text-[36px] leading-[46.67px] tracking-[4px]">
                 サテライト／U-18／U-15
             </p>
-            <p class="leading-[0px] text-[45px]">__</p>
+            <div class="flex justify-center mt-[23px]">
+                <div class="border-b-[6px] border-black w-[60px]"></div>
+            </div>
         </div>
         <div class="flex gap-5 mt-[70px] flex-wrap justify-center">
             <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px] xl:w-[31%] min-[751px]:w-[43%] max-[750px]:w-full">
