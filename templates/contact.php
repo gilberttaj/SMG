@@ -11,8 +11,8 @@
     <label for="message">Message:</label>
     <textarea id="message" name="message" required></textarea>
     <br>
-    <input type="hidden" name="action" value="submit_contact_form">
-    <input type="submit" value="Send">
+
+    <input type="submit" name="submit" value="Send">
 </form> -->
 
 <!-- HEADER Schedule -->
