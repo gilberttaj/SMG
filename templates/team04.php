@@ -28,7 +28,9 @@
             <p class="mt-[17px] max-[750px]:mt-[22px] text-[36px] leading-[46.67px] tracking-[4px]">
                 サテライト／U-18／U-15
             </p>
-            <p class="leading-[0px] text-[45px]">__</p>
+            <div class="flex justify-center mt-[23px]">
+                <div class="border-b-[6px] border-black w-[60px]"></div>
+            </div>
         </div>
 
         <div class="team_04_header flex justify-center mt-[60px] max-[750px]:mt-[50px]">
