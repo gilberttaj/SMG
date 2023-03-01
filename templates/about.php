@@ -91,7 +91,7 @@
                     日本体育大学学友会サッカー部女子を内包するクラブチームです。アマチュア最高峰のなでしこリーグ1部に挑戦しているＴＯＰチームと関東女子サッカーリーグ2部に所属しているサテライトチームは、日本体育大学の学生を中心に活動しています。U-18、U-15チームは、横浜市北部エリアを中心とする地域の様々な中学校・高等学校に通う選手たちで構成され、総勢約150名を超える女子サッカー選手が在籍しています。2022シーズンより、新富士病院グループ（ＳＭＧ）とトップパートナー契約を結び、クラブ名を「日体大ＳＭＧ横浜」に変更致しました。また、陸上混成種目（七種競技）を専門とする大玉華鈴選手を招き入れ、総合型地域スポーツクラブへの第一歩を踏み出しています。
                 </p>
                 <div class="xl:mt-[100px] lg:mt-[70px] min-[751px]:mt-[50px] max-[750px]:mt-[170px] max-[750px]:w-[60%] max-[550px]:w-[70%] max-[450px]:w-[80%] max-[320px]:w-[90%]   max-[750px]:mx-auto">
-                    <a href="<?= site_url('/team-05')?>" class="hover:bg-[#004EA1] hover:text-white text-[#004EA1] bg-white border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
+                    <a href="<?= site_url('/team-01')?>" class="hover:bg-[#004EA1] hover:text-white text-[#004EA1] bg-white border-solid border-4 border-[#004EA1] flex flex-col items-center justify-center rounded-[60px] xl:h-[120px] h-[100px]">
                         <p class="font-bold text-[40px] max-[750px]:text-[35px] max-[750px]:[30px] josefin-sans">TEAM</p>
                         <p class="noto-sans font-bold text-[20px] max-[750px]:text-[16px] max-[500px]:text-[15px] tracking-[2px] leading-[16px]">選手・チーム紹介</p>
                     </a>
