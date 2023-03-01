@@ -30,7 +30,7 @@
 
 <!-- BREADCRUMBS -->
 <div class="min-[751px]:w-[60%] min-[751px]:mx-auto mt-4 max-[750px]:px-5">
-    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595]"><a href="<?= site_url()?>">ホーム</a> 　><a href="<?= site_url('news-page')?>">ニュース</a>　>大西若菜選手デザインのマフラータオルが完成！</p>
+    <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595] max-[750px]:text-[18px] max-[750px]:leading-[27px]"><a href="<?= site_url()?>">ホーム</a> 　><a href="<?= site_url('news-page')?>">ニュース</a>　>大西若菜選手デザインのマフラータオルが完成！</p>
 </div>
 
 <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mx-auto min-[751px]:mt-[129px] max-[751px]:mt-[111px] relative mb-[230px] max-[750px]:mb-[200px]">
