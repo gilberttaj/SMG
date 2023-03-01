@@ -2,30 +2,24 @@
 <?php get_header(); ?>
 
 <div id="top" class=''>
-    <div id="top-1" class='flex flex-col smin-750:flex-row top-vh'>
+    <div class='flex flex-col smin-750:flex-row'>
         <div id="banner-image" class='w-[100%] smin-750:w-[80%] overflow-hidden max-[750px]:h-screen'>
             <div class="overlay_image_slide fade relative w-full bg-img-1">
                 <div class='h-full flex'>
-                    <div class='self-end ml-[160px] mb-[160px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
+                    <div class='self-end ml-[140px] mb-[95px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
                         <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
                     </div>
                 </div>
             </div>
             <div class="overlay_image_slide fade w-full bg-img-2">
                 <div class='h-full flex'>
-                    <div class='slide-1 self-end ml-[160px] mb-[160px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
-                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
-                    </div>
-                    <div class='slide-2 self-end ml-auto mr-[115px] mb-[160px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
+                    <div class='slide-2 self-end ml-auto mr-[78px] mb-[45px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
                         <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
                     </div>
                 </div>
             </div>
             <div class="overlay_image_slide fade w-full bg-img-3">
                 <div class='h-full flex relative'>
-                    <div class='slide-1 absolute bottom-[160px] right-[115px]'>
-                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
-                    </div>
                     <div class='slide-2 self-end ml-auto mr-[115px] mb-[200px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
                         <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
                     </div>
@@ -33,10 +27,7 @@
             </div>
             <div class="overlay_image_slide fade w-full  bg-img-4">
                 <div class='h-full flex relative'>
-                    <div class='slide-1 absolute bottom-[200px] right-[115px]'>
-                        <img src='<?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
-                    </div>
-                    <div class='slide-2 self-end ml-[85px] mb-[275px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
+                    <div class='slide-2 self-end ml-[105px] mb-[225px] max-[750px]:ml-[20px] max-[750px]:mb-[30px]'>
                         <img src='<?= site_url('/wp-content/themes/smg') ?>/assets/images/Path 11990 new.png' />
                     </div>
                 </div>
@@ -49,111 +40,220 @@
             <span class="dot"></span>
         </div>
         <!-- ****************************************************** START OF RESULTSP *************************************************************** -->
-        <div id="result-sp-section" class='w-[100%] smin-750:w-[20%] smin-750:hidden block'>
-            <div id='result-title' class='mt-[80px] mb-[20px]'>
-                <div class='text-center josefin-sans text-[44px] font-bold'>
-                    RESULT
-                </div>
-                <div class='text-center noto-sans text-[20px] font-bold tracking-[5px]'>
-                    競技・試合結果
-                </div>
-            </div>
-            <div id="result-container">
-                <div id="result-slider-container">
-                    <div class='result-btn-container'>
-                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9305@2x.png' onclick="slideRight()" />
+        <div class="min-[1800px]:w-[50%] xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mt-[70px] mx-auto smin-750:hidden block">
+            <div class="font-bold text-center">
+                <p class="josefin-sans text-[32px] leading-[16px] max-[750px]:text-[44px] max-[750px]:leading-[32px]">RESULT</p>
+                <p class="text-[10px] leading-[16px] tracking-[4px] mt-[4px] max-[750px]:text-[20px] max-[750px]:leading-[32px]">競技・試合結果</p>
+            </div> 
+            <div class="top_result_slider mt-[30px] row">
+                <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[380px] max-[500px]:h-[400px] max-[375px]:h-[360px] py-[24px] px-[12px]">
+                    <div class="font-bold text-center">
+                        <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px] max-[375px]:text-[40px]">
+                            04.20 
+                            <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
+                        </p>
+                        <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00] max-[375px]:text-[25px]
+                        max-[375px]:leading-[20px]
+                        ">試合終了</p>
+                        <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]
+                        max-[550px]:mb-[15px] 
+                        max-[375px]:text-[20px] 
+                        ">なでしこリーグ第0節</p>
                     </div>
-                    <div id="slider">
-                        <div class="slide">
-                            <div class='mt-[20px]'>
-                                <span class='text-white text-[50px] josefin-sans font-bold'>04.20 </span>
-                                <span class='text-white text-[29px] josefin-sans font-bold'>SUN</span>
-                            </div>
-                            <div class='mt-[-15px]'>
-                                <span class='text-[#D19F00] noto-sans text-[33px] font-bold'>競技結果</span>
-                            </div>
-                            <div>
-                                <span class='text-white noto-sans text-[24px] font-bold'>第89回日本インカレ女子七種競技決勝</span>
-                            </div>
-                            <div class='mt-[10px]'>
-                                <span class='text-white noto-sans text-[24px] font-bold'>優勝</span>
-                            </div>
-                            <div class='mt-[10px]'>
-                                <span class='text-white noto-sans text-[38px] font-bold'>大玉 華鈴</span>
-                            </div>
-                            <div class='mb-[10px]'>
-                                <span class='text-white noto-sans text-[34px] font-bold'>5634</span>
-                            </div>
-                            <hr class='border-t-[2px] border-white w-[90%]' />
-                            <div class='mb-[50px] mt-[10px]'>
-                                <span class='text-white noto-sans text-[25px] font-bold'>会場：デンカビッグスワンスタジアム</span>
-                            </div>
+                    <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:mr-[25px] xl:mr-[30px]">
+                        <div class="flex flex-col items-center">
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                            font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]
+                            max-[375px]:text-[55px]'>1</span>
+                            <span class='!mt-[20px] text-white noto-sans text-[12px] font-bold mt-[2px] 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            max-[500px]:text-[18px]
+                            max-[375px]:text-[16px]
+                            '>日体大SMG</span>
+                            <span class='text-white noto-sans text-[12px] font-bold 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            max-[500px]:text-[18px]
+                            max-[375px]:text-[16px]
+                            '>横浜</span>
                         </div>
-                        <div class="slide even">
-                            <div class='mt-[20px]'>
-                                <span class='text-white text-[50px] josefin-sans font-bold'>04.20 </span>
-                                <span class='text-white text-[29px] josefin-sans font-bold'>SUN</span>
-                            </div>
-                            <div class='mt-[-15px]'>
-                                <span class='text-[#D19F00] noto-sans text-[33px] font-bold'>試合終了</span>
-                            </div>
-                            <div>
-                                <span class='text-white noto-sans text-[24px] font-bold'>なでしこリーグ第0節</span>
-                            </div>
-                            <div class='flex flex-row justify-between w-[65%] mb-[25px]'>
-                                <div class='flex flex-col items-center w-[33.33%]'>
-                                    <span class='text-white josefin-sans text-[67px] font-bold'>1</span>
-                                    <span class='text-white noto-sans text-[24px] font-bold mt-[-25px]'>日体大SMG</span>
-                                    <span class='text-white noto-sans text-[24px] font-bold'>横浜</span>
-                                </div>
-                                <div class='flex flex-col items-center self-center w-[33.33%]'>
-                                    <span class='text-[#B1B1B1] josefin-sans text-[50px] font-bold'>VS</span>
-                                    <span class='text-[#B1B1B1] josefin-sans text-[25px] font-bold'>HOME</span>
-                                </div>
-                                <div class='flex flex-col items-center w-[33.33%] self-center mt-[-10px]'>
-                                    <span class='text-white josefin-sans text-[67px] font-bold'>0</span>
-                                    <span class='text-white noto-sans text-[25px] font-bold'>名古屋</span>
-                                </div>
-                            </div>
-                            <hr class='border-t-[2px] border-white w-[90%]' />
-                            <div class='mb-[50px] mt-[10px]'>
-                                <span class='text-white noto-sans text-[25px] font-bold'>会場：デンカビッグスワンスタジアム</span>
-                            </div>
+                        <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:mr-[25px] xl:mr-[15px] min-[751px]:mr-[30px] mr-[50px]">
+                            <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]
+                            max-[375px]:text-[35 px]'>VS</span>
+                            <span class='mt-[10px] noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]
+                            max-[375px]:text-[20px]'>HOME</span>
                         </div>
-                        <div class="slide">
-                            <div class='mt-[20px]'>
-                                <span class='text-white text-[50px] josefin-sans font-bold'>04.20 </span>
-                                <span class='text-white text-[29px] josefin-sans font-bold'>SUN</span>
-                            </div>
-                            <div class='mt-[-15px]'>
-                                <span class='text-[#D19F00] noto-sans text-[33px] font-bold'>試合終了</span>
-                            </div>
-                            <div>
-                                <span class='text-white noto-sans text-[24px] font-bold'>U-15リーグ第0節</span>
-                            </div>
-                            <div class='flex flex-row justify-between w-[65%] mb-[25px]'>
-                                <div class='flex flex-col items-center w-[33.33%] self-center mt-[-10px]'>
-                                    <span class='text-white josefin-sans text-[67px] font-bold'>0</span>
-                                    <span class='text-white noto-sans text-[25px] font-bold'>名古屋</span>
-                                </div>
-                                <div class='flex flex-col items-center self-center w-[33.33%]'>
-                                    <span class='text-[#B1B1B1] josefin-sans text-[50px] font-bold'>VS</span>
-                                    <span class='text-[#B1B1B1] josefin-sans text-[25px] font-bold'>AWAY</span>
-                                </div>
-                                <div class='flex flex-col items-center w-[33.33%]'>
-                                    <span class='text-white josefin-sans text-[67px] font-bold'>1</span>
-                                    <span class='text-white noto-sans text-[24px] font-bold mt-[-25px]'>日体大SMG</span>
-                                    <span class='text-white noto-sans text-[24px] font-bold'>横浜</span>
-                                </div>
-                            </div>
-                            <hr class='border-t-[2px] border-white w-[90%]' />
-                            <div class='mb-[50px] mt-[10px]'>
-                                <span class='text-white noto-sans text-[25px] font-bold'>会場：上野運動公園競技場（三重県）</span>
-                            </div>
+                        <div class="flex flex-col items-center">
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                            font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]
+                            max-[375px]:text-[55px] '>0</span>
+                            <span class='!mt-[35px] text-white noto-sans text-[12px] font-bold mt-[2px] 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            max-[500px]:text-[18px]
+                            max-[375px]:text-[16px]
+                            '>名古屋</span>
                         </div>
                     </div>
-                    <div class='result-btn-container'>
-                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9306@2x.png' onclick="slideLeft()" />
+                    <div class="border-t-2 border-white text-center mt-[25px]">
+                    <p class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[10px] 
+                    max-[750px]:text-[25px] max-[750px]:leading-[38px]
+                    max-[550px]:text-[20px]
+                    max-[425px]:text-[14px]
+                    '>会場：神奈川県立保土ヶ谷公園サッカー場</p>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-[#333333] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px]">
+                    <div class="font-bold text-center">
+                        <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
+                            04.20 
+                            <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
+                        </p>
+                        <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
+                        <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U15リーグ第0節</p>
+                    </div>
+                    <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:ml-[25px] xl:ml-[30px]">
+                        <div class="flex flex-col items-center">
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                            font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
+                            <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>名古屋</span>
+                        </div>
+                        <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:ml-[25px] xl:ml-[15px] min-[751px]:ml-[30px] ml-[50px]">
+                            <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
+                            <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>AWAY</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                        
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                            font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
+                            <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>日体大SMG</span>
+                            <span class='text-white noto-sans text-[12px] font-bold 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>横浜</span>
+                        </div>
+                    </div>
+                    <div class="border-t-2 border-white text-center mt-[10px]">
+                    <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
+                    max-[750px]:text-[25px] max-[750px]:leading-[38px]
+                    '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px]">
+                    <div class="font-bold text-center">
+                        <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
+                            04.20 
+                            <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
+                        </p>
+                        <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
+                        <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U18リーグ第0節</p>
+                    </div>
+                    <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:mr-[25px] xl:mr-[30px]">
+                        <div class="flex flex-col items-center">
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                            font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
+                            <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>日体大SMG</span>
+                            <span class='text-white noto-sans text-[12px] font-bold 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>横浜U18</span>
+                        </div>
+                        <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:mr-[25px] xl:mr-[15px] min-[751px]:mr-[30px] mr-[50px]">
+                            <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
+                            <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                                font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0
+                            </span>
+                            <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                                max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>名古屋</span>
+                        </div>
+                    </div>
+                    <div class="border-t-2 border-white text-center mt-[10px]">
+                    <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
+                    max-[750px]:text-[25px] max-[750px]:leading-[38px]
+                    '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-[#666666] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px]">
+                    <div class="font-bold text-center">
+                        <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
+                            04.20 
+                            <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
+                        </p>
+                        <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
+                        <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">なでしこリーグ第0節</p>
+                    </div>
+                    <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:mr-[25px] xl:mr-[30px]">
+                        <div class="flex flex-col items-center">
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                            font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
+                            <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>日体大SMG</span>
+                            <span class='text-white noto-sans text-[12px] font-bold 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>横浜</span>
+                        </div>
+                        <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:mr-[25px] xl:mr-[15px] min-[751px]:mr-[30px] mr-[50px]">
+                            <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
+                            <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>HOME</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                            font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
+                            <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>名古屋</span>
+                        </div>
+                    </div>
+                    <div class="border-t-2 border-white text-center mt-[10px]">
+                    <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
+                    max-[750px]:text-[25px] max-[750px]:leading-[38px]
+                    '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-[#333333] h-[200px] max-[750px]:h-[350px] max-[500px]:h-[380px] py-[24px] px-[12px]">
+                    <div class="font-bold text-center">
+                        <p class="text-white josefin-sans text-[24px] max-[750px]:text-[50px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">
+                            04.20 
+                            <span class="text-[14px] josefin-sans max-[750px]:text-[29px] leading-[18px] max-[750px]:leading-[38px] tracking-[2px]">SUN</span>
+                        </p>
+                        <p class="mt-[4px] noto-sans text-[16px] max-[750px]:text-[33px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px] text-[#D19F00]">試合終了</p>
+                        <p class="text-white mt-[4px] noto-sans text-[12px max-[750px]:text-[25px] leading-[16px] max-[750px]:leading-[33px] tracking-[2px]">U15リーグ第0節</p>
+                    </div>
+                    <div class="flex flex-row justify-between xl:w-[85%] lg:w-full min-[451px]:w-[85%] mx-auto mt-[8px] 2xl:ml-[25px] xl:ml-[30px]">
+                        <div class="flex flex-col items-center">
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                            font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>0</span>
+                            <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>名古屋</span>
+                        </div>
+                        <div class="flex flex-col items-center text-[#B1B1B1] font-bold mt-[2px] max-[750px]:mt-[10px] 2xl:ml-[25px] xl:ml-[15px] min-[751px]:ml-[30px] ml-[50px]">
+                            <span class='josefin-sans text-[24px] leading-[16px] tracking-[2px] max-[750px]:text-[51px] max-[750px]:leading-[34px]'>VS</span>
+                            <span class='noto-sans text-[12px] leading-[18px] tracking-[2px] max-[750px]:text-[25px] max-[750px]:leading-[38px]'>AWAY</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                        
+                            <span class='text-white josefin-sans text-[32px] leading-[16px] tracking-[2px] 
+                            font-bold max-[750px]:text-[67px] max-[750px]:leading-[34px]'>1</span>
+                            <span class='text-white noto-sans text-[12px] font-bold mt-[2px] 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>日体大SMG</span>
+                            <span class='text-white noto-sans text-[12px] font-bold 
+                            max-[750px]:text-[24px] max-[750px]:leading-[32px] tracking-[2px] leading-[16px]
+                            '>横浜</span>
+                        </div>
+                    </div>
+                    <div class="border-t-2 border-white text-center mt-[10px]">
+                    <span class='text-white leading-[18px] tracking-[2px] noto-sans text-[12px] font-bold mt-[2px] 
+                    max-[750px]:text-[25px] max-[750px]:leading-[38px]
+                    '>会場：神奈川県立保土ヶ谷公園サッカー場</span>
                     </div>
                 </div>
             </div>
@@ -766,318 +866,109 @@
 
             </div>
         </div>
-        <div id="news-section" class='w-[100%] smin-750:w-[20%] smin-750:hidden block'>
-            <!-- ****************************************************** START OF scheduleSP *************************************************************** -->
-            <div id='sched-title' class='mt-[80px] mb-[20px]'>
-                <div class='text-center josefin-sans text-[44px] font-bold'>
-                    SCHEDULE
+        <!-- ***************************** START schedule SP **************************** -->
+        <div class="min-[1800px]:w-[50%] xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mt-[70px] mx-auto smin-750:hidden block">
+            <div class="font-bold text-center">
+                <p class="josefin-sans text-[32px] leading-[16px]">SCHEDULE</p>
+                <p class="text-[10px] leading-[16px] tracking-[4px] mt-[4px]">スケジュール一覧</p>
+            </div>
+            <div class="top_result_slider row mt-[30px]">
+                <div class="h-[200px] ">
+                    <div class="font-bold text-center bg-[#004EA1] leading-[21px] tracking-[2px] text-white py-[10px]">
+                        <p>なでしこリーグ 第00節</p>
+                    </div>
+                    <div class="flex flex-col py-[24px] px-[12px] bg-[#F7F7F7]">
+                        <div class="font-bold text-center">
+                            <div class='flex justify-center'>
+                                <p class="josefin-sans text-[32px] leading-[18px] tracking-[2px] max-[500px]:text-[30px]">
+                                    04.20 
+                                    <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
+                                </p>
+                                <p class="noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
+                            </div>
+                            <div class='noto-sans text-[21px] font-bold leading-[34px] mt-[5px] max-[500px]:text-[14px]'>日体大SMG横浜</div>
+                            <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px] mt-[10] max-[500px]:text-[14px]">vs 名古屋</p>
+                        </div>
+                        <div class="text-center mt-[10px]">
+                            <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[21px] font-bold mt-[2px] max-[500px]:text-[14px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+                        </div>
+                    </div>
                 </div>
-                <div class='text-center noto-sans text-[20px] font-bold tracking-[5px]'>
-                    競技・試合日程
+                <div class="h-[200px] ">
+                    <div class="font-bold text-center bg-[#004EA1] leading-[21px] tracking-[2px] text-white py-[10px]">
+                        <p>なでしこリーグ 第00節</p>
+                    </div>
+                    <div class="flex flex-col py-[24px] px-[12px] bg-[#F7F7F7]">
+                        <div class="font-bold text-center">
+                            <p class="josefin-sans text-[32px] leading-[18px] tracking-[2px]">
+                                04.20 
+                                <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
+                            </p>
+                            <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
+                            <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
+                        </div>
+                        <div class="text-center mt-[10px]">
+                            <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[200px] ">
+                    <div class="font-bold text-center bg-[#004EA1] leading-[21px] tracking-[2px] text-white py-[10px]">
+                        <p>なでしこリーグ 第00節</p>
+                    </div>
+                    <div class="flex flex-col py-[24px] px-[12px] bg-[#F7F7F7]">
+                        <div class="font-bold text-center">
+                            <p class="josefin-sans text-[32px] leading-[18px] tracking-[2px]">
+                                04.20 
+                                <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
+                            </p>
+                            <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
+                            <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
+                        </div>
+                        <div class="text-center mt-[10px]">
+                            <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[200px] ">
+                    <div class="font-bold text-center bg-[#004EA1] leading-[21px] tracking-[2px] text-white py-[10px]">
+                        <p>なでしこリーグ 第00節</p>
+                    </div>
+                    <div class="flex flex-col py-[24px] px-[12px] bg-[#F7F7F7]">
+                        <div class="font-bold text-center">
+                            <p class="josefin-sans text-[32px] leading-[18px] tracking-[2px]">
+                                04.20 
+                                <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
+                            </p>
+                            <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
+                            <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
+                        </div>
+                        <div class="text-center mt-[10px]">
+                            <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[200px] ">
+                    <div class="font-bold text-center bg-[#004EA1] leading-[21px] tracking-[2px] text-white py-[10px]">
+                        <p>なでしこリーグ 第00節</p>
+                    </div>
+                    <div class="flex flex-col py-[24px] px-[12px] bg-[#F7F7F7]">
+                        <div class="font-bold text-center">
+                            <p class="josefin-sans text-[32px] leading-[18px] tracking-[2px]">
+                                04.20 
+                                <span class="text-[14px] josefin-sans leading-[18px] tracking-[2px]">SUN</span>
+                            </p>
+                            <p class="mt-[4px] noto-sans text-[18px] leading-[18px] tracking-[2px]">14:00 Kick off</p>
+                            <p class="mt-[4px] noto-sans text-[24px] leading-[24px] tracking-[2px]">vs 名古屋</p>
+                        </div>
+                        <div class="text-center mt-[10px]">
+                            <span class='leading-[18px] 2xl:tracking-[2px] tracking-[1px] noto-sans text-[12px] font-bold mt-[2px]'>会場：神奈川県立保土ヶ谷公園サッカー場</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="sched-container">
-                <div id="sched-slider-container">
-                    <div class='sched-btn-container'>
-                        <!-- <span onclick="slideRight()" class="sched-btn"></span> -->
-                        <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9305@2x.png' onclick="slideRightSched()" />
-                    </div>
-                    <div id="sched-slider">
-                        <div class="sched-slide h-[225px] bg-[#F7F7F7]">
-                            <div class='noto-sans text-[25px] text-white font-bold text-center bg-[#004EA1] py-[5px]'>
-                                日体大SMG横浜
-                            </div>
-                            <div class='text-center leading-[38px] mt-[10px]'>
-                                <span class='josefin-sans text-[50px] font-bold'>04.21</span>
-                                <span class='josefin-sans text-[21px] font-bold'>SUN</span>
-                                <span class='josefin-sans text-[29px] font-bold'>14:00 Kick off</span>
-                            </div>
-                            <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold'>
-                                日体大SMG横浜
-                            </div>
-                            <div class='noto-sans text-[28px] font-bold leading-[32px] text-center font-bold'>
-                                vs 名古屋
-                            </div>
-                            <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold' z>
-                                会場：神奈川県立保土ヶ谷公園サッカー場
-                            </div>
-                        </div>
-                        <div class="sched-slide h-[225px]">
-                            <div class='noto-sans text-[25px] text-white font-bold text-center bg-[#004EA1] py-[5px]'>
-                                日体大SMG横浜
-                            </div>
-                            <div class='text-center leading-[38px] mt-[10px]'>
-                                <span class='josefin-sans text-[50px] font-bold'>04.21</span>
-                                <span class='josefin-sans text-[21px] font-bold'>SUN</span>
-                                <span class='josefin-sans text-[29px] font-bold'>14:00 Kick off</span>
-                            </div>
-                            <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold'>
-                                日体大SMG横浜
-                            </div>
-                            <div class='noto-sans text-[28px] font-bold leading-[32px] text-center font-bold'>
-                                vs 名古屋
-                            </div>
-                            <div class='noto-sans text-[21px] font-bold leading-[34px] text-center font-bold' z>
-                                会場：神奈川県立保土ヶ谷公園サッカー場
-                            </div>
-                        </div>
-                        <!-- <div class="sched-slide h-[25.8vh]">
-
-
-                        <div class='sched-btn-container'>
-                            <img src=' <?= site_url('/wp-content/themes/smg') ?>/assets/images/Group 9306@2x.png' onclick="slideLeftSched()" />
-                            <!-- <span onclick="slideLeft()" class="sched-btn"></span> -->
-                        </div>
-                    </div>
-                </div>
-                <!-- ****************************************************** END OF scheduleSP *************************************************************** -->
-
-            </div>
-
-            <div class='w-[100%] smin-750:w-[20%] smin-750:hidden block mt-[100px]'>
-                <!-- ****************************************************** START OF newsSP *************************************************************** -->
-                <div class='h-[100vh] bg-newsSP bg-no-repeat bg-right'>
-                    <div class='pt-[75px] text-center text-white'>
-                        <div class='josefin-sans text-[44px] font-bold'>NEWS</div>
-                        <div class='notosans text-[20px] font-bold leading-[32px]'>ニュース</div>
-                    </div>
-                    <!-- ****************************************************** Start OF newsCards *************************************************************** -->
-                    <div class="team_02_slider-full row mt-[30px]">
-                        <div class="news-slide mb-[5px] bg-white">
-                            <div class="relative">
-                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class='p-[20px] shadow-lg'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-                            
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide mb-[5px] bg-white">
-                            <div class="relative">
-                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class='p-[20px] shadow-md'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-                            
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide mb-[5px] bg-white">
-                            <div class="relative">
-                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new3.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class='p-[20px] shadow-md'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-                            
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide mb-[5px] bg-white">
-                            <div class="relative">
-                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class='p-[20px] shadow-md'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-                            
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide mb-[5px] bg-white">
-                            <div class="relative">
-                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new5.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class='p-[20px] shadow-md'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-                            
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide mb-[5px] bg-white">
-                            <div class="relative">
-                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new4.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class='p-[20px] shadow-md'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-                            
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide mb-[5px] bg-white">
-                            <div class="relative">
-                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new1.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class='p-[20px] shadow-md'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-                            
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-slide mb-[5px] bg-white">
-                            <div class="relative">
-                                <img class="w-full" src=" <?= site_url('/wp-content/themes/smg') ?>/assets/images/team_02/new2.png">
-                                <div class="absolute top-0 w-full h-full">
-                                    <div class="relative w-full h-full flex justify-center items-center">
-                                        <div class="leading-[18px]">
-                                            <span class='noto-sans text-white px-[20px] bg-[black] text-[10px] font-bold py-[8px]'>ご支給ください</span>
-                                        </div>
-                                        <span class='absolute bottom-0 left-0 bg-[#E1007E] text-[12px] text-white noto-sans font-medium py-[5px] px-[15px] tracking-wider'>日体大SMG横浜</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div class='p-[20px] shadow-md'>
-                                <div class='leading-[18px]'>
-                                    <span class='noto-sans text-[12px] text-[#808080] font-normal'>2022.00.00</span>
-                                    <span class='noto-sans text-[12px] text-[#D19F00] font-bold'>レポート</span>
-                                </div>
-                                <div class='no-scroll noto-sans text-[14px] leading-[28px] font-medium tracking-[-1.5px] h-[78px] overflow-y-scroll mt-[18px]'>
-                                    <p class='leading-[28px]'>この文章はダミーのコピーを仮に流し込んで</p>
-                                    <p class='leading-[28px]'>います。コピーができ次第、差し替えますの</p>
-                                    <p class='leading-[28px]'>で今しばらくお待ちください。どうぞよろし</p>
-                                    <p>くお願いいたします。</p>
-                            
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ****************************************************** END OF newsCards *************************************************************** -->
-
-
-
-                    <div class='flex justify-center mt-[70px]'>
-                        <button class='relative text-white transition-all duration-500 bg-gradient-to-r to-black via-white from-white bg-size-200 bg-pos-100 hover:bg-pos-0 hover:text-black'>
-                            <a class='self-center w-[240px] h-[56px] flex justify-center items-center josefin-sans font-bold text-[14px]'>VIEW ALL</a>
-                            <div class='right-arrow'>
-                            </div>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- ****************************************************** END OF newsSP *************************************************************** -->
-
-            </div>
-
         </div>
+        <!-- ***************************** END schedule SP **************************** -->
     </div>
 
 
@@ -1598,89 +1489,7 @@
             setTimeout(showSlides, 5000); // Change image every 2 seconds
         }
     </script>
-    <script>
-        var container = document.getElementById('result-container')
-        var slider = document.getElementById('slider');
-        var slides = document.getElementsByClassName('slide').length;
-        var buttons = document.getElementsByClassName('result-btn');
 
-
-        var currentPosition = 0;
-        var currentMargin = 0;
-        var slidesPerPage = 0;
-        var slidesCount = slides - slidesPerPage;
-        var containerWidth = container.offsetWidth;
-        var prevKeyActive = false;
-        var nextKeyActive = true;
-
-        window.addEventListener("resize", checkWidth);
-
-        function checkWidth() {
-            containerWidth = container.offsetWidth;
-            setParams(containerWidth);
-        }
-
-        function setParams(w) {
-            if (w < 551) {
-                slidesPerPage = 1;
-            } else {
-                if (w < 901) {
-                    slidesPerPage = 1;
-                } else {
-                    if (w < 1101) {
-                        slidesPerPage = 1;
-                    } else {
-                        slidesPerPage = 1;
-                    }
-                }
-            }
-            slidesCount = slides - slidesPerPage;
-            if (currentPosition > slidesCount) {
-                currentPosition -= slidesPerPage;
-            };
-            currentMargin = -currentPosition * (100 / slidesPerPage);
-            slider.style.marginLeft = currentMargin + '%';
-            if (currentPosition > 0) {
-                buttons[0].classList.remove('inactive');
-            }
-            if (currentPosition < slidesCount) {
-                buttons[1].classList.remove('inactive');
-            }
-            if (currentPosition >= slidesCount) {
-                buttons[1].classList.add('inactive');
-            }
-        }
-
-        setParams();
-
-        function slideRight() {
-            if (currentPosition != 0) {
-                slider.style.marginLeft = currentMargin + (100 / slidesPerPage) + '%';
-                currentMargin += (100 / slidesPerPage);
-                currentPosition--;
-            };
-            if (currentPosition === 0) {
-                buttons[0].classList.add('inactive');
-            }
-            if (currentPosition < slidesCount) {
-                buttons[1].classList.remove('inactive');
-            }
-        };
-
-        function slideLeft() {
-            if (currentPosition != slidesCount) {
-                slider.style.marginLeft = currentMargin - (100 / slidesPerPage) + '%';
-                currentMargin -= (100 / slidesPerPage);
-                currentPosition++;
-            };
-            if (currentPosition == slidesCount) {
-                buttons[1].classList.add('inactive');
-            }
-            if (currentPosition > 0) {
-                buttons[0].classList.remove('inactive');
-            }
-        };
-    </script>
     <script>
         $('.top-vertical-slider').slick({
             dots: false,
@@ -1732,87 +1541,33 @@
 </script>
 
 
-
 <script>
-    var containerSched = document.getElementById('sched-container')
-    var sliderSched = document.getElementById('sched-slider');
-    var slidesSched = document.getElementsByClassName('sched-slide').length;
-    var buttonsSched = document.getElementsByClassName('sched-btn');
-
-
-    var currentPositionSched = 0;
-    var currentMarginSched = 0;
-    var slidesPerPageSched = 0;
-    var slidesCountSched = slidesSched - slidesPerPageSched;
-    var containerWidthSched = containerSched.offsetWidth;
-    var prevKeyActiveSched = false;
-    var nextKeyActiveSched = true;
-
-    window.addEventListener("resize", checkWidthSched);
-
-    function checkWidthSched() {
-        containerWidthSched = containerSched.offsetWidth;
-        setParams(containerWidthSched);
-    }
-
-    function setParamsSched(w) {
-        if (w < 551) {
-            slidesPerPageSched = 1;
-        } else {
-            if (w < 901) {
-                slidesPerPageSched = 1;
-            } else {
-                if (w < 1101) {
-                    slidesPerPageSched = 1;
-                } else {
-                    slidesPerPageSched = 1;
+    $(document).ready(function() {
+    $(".top_result_slider").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        infinite: false,
+        autoplay:false,
+        autoplaySpeed:2000,
+        speed: 1000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                 }
-            }
-        }
-        slidesCountSched = slidesSched - slidesPerPageSched;
-        if (currentPositionSched > slidesCountSched) {
-            currentPositionSched -= slidesPerPageSched;
-        };
-        currentMarginSched = -currentPositionSched * (100 / slidesPerPageSched);
-        sliderSched.style.marginLeft = currentMarginSched + '%';
-        if (currentPositionSched > 0) {
-            buttonsSched[0].classList.remove('inactive');
-        }
-        if (currentPositionSched < slidesCountSched) {
-            buttonsSched[1].classList.remove('inactive');
-        }
-        if (currentPositionSched >= slidesCountSched) {
-            buttonsSched[1].classList.add('inactive');
-        }
-    }
+            },
+            {
+                breakpoint: 751,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
+    });
+})
 
-    setParamsSched();
-
-    function slideRightSched() {
-        if (currentPositionSched != 0) {
-            sliderSched.style.marginLeft = currentMarginSched + (100 / slidesPerPageSched) + '%';
-            currentMarginSched += (100 / slidesPerPageSched);
-            currentPositionSched--;
-        };
-        if (currentPositionSched === 0) {
-            buttonsSched[0].classList.add('inactive');
-        }
-        if (currentPositionSched < slidesCountSched) {
-            buttonsSched[1].classList.remove('inactive');
-        }
-    };
-
-    function slideLeftSched() {
-        if (currentPositionSched != slidesCountSched) {
-            sliderSched.style.marginLeft = currentMarginSched - (100 / slidesPerPageSched) + '%';
-            currentMarginSched -= (100 / slidesPerPageSched);
-            currentPositionSched++;
-        };
-        if (currentPositionSched == slidesCountSched) {
-            buttonsSched[1].classList.add('inactive');
-        }
-        if (currentPositionSched > 0) {
-            buttonsSched[0].classList.remove('inactive');
-        }
-    };
 </script>

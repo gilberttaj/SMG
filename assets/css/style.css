@@ -311,6 +311,66 @@ body{
     margin-right: -20px;
 }
 
+
+
+/****************** top_result_slider *******************/
+.top_result_slider.slick-initialized, .team_04_header.slick-initialized{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top_result_slider .slick-initialized .slick-slide, .team_04_header .slick-initialized .slick-slide{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top_result_slider .slick-next, .slick-prev, .team_04_header .slick-next .slick-prev{
+    z-index: 5;
+}
+.top_result_slider .slick-next, .team_04_header .slick-next{
+    position: absolute;
+    right: -15px;
+    height: 64px;
+}
+.top_result_slider .slick-prev, .team_04_header .slick-prev{
+    position: absolute;
+    left: -25px;
+    height: 64px;
+}
+
+.top_result_slider .slick-slide, .team_04_header .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+}
+
+.top_result_slider .slick-prev:before, .team_04_header .slick-prev:before {
+    background-image: url('../images/Group 9305@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+.top_result_slider  .slick-next:before, .team_04_header .slick-next:before{
+    background-image: url('../images/Group 9306@2x.png');
+    background-size: 32px 64px;
+    display: inline-block;
+    width: 32px;
+    height: 64px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.top_result_slider .slick-slide {
+    margin-right: 20px;
+}
+.top_result_slider .slick-list {
+    margin-right: -20px;
+}
+/****************** end-top result slider ***************/
+
 /* ----------------- */
 .one-slider.slick-initialized{
     display: flex;
