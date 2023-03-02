@@ -1,10 +1,5 @@
 
 
-.result-content-vh{
-        height: -o-calc(100vh - 220px); /* opera */
-        height: -webkit-calc(100vh - 220px); /* google, safari */
-        height: -moz-calc(100vh - 220px); /* firefox */
-}
 
 
 /* .about-background{

@@ -186,7 +186,7 @@
 
             $(".tp-margin").css("margin-top", headerHeight);
 
-            $("#result-pc-content").css("height", topHeight-80);
+            // $("#result-pc-content").css("height", topHeight-80);
         }
         window.onscroll = function() {
             if(windowWidth < 601) {
@@ -237,7 +237,7 @@
 
             $(".tp-margin").css("margin-top", headerHeight);
 
-            $("#result-pc-content").css("height", topHeight-80);
+            // $("#result-pc-content").css("height", topHeight-80);
         }
         window.onscroll = function() {
             if(windowWidth < 601) {

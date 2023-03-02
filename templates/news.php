@@ -59,7 +59,7 @@
 <!-- First TAB PANE -->
 <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mx-auto mt-[114px] max-[750px]:mt-[44px]">
     <div class="flex font-bold noto-sans text-[20px] leading-[32px] tracking-[2px] text-center border-b-2 border-black  flex-wrap tab-news">
-        <a href="<?= site_url('./news-page')?>?cat=all" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:text-white" id='newsLink1'>
+        <a href="<?= site_url('./news-page')?>?cat=all" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:bg-black hover:text-white" id='newsLink1'>
             一覧
         </a>
         <a href="<?= site_url('./news-page')?>?cat=release" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:text-white hover:bg-black" id='newsLink2'>
@@ -86,7 +86,9 @@
 
                 $queryString = $_SERVER['QUERY_STRING'];
                 parse_str($queryString, $params);
-                $cat = $params['cat'];
+                if($params){
+                    $cat = $params['cat'];
+                }
 
                 $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
                 $posts_per_page = 9;
