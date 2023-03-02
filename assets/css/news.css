@@ -3,3 +3,8 @@
     background-repeat: no-repeat;
     background-position: right;
 }
+
+
+.tab-news a.active {
+    background-color: #000;
+}
