@@ -1222,8 +1222,8 @@
                                 </div>
 
                                 <div class='mt-[30px] ml-[20px] mb-[30px]'>
-                                    <button class='relative flex justify-center text-white pb-[30px]'>
-                                        <a class='self-center josefin-sans font-semi text-[25px]'>VIEW MORE</a>
+                                    <button class='relative flex justify-center text-white pb-[30px] hover:text-[#D19F00]'>
+                                        <a class='self-center josefin-sans font-semi text-[25px]' href='./team-02'>VIEW MORE</a>
                                         <div class='team-sp-right-arrow'>
 
                                         </div>
@@ -1252,8 +1252,8 @@
                                 </div>
 
                                 <div class='mt-[30px] ml-[20px] mb-[30px]'>
-                                    <button class='relative flex justify-center text-white pb-[30px]'>
-                                        <a class='self-center josefin-sans font-semi text-[25px]'>VIEW MORE</a>
+                                    <button class='relative flex justify-center text-white pb-[30px] hover:text-[#D19F00]'>
+                                        <a class='self-center josefin-sans font-semi text-[25px]' href='./team-03'>VIEW MORE</a>
                                         <div class='team-sp-right-arrow'>
 
                                         </div>
@@ -1286,8 +1286,8 @@
                             アマチュアトップリーグで活躍する選手たちを間近で感じながら、未来への飛躍に向けて活動するチーム。サッカー経験や身体能力等による篩い分けを行わず、初心者でも参加できることを大切にしています。
                         </div>
                         <div class='mt-[35px] mb-[35px] ml-[40px]'>
-                            <button class='relative flex justify-center text-white'>
-                                <a class='self-center josefin-sans font-bold text-[14px]'>VIEW MORE</a>
+                            <button class='relative flex justify-center text-white hover:text-[#D19F00]'>
+                                <a class='self-center josefin-sans font-bold text-[14px]' href='./team-04'>VIEW MORE</a>
                                 <div class='team-right-arrow'>
                                 </div>
                             </button>
@@ -1491,6 +1491,18 @@
     </script>
 
     <script>
+            var maxHeight = -1;
+            $('.slick-slide').each(function() {
+            if ($(this).height() > maxHeight) {
+                maxHeight = $(this).height();
+            }
+            });
+            $('.slick-slide').each(function() {
+            if ($(this).height() < maxHeight) {
+                $(this).css('margin', Math.ceil((maxHeight-$(this).height())/2) + 'px 0');
+            }
+            });
+
         $('.top-vertical-slider').slick({
             dots: false,
             infinite: false,
