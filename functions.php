@@ -128,6 +128,17 @@ function submit_contact_form() {
   exit;
 }
 
+
+if ( SITECOOKIEPATH != COOKIEPATH ) {
+  setcookie(TEST_COOKIE, 'WP Cookie check', 0, SITECOOKIEPATH, COOKIE_DOMAIN);
+}
+
+
+
+function set_category($cat) {
+  return $cat;
+  }
+
 global $wp_rewrite;
 $wp_rewrite->flush_rules();
 

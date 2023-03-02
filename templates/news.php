@@ -55,22 +55,23 @@
     <p class="text-[12px] noto-sans leading-[18px] tracking-[3px] text-[#959595] max-[750px]:text-[18px] max-[750px]:leading-[27px]"><a href="<?= site_url()?>">ホーム</a>  >ニュース</p>
 </div>
 
+
 <!-- First TAB PANE -->
 <div class="xl:w-[60%] lg:w-[70%] min-[751px]:w-[80%] max-[750px]:w-[90%] mx-auto mt-[114px] max-[750px]:mt-[44px]">
-    <div class="flex font-bold noto-sans text-[20px] leading-[32px] tracking-[2px] text-center border-b-2 border-black  flex-wrap">
-        <a href="#" class="w-[20%] max-[750px]:w-[50%] py-[25px] bg-black text-white">
+    <div class="flex font-bold noto-sans text-[20px] leading-[32px] tracking-[2px] text-center border-b-2 border-black  flex-wrap tab-news">
+        <a href="<?= site_url('./news-page')?>?cat=all" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:text-white" id='newsLink1'>
             一覧
         </a>
-        <a href="#" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:text-white hover:bg-black">
+        <a href="<?= site_url('./news-page')?>?cat=release" class="w-[20%] max-[750px]:w-[50%] py-[25px] hover:text-white hover:bg-black" id='newsLink2'>
             リリース
         </a>
-        <a href="<?= site_url('/team-07') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-black hover:text-white">
+        <a href="<?= site_url('./news-page')?>?cat=report"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-black hover:text-white" id='newsLink3'>
             レポート
         </a>
-        <a href="#" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-black hover:text-white">
+        <a href="<?= site_url('./news-page')?>?cat=events" class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-black hover:text-white" id='newsLink4'>
             イベント
         </a>
-        <a href="<?= site_url('/team-09') ?>"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-black hover:text-white">
+        <a href="<?= site_url('./news-page')?>?cat=interview"  class="w-[20%] max-[750px]:w-[33.33%] py-[25px] hover:bg-black hover:text-white" id='newsLink5'>
             インタビュー
         </a>
     </div>
@@ -82,15 +83,72 @@
     <div>   
         <div class="flex gap-x-[30px] gap-y-[70px] mt-[70px] flex-wrap justify-center">
             <?php
+
+                $queryString = $_SERVER['QUERY_STRING'];
+                parse_str($queryString, $params);
+                $cat = $params['cat'];
+
                 $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
                 $posts_per_page = 9;
-        
-                $query = new WP_Query( array(
-                    'post_type' => 'news',          // name of post type.
-                    'posts_per_page' => $posts_per_page,
-                    'paged' => $paged,
-                    'order' => 'ASC',
-                ) );
+
+                if(!$cat || $cat == 'all'){
+                    $query = new WP_Query( array(
+                        'post_type' => 'news',          // name of post type.
+                        'posts_per_page' => $posts_per_page,
+                        'paged' => $paged,
+                        'order' => 'ASC',
+                    ) );
+                }
+
+                if($cat == 'release'){
+                    $query = new WP_Query( array(
+                        'post_type' => 'news',          // name of post type.
+                        'posts_per_page' => $posts_per_page,
+                        'paged' => $paged,
+                        'order' => 'ASC',
+                        'meta_key' => 'TYPE',
+                        'meta_value' => 'リリース',
+
+                    ) );
+                }
+
+                if($cat == 'report'){
+                    $query = new WP_Query( array(
+                        'post_type' => 'news',          // name of post type.
+                        'posts_per_page' => $posts_per_page,
+                        'paged' => $paged,
+                        'order' => 'ASC',
+                        'meta_key' => 'TYPE',
+                        'meta_value' => 'レポート',
+
+                    ) );
+                }
+
+                if($cat == 'events'){
+                    $query = new WP_Query( array(
+                        'post_type' => 'news',          // name of post type.
+                        'posts_per_page' => $posts_per_page,
+                        'paged' => $paged,
+                        'order' => 'ASC',
+                        'meta_key' => 'TYPE',
+                        'meta_value' => 'イベント',
+
+                    ) );
+                }
+
+                if($cat == 'interview'){
+                    $query = new WP_Query( array(
+                        'post_type' => 'news',          // name of post type.
+                        'posts_per_page' => $posts_per_page,
+                        'paged' => $paged,
+                        'order' => 'ASC',
+                        'meta_key' => 'TYPE',
+                        'meta_value' => 'インタビュー',
+
+                    ) );
+                }
+
+
                 if ( $query->have_posts() ) {
                 while ( $query->have_posts() ) : $query->the_post();
             ?>  
@@ -181,3 +239,38 @@
 
 
 <?php get_footer(); ?>
+
+
+<script>
+    $(document).ready(function(){
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        let string = urlParams.get('cat')
+
+
+        if(string == 'all' || !string){
+            $('#newsLink1').css('backgroundColor', '#000');
+            $('#newsLink1').css('color', '#fff');
+        }
+
+        if(string == 'release'){
+            $('#newsLink2').css('backgroundColor', '#000');
+            $('#newsLink2').css('color', '#fff');
+        }
+
+        if(string == 'report'){
+            $('#newsLink3').css('backgroundColor', '#000');
+            $('#newsLink3').css('color', '#fff');
+        }
+
+        if(string == 'events'){
+            $('#newsLink4').css('backgroundColor', '#000');
+            $('#newsLink4').css('color', '#fff');
+        }
+
+        if(string == 'interview'){
+            $('#newsLink5').css('backgroundColor', '#000');
+            $('#newsLink5').css('color', '#fff');
+        }
+    });
+</script>
