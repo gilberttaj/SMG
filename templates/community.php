@@ -410,7 +410,7 @@
     <div class="flex justify-center flex-col mb-[52px] max-[750px]:mb-[41px] text-center font-bold">
         <div>
             <p class="josefin-sans text-[48px] max-[750px]:text-[44px]">Wellness</p>
-            <p class="noto-sans tracking-[4px] text-[20px] leading-[16px] max-[750px]:tracking-[8px]">地域の人々の健康を考える.</p>
+            <p class="noto-sans tracking-[4px] text-[20px] leading-[16px] max-[750px]:tracking-[8px]">地域の人々の健康を考える</p>
         </div>
 
         <div class="max-[750px]:hidden mt-[53px] text-[32px] leading-[48px] tracking-[4px] noto-sans">
